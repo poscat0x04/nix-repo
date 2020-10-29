@@ -17,6 +17,7 @@
         };
         play-with-mpv = callPackage ./pkgs/play-with-mpv { };
         ttf-ms-win10 = callPackage ./pkgs/ttf-ms-win10 { zipListsWith = self.lib.zipListsWith; };
+        alacritty-nord = callPackage ./pkgs/alacritty-nord { };
       };
 
       packages = forAllSystems (system:
@@ -24,7 +25,8 @@
           pkgSet = nixpkgsFor.${system};
         in
         {
-          inherit (pkgSet) vscode-insiders play-with-mpv ttf-ms-win10;
+          inherit (pkgSet) vscode-insiders play-with-mpv ttf-ms-win10
+                           alacritty-nord;
         });
     };
 }
