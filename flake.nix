@@ -17,8 +17,10 @@
         };
         play-with-mpv = callPackage ./pkgs/play-with-mpv { };
         ttf-ms-win10 = callPackage ./pkgs/ttf-ms-win10 { zipListsWith = self.lib.zipListsWith; };
-        alacritty-nord = callPackage ./pkgs/alacritty-nord { };
-        arkenfox-userjs = callPackage ./pkgs/arkenfox-userjs { };
+        extra-files = {
+          alacritty-nord = callPackage ./pkgs/alacritty-nord { };
+          arkenfox-userjs = callPackage ./pkgs/arkenfox-userjs { };
+        };
       };
 
       packages = forAllSystems (system:
@@ -30,8 +32,7 @@
           vscode-insiders
           play-with-mpv
           ttf-ms-win10
-          alacritty-nord
-          arkenfox-userjs;
+          extra-files;
         });
     };
 }
