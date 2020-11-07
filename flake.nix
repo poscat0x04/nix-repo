@@ -18,8 +18,8 @@
         play-with-mpv = callPackage ./pkgs/play-with-mpv { };
         ttf-ms-win10 = callPackage ./pkgs/ttf-ms-win10 { zipListsWith = self.lib.zipListsWith; };
         extra-files = {
-          alacritty-nord = callPackage ./pkgs/alacritty-nord { };
           arkenfox-userjs = callPackage ./pkgs/arkenfox-userjs { };
+          nord-alacritty = callPackage ./pkgs/nord-alacritty { };
           nord-dircolors = callPackage ./pkgs/nord-dircolors { };
         };
       };
