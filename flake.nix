@@ -20,6 +20,7 @@
         extra-files = {
           alacritty-nord = callPackage ./pkgs/alacritty-nord { };
           arkenfox-userjs = callPackage ./pkgs/arkenfox-userjs { };
+          nord-dircolors = callPackage ./pkgs/nord-dircolors { };
         };
       };
 
