@@ -1,4 +1,4 @@
-{ stdenv, fetchFromGitHub, nodejs }:
+{ stdenv, fetchgit, nodejs }:
 
 with builtins;
 
@@ -7,7 +7,7 @@ stdenv.mkDerivation {
 
   version = readFile ./version;
 
-  src = fetchFromGitHub (fromJSON (readFile ./source.json));
+  src = fetchgit (fromJSON (readFile ./source.json));
 
   nativeBuildInputs = [ nodejs ];
 

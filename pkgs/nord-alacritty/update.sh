@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash -p nixFlakes jq
+#!nix-shell -i bash -p nix-prefetch-scripts nixFlakes jq
 cd "$(pwd)/$(dirname ${BASH_SOURCE})"
 nix-prefetch-git https://github.com/arcticicestudio/nord-alacritty \
   | jq "del(.path) | del(.date)" \

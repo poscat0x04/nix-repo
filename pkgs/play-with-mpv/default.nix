@@ -1,10 +1,10 @@
-{ lib, python3Packages, fetchFromGitHub, fetchurl, youtube-dl, git }:
+{ lib, python3Packages, fetchgit, fetchurl, youtube-dl, git }:
 
 python3Packages.buildPythonApplication rec {
   pname = "play-with-mpv";
-  version = "2020-05-18";
+  version = builtins.readFile ./version;
 
-  src = fetchFromGitHub (builtins.fromJSON (builtins.readFile ./source.json));
+  src = fetchgit (builtins.fromJSON (builtins.readFile ./source.json));
 
   install_freedesktop = fetchurl {
     url = "https://github.com/thann/install_freedesktop/tarball/2673e8da4a67bee0ffc52a0ea381a541b4becdd4";
