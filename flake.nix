@@ -17,6 +17,7 @@
         };
         play-with-mpv = callPackage ./pkgs/play-with-mpv { };
         ttf-ms-win10 = callPackage ./pkgs/ttf-ms-win10 { zipListsWith = self.lib.zipListsWith; };
+        prefs-cleaner = callPackage ./pkgs/arkenfox-userjs/prefs-cleaner.nix { };
         extra-files = {
           arkenfox-userjs = callPackage ./pkgs/arkenfox-userjs { };
           nord-alacritty = callPackage ./pkgs/nord-alacritty { };
@@ -34,6 +35,7 @@
           vscode-insiders
           play-with-mpv
           ttf-ms-win10
+          prefs-cleaner
           extra-files;
         });
     };
