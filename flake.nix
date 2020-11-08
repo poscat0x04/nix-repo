@@ -21,6 +21,7 @@
           arkenfox-userjs = callPackage ./pkgs/arkenfox-userjs { };
           nord-alacritty = callPackage ./pkgs/nord-alacritty { };
           nord-dircolors = callPackage ./pkgs/nord-dircolors { };
+          nord-konsole = callPackage ./pkgs/nord-konsole { };
         };
       };
 
