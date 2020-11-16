@@ -1,5 +1,5 @@
-#!/usr/bin/env nix-shell
-#!nix-shell -i bash -p nix-prefetch-scripts nixFlakes jq
+#!/usr/bin/env bash
+
 cd "$(pwd)/$(dirname ${BASH_SOURCE})"
 nix-prefetch-git https://github.com/arcticicestudio/nord-dircolors \
   | jq "del(.path) | del(.date)" \

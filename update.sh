@@ -1,5 +1,4 @@
-#!/usr/bin/env nix-shell
-#!nix-shell -i bash -p coreutils
+#!/usr/bin/env bash
 
 for f in `find -mindepth 2 -name update.sh`; do
   dir="$(dirname "$f")"

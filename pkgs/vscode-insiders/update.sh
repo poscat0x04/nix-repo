@@ -1,5 +1,5 @@
-#!/usr/bin/env nix-shell
-#!nix-shell -i bash -p nixFlakes jq curl
+#!/usr/bin/env bash
+
 cd "$(pwd)/$(dirname ${BASH_SOURCE})"
 url="https://vscode-update.azurewebsites.net/latest/linux-x64/insider"
 new_url="$(curl -LsI -o /dev/null -w %{url_effective} $url)"

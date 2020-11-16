@@ -1,13 +1,17 @@
 {
   description = "Nix repo";
 
-  inputs.nixpkgs.url = github:NixOS/nixpkgs/nixos-unstable;
+  inputs = {
+    nixpkgs.url = github:NixOS/nixpkgs/nixos-unstable;
+    nur.url = github:nix-community/NUR;
+  };
 
-  outputs = { self, nixpkgs, ... }:
+  outputs = { self, nixpkgs, nur, ... }:
   let
     supportedSystems = [ "x86_64-linux" ];
     forAllSystems = f: nixpkgs.lib.genAttrs supportedSystems (system: f system);
     nixpkgsFor = forAllSystems (system: import nixpkgs { inherit system; overlays = [ self.overlay ]; config.allowUnfree = true; });
+    pkgsWithNURFor = forAllSystems (system: import nixpkgs { inherit system; overlays = [ nur.overlay ]; config.allowUnfree = true; });
   in
     {
       overlay = self: super: with self.pkgs; with self.lib; {
@@ -29,6 +33,7 @@
       packages = forAllSystems (system:
         let
           pkgSet = nixpkgsFor.${system};
+          pkgsWithNUR = pkgsWithNURFor.${system};
         in
         {
           inherit (pkgSet)
@@ -37,6 +42,15 @@
           ttf-ms-win10
           prefs-cleaner
           extra-files;
+
+          devShell."${system}" = with pkgsWithNUR; mkShell {
+            buildInputs = [
+              curl
+              jq
+              nix-prefetch-scripts
+              nixFlakes
+            ];
+          };
         });
     };
 }
