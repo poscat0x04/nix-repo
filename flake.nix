@@ -29,6 +29,7 @@
           nord-konsole = callPackage ./pkgs/nord-konsole { };
         };
         firefox-addons = callPackages ./pkgs/firefox-addons { };
+        vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { inherit attrsets; };
       };
 
       packages = forAllSystems (system:
@@ -43,7 +44,8 @@
           ttf-ms-win10
           prefs-cleaner
           extra-files
-          firefox-addons;
+          firefox-addons
+          vscode-extensions;
 
           devShell."${system}" = with pkgsWithNUR; mkShell {
             buildInputs = [
@@ -52,6 +54,11 @@
               nix-prefetch-scripts
               nixFlakes
               pkgsWithNUR.nur.repos.rycee.firefox-addons-generator
+
+              # for vscode extension update script
+              python3
+              python3Packages.requests
+              python3Packages.pyyaml
             ];
           };
         });
