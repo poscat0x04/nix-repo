@@ -27,5 +27,5 @@ jobs:
           git config user.email "actions@github.com"
       - name: Run update script
         run: |
-          nix develop -L -c bash update.sh
+          nix develop --verbose -L -c bash update.sh
           git push origin master

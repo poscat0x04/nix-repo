@@ -49,10 +49,14 @@
 
           devShell."${system}" = with pkgsWithNUR; mkShell {
             buildInputs = [
+              git
+              findutils
+              bash
+
               curl
               jq
               nix-prefetch-scripts
-              nixFlakes
+              nixUnstable
               pkgsWithNUR.nur.repos.rycee.firefox-addons-generator
 
               # for vscode extension update script
