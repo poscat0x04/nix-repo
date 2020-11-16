@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "ctrl-number-to-switch-tabs"
+  },
+  {
+    "slug": "plasma-integration"
+  },
+  {
+    "slug": "ublock-origin"
+  },
+  {
+    "slug": "link-cleaner"
+  },
+  {
+    "slug": "i-dont-care-about-cookies"
+  },
+  {
+    "slug": "privacy-badger17",
+    "pname": "privacy-badger"
+  },
+  {
+    "slug": "https-everywhere",
+    "license": {
+      "tag": "custom",
+      "shortName": "https-everywhere-license",
+      "fullName": "Multiple",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/license/",
+      "free": true
+    }
+  },
+  {
+    "slug": "transmission-easy-client"
+  }
+]

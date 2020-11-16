@@ -28,6 +28,7 @@
           nord-dircolors = callPackage ./pkgs/nord-dircolors { };
           nord-konsole = callPackage ./pkgs/nord-konsole { };
         };
+        firefox-addons = callPackages ./pkgs/firefox-addons { };
       };
 
       packages = forAllSystems (system:
@@ -41,7 +42,8 @@
           play-with-mpv
           ttf-ms-win10
           prefs-cleaner
-          extra-files;
+          extra-files
+          firefox-addons;
 
           devShell."${system}" = with pkgsWithNUR; mkShell {
             buildInputs = [
@@ -49,6 +51,7 @@
               jq
               nix-prefetch-scripts
               nixFlakes
+              pkgsWithNUR.nur.repos.rycee.firefox-addons-generator
             ];
           };
         });
