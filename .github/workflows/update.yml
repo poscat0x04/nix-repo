@@ -28,4 +28,4 @@ jobs:
       - name: Run update script
         run: |
             nix develop -c ./update.sh
-            git push origin master 
+            git push origin master
