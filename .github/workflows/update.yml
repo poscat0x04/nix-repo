@@ -22,10 +22,9 @@ jobs:
             experimental-features = nix-command flakes
       - name: Setup config
         run: |
-          mkdir -p ~/.config/nix
           git config user.name actions
           git config user.email "actions@github.com"
       - name: Run update script
         run: |
-          nix develop --verbose -L -c bash update.sh
+          ./update.sh
           git push origin master
