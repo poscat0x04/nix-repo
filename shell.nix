@@ -1,5 +1,5 @@
 (import (
-  fetchTarball https://github.com/edolstra/flake-compat/archive/master.zip
+  fetchTarball https://github.com/edolstra/flake-compat/archive/master.tar.gz
 ) {
   src =  ./.;
 }).shellNix
