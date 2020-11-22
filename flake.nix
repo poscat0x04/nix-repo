@@ -49,10 +49,6 @@
 
           devShell."${system}" = with pkgsWithNUR; mkShell {
             buildInputs = [
-              git
-              findutils
-              bash
-
               curl
               jq
               nix-prefetch-scripts
