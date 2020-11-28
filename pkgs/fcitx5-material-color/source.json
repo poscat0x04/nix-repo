@@ -1,0 +1,8 @@
+{
+  "url": "https://github.com/hosxy/Fcitx5-Material-Color",
+  "rev": "361902ad043699925230a79bbda3d3a68f2e4d38",
+  "sha256": "1mgc722521jmfx0xc3ibmiycd3q2w7xg2956xcpc07kz90gcdjaa",
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "leaveDotGit": false
+}

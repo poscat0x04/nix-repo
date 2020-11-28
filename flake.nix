@@ -30,6 +30,7 @@
         };
         firefox-addons = callPackages ./pkgs/firefox-addons { };
         vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { inherit attrsets; };
+        fcitx5-material-color = callPackage ./pkgs/fcitx5-material-color { };
       };
 
       packages = forAllSystems (system:
@@ -45,7 +46,9 @@
           prefs-cleaner
           extra-files
           firefox-addons
-          vscode-extensions;
+          vscode-extensions
+          fcitx5-material-color
+          ;
 
           devShell."${system}" = with pkgsWithNUR; mkShell {
             buildInputs = [
