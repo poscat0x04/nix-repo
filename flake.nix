@@ -2,7 +2,7 @@
   description = "Nix repo";
 
   inputs = {
-    nixpkgs.url = github:NixOS/nixpkgs;
+    nixpkgs.url = github:NixOS/nixpkgs/nixos-unstable;
     nur.url = github:nix-community/NUR;
   };
 
