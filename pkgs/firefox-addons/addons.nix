@@ -1,5 +1,17 @@
 { buildFirefoxXpiAddon, fetchurl, stdenv }:
   {
+    "absolute-enable-right-click" = buildFirefoxXpiAddon {
+      pname = "absolute-enable-right-click";
+      version = "1.3.8";
+      addonId = "{9350bc42-47fb-4598-ae0f-825e3dd9ceba}";
+      url = "https://addons.mozilla.org/firefox/downloads/file/1205179/absolute_enable_right_click_copy-1.3.8-fx.xpi";
+      sha256 = "d1ca76d23234e6fd0f5d521caef62d20d071c8806887cda89914fd8325715a0a";
+      meta = with stdenv.lib;
+      {
+        description = "Force Enable Right Click &amp; Copy";
+        platforms = platforms.all;
+        };
+      };
     "ctrl-number-to-switch-tabs" = buildFirefoxXpiAddon {
       pname = "ctrl-number-to-switch-tabs";
       version = "1.0.1";
@@ -11,6 +23,33 @@
         homepage = "https://github.com/AbigailBuccaneer/firefox-ctrlnumber";
         description = "Adds keyboard shortcut Ctrl+1 to switch to the first tab, Ctrl+2 to switch to the second, and so on. Ctrl+9 switches to the last tab.";
         license = licenses.mit;
+        platforms = platforms.all;
+        };
+      };
+    "floccus" = buildFirefoxXpiAddon {
+      pname = "floccus";
+      version = "4.4.6";
+      addonId = "floccus@handmadeideas.org";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3672374/floccus-4.4.6-fx.xpi";
+      sha256 = "34e3c42d4a5bfafa3eecb18868160cc98af19d0edab21c3bf2563de817997fdd";
+      meta = with stdenv.lib;
+      {
+        homepage = "https://github.com/marcelklehr/floccus#readme";
+        description = "Sync your bookmarks across browsers via Nextcloud, WebDAV or a local file (and thus any file sync solution)";
+        license = licenses.mpl20;
+        platforms = platforms.all;
+        };
+      };
+    "grammarly" = buildFirefoxXpiAddon {
+      pname = "grammarly";
+      version = "8.867.0";
+      addonId = "87677a2c52b84ad3a151a4a72f5bd3c4@jetpack";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3665895/grammarly_for_firefox-8.867.0-an+fx.xpi";
+      sha256 = "29b32fce95b06f10410926bd482f0c5ddce4b6b8fc62c7624306b19df14bc3b7";
+      meta = with stdenv.lib;
+      {
+        homepage = "http://grammarly.com";
+        description = "Grammarly’s writing assistant has you covered in any writing situation. With real-time suggestions to help with grammar, clarity, tone, and more, you can be confident that your writing will make the impression you want.";
         platforms = platforms.all;
         };
       };
@@ -61,6 +100,19 @@
         platforms = platforms.all;
         };
       };
+    "pixiv-toolkit" = buildFirefoxXpiAddon {
+      pname = "pixiv-toolkit";
+      version = "4.2.1";
+      addonId = "{6706d386-2d33-4e1e-bbf1-51b9e1ce47e1}";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3599813/pixiv_toolkit-4.2.1-fx.xpi";
+      sha256 = "db60ca7cadfe1fa4b48a11ea613863a29e25a411cdf86079c6b74d6d7bd8efca";
+      meta = with stdenv.lib;
+      {
+        homepage = "https://github.com/leoding86/webextension-pixiv-toolkit";
+        description = "Convert ugoira to gif or/and webm, pack manga for downloading and download novel on Pixiv.";
+        platforms = platforms.all;
+        };
+      };
     "plasma-integration" = buildFirefoxXpiAddon {
       pname = "plasma-integration";
       version = "1.7.6";
@@ -85,6 +137,20 @@
       {
         homepage = "https://privacybadger.org/";
         description = "Automatically learns to block invisible trackers.";
+        license = licenses.gpl3;
+        platforms = platforms.all;
+        };
+      };
+    "save-to-the-wayback-machine" = buildFirefoxXpiAddon {
+      pname = "save-to-the-wayback-machine";
+      version = "5.4.9";
+      addonId = "{c5f00c00-e4bc-414d-9784-933857514bd0}";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3678406/save_to_the_wayback_machine-5.4.9-fx.xpi";
+      sha256 = "3687b4985e9409cfe4c1043d5d8c785d205cfd4a56691cee38842232ab823c8e";
+      meta = with stdenv.lib;
+      {
+        homepage = "https://github.com/VerifiedJoseph/Save-to-the-Wayback-Machine";
+        description = "Quickly save web pages to the Internet Archive's Wayback Machine and see the last time your current page was archived.";
         license = licenses.gpl3;
         platforms = platforms.all;
         };
