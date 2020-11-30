@@ -52,5 +52,131 @@
         "publisher": "haskell",
         "sha256": "0vxsn4s27n1aqp5pp4cipv804c9cwd7d9677chxl0v18j8bf7zly",
         "version": "1.2.0"
+    },
+    {
+        "name": "language-haskell",
+        "publisher": "justusadam",
+        "sha256": "1285bs89d7hqn8h8jyxww7712070zw2ccrgy6aswd39arscniffs",
+        "version": "3.3.0"
+    },
+    {
+        "name": "Nix",
+        "publisher": "bbenoist",
+        "sha256": "0zd0n9f5z1f0ckzfjr38xw2zzmcxg1gjrava7yahg5cvdcw6l35b",
+        "version": "1.0.1"
+    },
+    {
+        "name": "dhall-lang",
+        "publisher": "dhall",
+        "sha256": "0sa04srhqmngmw71slnrapi2xay0arj42j4gkan8i11n7bfi1xpf",
+        "version": "0.0.4"
+    },
+    {
+        "name": "vscode-dhall-lsp-server",
+        "publisher": "dhall",
+        "sha256": "1zin7s827bpf9yvzpxpr5n6mv0b5rhh3civsqzmj52mdq365d2js",
+        "version": "0.0.4"
+    },
+    {
+        "name": "latex-workshop",
+        "publisher": "james-yu",
+        "sha256": "12bh2gpmak7vgzhjnvk2hw0yqm6wkd7vsm4ki4zbqa6lpriscjyi",
+        "version": "8.14.0"
+    },
+    {
+        "name": "vscode-yaml",
+        "publisher": "redhat",
+        "sha256": "046kdk73a5xbrwq16ff0l64271c6q6ygjvxaph58z29gyiszfkig",
+        "version": "0.13.0"
+    },
+    {
+        "name": "vim",
+        "publisher": "vscodevim",
+        "sha256": "10f8jz52gr6k2553awa66m006wszj9z2rnshsic6h2aawxiz3zq1",
+        "version": "1.17.1"
+    },
+    {
+        "name": "gitlens",
+        "publisher": "eamodio",
+        "sha256": "0qlaq7hn3m73rx9bmbzz3rc7khg0kw948z2j4rd8gdmmryy217yw",
+        "version": "11.0.6"
+    },
+    {
+        "name": "generic-input-method",
+        "publisher": "mr-konn",
+        "sha256": "1qv99q7g233i0mqi3vrxw9qx3c31bqilhnkc9zyys57jmcf65kgd",
+        "version": "0.0.11"
+    },
+    {
+        "name": "rust-doc-viewer",
+        "publisher": "JScearcy",
+        "sha256": "17038gsd57hpph0c6hzhw1h1w7m4rj52z9v9xfmm8i1aiwxyzpwr",
+        "version": "1.0.15"
+    },
+    {
+        "name": "vscoq",
+        "publisher": "maximedenes",
+        "sha256": "1k55azavxhb2jxhk06f2rgkvf66bm1kwnmvyrjxp00xq3dai39bb",
+        "version": "0.3.2"
+    },
+    {
+        "name": "vscode-pull-request-github",
+        "publisher": "GitHub",
+        "sha256": "0p03v6y1gh62jby74vkhi897mzj8dg9xb561v0b99x81r9zhwqw0",
+        "version": "0.21.3"
+    },
+    {
+        "name": "bracket-pair-colorizer",
+        "publisher": "CoenraadS",
+        "sha256": "0r3bfp8kvhf9zpbiil7acx7zain26grk133f0r0syxqgml12i652",
+        "version": "1.0.61"
+    },
+    {
+        "name": "path-intellisense",
+        "publisher": "christian-kohler",
+        "sha256": "1wyp3k4gci1i64nrry12il6yflhki18gq2498z3nlsx4yi36jb3l",
+        "version": "2.3.0"
+    },
+    {
+        "name": "vscode-todo-highlight",
+        "publisher": "wayou",
+        "sha256": "0s925rb668spv602x6g7sld2cs5ayiq7273963v9prvgsr0drlrr",
+        "version": "1.0.4"
+    },
+    {
+        "name": "discord-vscode",
+        "publisher": "icrawl",
+        "sha256": "16p6nb368jyaah0fi74rh99nj1rdnakw15z80a532h671swm0api",
+        "version": "4.0.0"
+    },
+    {
+        "name": "org-mode",
+        "publisher": "tootone",
+        "sha256": "0sjplq9h3mc42f41gcyr30ixix8sclgsdi5mcgqazh2bh7g2hz5x",
+        "version": "0.5.0"
+    },
+    {
+        "name": "vscode-ghc-simple",
+        "publisher": "dramforever",
+        "sha256": "0x3csdn3pz5rhl9mhplpm8kxb40l1dw5rnwhh3zsif3rz0nqhk2a",
+        "version": "0.1.22"
+    },
+    {
+        "name": "language-purescript",
+        "publisher": "nwolverson",
+        "sha256": "16c6ik09wj87r0dg4l0swl2qlqy48jkavpp5i90l166x2mjw2b7w",
+        "version": "0.2.4"
+    },
+    {
+        "name": "ide-purescript",
+        "publisher": "nwolverson",
+        "sha256": "1qg7qvkirp2hmf6agplprw0hxl3zg0z83fw04agdmgy8dmpmn0ih",
+        "version": "0.23.3"
+    },
+    {
+        "name": "spellright",
+        "publisher": "ban",
+        "sha256": "0i09asz9y51saarjx14nism0kq153fyps9588d1awc64bip496ra",
+        "version": "3.0.52"
     }
 ]
