@@ -29,7 +29,7 @@
           nord-konsole = callPackage ./pkgs/nord-konsole { };
         };
         firefox-addons = callPackages ./pkgs/firefox-addons { };
-        vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { inherit attrsets; };
+        vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { inherit attrsets lists; };
         fcitx5-material-color = callPackage ./pkgs/fcitx5-material-color { };
       };
 
