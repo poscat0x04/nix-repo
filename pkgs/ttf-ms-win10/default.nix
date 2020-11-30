@@ -1,4 +1,4 @@
-{ stdenv, requireFile, zipListsWith }:
+{ stdenv, requireFile }:
 
 let
   files = import ./files.nix;
@@ -9,7 +9,7 @@ in
 
     version = "10.0.18362.116";
 
-    srcs = zipListsWith (file: hash: requireFile {
+    srcs = stdenv.lib.lists.zipListsWith (file: hash: requireFile {
       name = file;
       sha256 = hash;
       url = "";

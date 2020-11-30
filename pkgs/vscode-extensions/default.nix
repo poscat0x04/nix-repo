@@ -1,5 +1,6 @@
-{ vscode-utils, attrsets, lists, ... }:
+{ vscode-utils, stdenv, ... }:
 
+with stdenv.lib;
 with builtins; with attrsets; with lists; with vscode-utils;
 
 let

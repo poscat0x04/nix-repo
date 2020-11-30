@@ -14,13 +14,13 @@
     pkgsWithNURFor = forAllSystems (system: import nixpkgs { inherit system; overlays = [ nur.overlay ]; config.allowUnfree = true; });
   in
     {
-      overlay = self: super: with self.pkgs; with self.lib; {
+      overlay = self: super: with self.pkgs; {
         vscode-insiders = callPackage ./pkgs/vscode-insiders { };
         vscode-insiders-with-extensions = super.vscode-with-extensions.override {
           vscode = vscode-insiders;
         };
         play-with-mpv = callPackage ./pkgs/play-with-mpv { };
-        ttf-ms-win10 = callPackage ./pkgs/ttf-ms-win10 { zipListsWith = self.lib.zipListsWith; };
+        ttf-ms-win10 = callPackage ./pkgs/ttf-ms-win10 { };
         prefs-cleaner = callPackage ./pkgs/arkenfox-userjs/prefs-cleaner.nix { };
         extra-files = {
           arkenfox-userjs = callPackage ./pkgs/arkenfox-userjs { };
@@ -29,7 +29,7 @@
           nord-konsole = callPackage ./pkgs/nord-konsole { };
         };
         firefox-addons = callPackages ./pkgs/firefox-addons { };
-        vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { inherit attrsets lists; };
+        vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { };
         fcitx5-material-color = callPackage ./pkgs/fcitx5-material-color { };
       };
 
