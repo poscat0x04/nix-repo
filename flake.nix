@@ -4,15 +4,10 @@
   inputs = {
     nixpkgs.url = github:NixOS/nixpkgs/nixos-unstable;
     nur.url = github:nix-community/NUR;
+    flake-utils.url = github:poscat0x04/flake-utils;
   };
 
-  outputs = { self, nixpkgs, nur, ... }:
-  let
-    supportedSystems = [ "x86_64-linux" ];
-    forAllSystems = f: nixpkgs.lib.genAttrs supportedSystems (system: f system);
-    nixpkgsFor = forAllSystems (system: import nixpkgs { inherit system; overlays = [ self.overlay ]; config.allowUnfree = true; });
-    pkgsWithNURFor = forAllSystems (system: import nixpkgs { inherit system; overlays = [ nur.overlay ]; config.allowUnfree = true; });
-  in
+  outputs = { self, nixpkgs, nur, flake-utils, ... }: with flake-utils;
     {
       overlay = self: super: with self.pkgs; {
         vscode-insiders = callPackage ./pkgs/vscode-insiders { };
@@ -32,38 +27,41 @@
         vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { };
         fcitx5-material-color = callPackage ./pkgs/fcitx5-material-color { };
       };
-
-      packages = forAllSystems (system:
-        let
-          pkgSet = nixpkgsFor.${system};
-          pkgsWithNUR = pkgsWithNURFor.${system};
-        in
-        {
-          inherit (pkgSet)
-          vscode-insiders
-          play-with-mpv
-          ttf-ms-win10
-          prefs-cleaner
-          extra-files
-          firefox-addons
-          vscode-extensions
-          fcitx5-material-color
-          ;
-
-          devShell."${system}" = with pkgsWithNUR; mkShell {
-            buildInputs = [
-              curl
-              jq
-              nix-prefetch-scripts
-              nixUnstable
-              pkgsWithNUR.nur.repos.rycee.firefox-addons-generator
-
-              # for vscode extension update script
-              python3
-              python3Packages.requests
-              python3Packages.pyyaml
-            ];
+    } // eachDefaultSystem (
+      system:
+      let
+        pkgs = import nixpkgs { inherit system; overlays = [ self.overlay nur.overlay ]; config.allowUnfree = true; };
+      in
+      {
+        packages =
+          {
+            inherit (pkgs)
+              vscode-insiders
+              play-with-mpv
+              ttf-ms-win10
+              prefs-cleaner
+              extra-files
+              firefox-addons
+              vscode-extensions
+              fcitx5-material-color
+              ;
           };
-        });
-    };
+        devShell = with pkgs; with pkgs.nur.repos.rycee; mkShell {
+          buildInputs = [
+            curl
+            jq
+            nix-prefetch-scripts
+            nixUnstable
+
+            # for generating nix expressions for firefox addons
+            firefox-addons-generator
+
+            # for vscode extension update script
+            python3
+            python3Packages.requests
+            python3Packages.pyyaml
+          ];
+        };
+      }
+    );
 }

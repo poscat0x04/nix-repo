@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash -A outputs.packages.x86_64-linux.devShell
+#!nix-shell -i bash
 
 for f in pkgs/**/update.sh; do
   dir="$(dirname "$f")"
