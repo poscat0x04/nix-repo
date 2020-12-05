@@ -1,0 +1,8 @@
+{
+  "url": "https://github.com/vmchale/project-init",
+  "rev": "8958beef4cc58cfa2b65eb2f43fb517be9006da9",
+  "sha256": "0smx9qwkypmrvc7r331lp1fib65haysn8gjqz1l7h8p5vn4pj264",
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "leaveDotGit": false
+}

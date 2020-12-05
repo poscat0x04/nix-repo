@@ -26,6 +26,7 @@
         firefox-addons = callPackages ./pkgs/firefox-addons { };
         vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { };
         fcitx5-material-color = callPackage ./pkgs/fcitx5-material-color { };
+        project-init = callPackage ./pkgs/project-init { };
       };
     } // eachDefaultSystem (
       system:
@@ -44,6 +45,7 @@
               firefox-addons
               vscode-extensions
               fcitx5-material-color
+              project-init
               ;
           };
         devShell = with pkgs; with pkgs.nur.repos.rycee; mkShell {
@@ -55,6 +57,9 @@
 
             # for generating nix expressions for firefox addons
             firefox-addons-generator
+
+            # for update cargoSha256
+            nix-prefetch
 
             # for vscode extension update script
             python3
