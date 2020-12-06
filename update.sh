@@ -15,3 +15,16 @@ git commit -m "flake.lock: Auto update
 Input changes:
 
 $update" || echo "No changes to commit"
+
+echo "Uploading to cachix"
+
+packages=(project-init
+          play-with-mpv
+          fcitx5-material-color
+          vscode-insiders)
+
+for p in ${packages[@]}
+do
+  echo "Building ${p}"
+  nix build -L --json ".#${p}" | jq -r ".[0].outputs.out" | cachix push nix-repo
+done
