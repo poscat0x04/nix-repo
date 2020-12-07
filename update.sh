@@ -19,9 +19,7 @@ $update" || echo "No changes to commit"
 echo "Uploading to cachix"
 
 packages=(project-init
-          play-with-mpv
-          fcitx5-material-color
-          vscode-insiders)
+          fcitx5-material-color)
 
 for p in ${packages[@]}
 do
