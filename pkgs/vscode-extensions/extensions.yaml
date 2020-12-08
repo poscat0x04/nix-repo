@@ -58,3 +58,5 @@
   publisher: nwolverson
 - name: spellright
   publisher: ban
+- name: vscode-wakatime
+  publisher: WakaTime
