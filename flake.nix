@@ -3,11 +3,11 @@
 
   inputs = {
     nixpkgs.url = github:NixOS/nixpkgs/nixos-unstable;
-    nur.url = github:nix-community/NUR;
+    NUR.url = github:nix-community/NUR;
     flake-utils.url = github:poscat0x04/flake-utils;
   };
 
-  outputs = { self, nixpkgs, nur, flake-utils, ... }: with flake-utils;
+  outputs = { self, nixpkgs, NUR, flake-utils, ... }: with flake-utils;
     {
       overlay = self: super: with self.pkgs; {
         vscode-insiders = callPackage ./pkgs/vscode-insiders { };
@@ -31,7 +31,7 @@
     } // eachDefaultSystem (
       system:
       let
-        pkgs = import nixpkgs { inherit system; overlays = [ self.overlay nur.overlay ]; config.allowUnfree = true; };
+        pkgs = import nixpkgs { inherit system; overlays = [ self.overlay NUR.overlay ]; config.allowUnfree = true; };
       in
       {
         packages =
@@ -48,7 +48,7 @@
               project-init
               ;
           };
-        devShell = with pkgs; with pkgs.nur.repos.rycee; mkShell {
+        devShell = with pkgs; with nur.repos.rycee; mkShell {
           buildInputs = [
             curl
             jq
