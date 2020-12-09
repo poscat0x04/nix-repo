@@ -92,8 +92,8 @@
     {
         "name": "vim",
         "publisher": "vscodevim",
-        "sha256": "1ksbfbpgfj3fb9wiyd25qzispd62ln79fds3zjfpkf61xprg864f",
-        "version": "1.18.0"
+        "sha256": "1j5wp9mq9n4mykh2a1frx0y4z9mq748mjadrlbyx7w5pgk8ss2cv",
+        "version": "1.18.4"
     },
     {
         "name": "gitlens",
@@ -184,5 +184,59 @@
         "publisher": "WakaTime",
         "sha256": "0sm2fr9zbk1759r52dpnz9r7xbvxladlpinlf2i0hyaa06bhp3b1",
         "version": "4.0.9"
+    },
+    {
+        "name": "spellright",
+        "publisher": "ban",
+        "sha256": "0i09asz9y51saarjx14nism0kq153fyps9588d1awc64bip496ra",
+        "version": "3.0.52"
+    },
+    {
+        "name": "toml",
+        "publisher": "be5invis",
+        "sha256": "1r1y6krqw5rrdhia9xbs3bx9gibd1ky4bm709231m9zvbqqwwq2j",
+        "version": "0.5.1"
+    },
+    {
+        "name": "markdown-all-in-one",
+        "publisher": "yzhang",
+        "sha256": "0ihfrsg2sc8d441a2lkc453zbw1jcpadmmkbkaf42x9b9cipd5qb",
+        "version": "3.4.0"
+    },
+    {
+        "name": "vscode-sqlite",
+        "publisher": "alexcvzz",
+        "sha256": "07z71kk0hpnr4696vl595ykjnfwznzix4lrnnl8027ydgzxg1lrl",
+        "version": "0.10.1"
+    },
+    {
+        "name": "cmake-tools",
+        "publisher": "ms-vscode",
+        "sha256": "1y2s8rsc94ywbr23x9lhz0idp0d2lbv2vck636blvxsgxmcmmx8d",
+        "version": "1.5.3"
+    },
+    {
+        "name": "vscode-language-pack-zh-hans",
+        "publisher": "MS-CEINTL",
+        "sha256": "177dqm6p3izvc8z1lcsyk406ri2bbiyv753iy4ypc1vahfbxqjlc",
+        "version": "1.52.1"
+    },
+    {
+        "name": "nix-lsp",
+        "publisher": "aaronduino",
+        "sha256": "190pqcxlz98grigbppkrj5zvwk8d9si70na7jmilypaxn3zdmm9w",
+        "version": "0.0.1"
+    },
+    {
+        "name": "hexeditor",
+        "publisher": "ms-vscode",
+        "sha256": "15zp4abnsd6z7vv81d6d2p9lfimj0qalv9zh9c5pki101yb7581s",
+        "version": "1.3.0"
+    },
+    {
+        "name": "lean",
+        "publisher": "jroesch",
+        "sha256": "0mxv361gknlq2caab5m7psj9c5j0lila3jaagy6l3ja2kzz1bd6k",
+        "version": "0.16.17"
     }
 ]

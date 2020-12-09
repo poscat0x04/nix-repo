@@ -60,3 +60,21 @@
   publisher: ban
 - name: vscode-wakatime
   publisher: WakaTime
+- name: spellright
+  publisher: ban
+- name: toml
+  publisher: be5invis
+- name: markdown-all-in-one
+  publisher: yzhang
+- name: vscode-sqlite
+  publisher: alexcvzz
+- name: cmake-tools
+  publisher: ms-vscode
+- name: vscode-language-pack-zh-hans
+  publisher: MS-CEINTL
+- name: nix-lsp
+  publisher: aaronduino
+- name: hexeditor
+  publisher: ms-vscode
+- name: lean
+  publisher: jroesch
