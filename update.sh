@@ -12,7 +12,7 @@ echo "Uploading to cachix"
 packages=(project-init
           fcitx5-material-color)
 
-for p in ${packages[@]}
+for p in "${packages[@]}"
 do
   echo "Building ${p}"
   nix build -L --json ".#${p}" | jq -r ".[0].outputs.out" | cachix push nix-repo
