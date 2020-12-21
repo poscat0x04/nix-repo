@@ -182,8 +182,8 @@
     {
         "name": "vscode-wakatime",
         "publisher": "WakaTime",
-        "sha256": "0sm2fr9zbk1759r52dpnz9r7xbvxladlpinlf2i0hyaa06bhp3b1",
-        "version": "4.0.9"
+        "sha256": "1aallznp8grckkhjbiz0v8qnd2z5r0xcwbzjf0fjzdpnarly4163",
+        "version": "4.0.10"
     },
     {
         "name": "spellright",
