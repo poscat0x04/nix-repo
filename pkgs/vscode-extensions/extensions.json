@@ -110,8 +110,8 @@
     {
         "name": "rust-doc-viewer",
         "publisher": "JScearcy",
-        "sha256": "17038gsd57hpph0c6hzhw1h1w7m4rj52z9v9xfmm8i1aiwxyzpwr",
-        "version": "1.0.15"
+        "sha256": "1m23hwycwxxmbh2c8rcd0kykilpppgdl12dsfv6vnm9qnhwhzy6l",
+        "version": "2.0.0"
     },
     {
         "name": "vscoq",
