@@ -34,7 +34,7 @@
       sha256 = "7ed0823e2037467b52b4fddb0b0ac302fe9079714c2dce0bdcdb48da5400cc3a";
       meta = with stdenv.lib;
       {
-        homepage = "https://github.com/marcelklehr/floccus#readme";
+        homepage = "https://floccus.org";
         description = "Sync your bookmarks across browsers via Nextcloud, WebDAV or a local file (and thus any file sync solution)";
         license = licenses.mpl20;
         platforms = platforms.all;
