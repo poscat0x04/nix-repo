@@ -176,8 +176,8 @@
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "0i09asz9y51saarjx14nism0kq153fyps9588d1awc64bip496ra",
-        "version": "3.0.52"
+        "sha256": "0y0plri6z7l49h4j4q071hn7khf9j9r9h3mhz0y96xd0na4f2k3v",
+        "version": "3.0.56"
     },
     {
         "name": "vscode-wakatime",
@@ -188,8 +188,8 @@
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "0i09asz9y51saarjx14nism0kq153fyps9588d1awc64bip496ra",
-        "version": "3.0.52"
+        "sha256": "0y0plri6z7l49h4j4q071hn7khf9j9r9h3mhz0y96xd0na4f2k3v",
+        "version": "3.0.56"
     },
     {
         "name": "toml",
