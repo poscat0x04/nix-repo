@@ -86,8 +86,8 @@
     {
         "name": "vscode-yaml",
         "publisher": "redhat",
-        "sha256": "046kdk73a5xbrwq16ff0l64271c6q6ygjvxaph58z29gyiszfkig",
-        "version": "0.13.0"
+        "sha256": "05n7nzxbcjs8lz7mbynfllfzqnzy0zqvcc4l8jzfj0vxcvjhnbhh",
+        "version": "0.14.0"
     },
     {
         "name": "vim",
