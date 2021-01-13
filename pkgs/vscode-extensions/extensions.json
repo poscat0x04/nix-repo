@@ -44,8 +44,8 @@
     {
         "name": "agda-mode",
         "publisher": "banacorn",
-        "sha256": "0ykl2x5jmdzhici92madzr5pbjmrkqzbk3pw625ng38zhf7kmrwx",
-        "version": "0.2.3"
+        "sha256": "0bb75jrqgbck6jyiqr1k4n1gmcdgq3l5p2cir4b5zfdpcph3x9q4",
+        "version": "0.2.4"
     },
     {
         "name": "haskell",
