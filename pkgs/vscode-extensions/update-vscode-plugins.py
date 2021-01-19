@@ -1,14 +1,36 @@
 #!/usr/bin/env python3
 
 from packaging.version import Version, parse
-from requests import post
+from requests import post, get
 from yaml import load, dump
+from functools import cmp_to_key
+from libversion import version_compare
 try:
     from yaml import CLoader as Loader, CDumper as Dumper
 except ImportError:
     from yaml import Loader, Dumper
 import json
+import re
 import subprocess
+import xml.etree.ElementTree as ET
+
+def getLatestPylsVersion():
+    url = 'https://pvsc.blob.core.windows.net/python-language-server-stable?restype=container&comp=list&prefix=Python-Language-Server-linux-x64'
+    r = get(url)
+    xml = ET.fromstring(r.text)
+    p = re.compile(r'^Python-Language-Server-linux-x64\.(?P<version>.*)\.nupkg$')
+    def getVersion(e):
+        m = p.match(e.text)
+        return m.group('version')
+    versions = [getVersion(x) for x in xml.findall(".//Blob/Name")]
+    versions.sort(key=cmp_to_key(version_compare), reverse=True)
+    return versions[0]
+
+def getLatestPyls():
+    version = getLatestPylsVersion()
+    url = f'https://pvsc.azureedge.net/python-language-server-stable/Python-Language-Server-linux-x64.{version}.nupkg'
+    sha256 = prefetchUrl(url)
+    return version, url, sha256
 
 def getLatestVersionInfo(publisher, name):
     url = 'https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery'
@@ -35,23 +57,28 @@ def getLatestVersionInfo(publisher, name):
     url = vsix['source']
     return ver, url
 
-def prefetch_url(url):
+def prefetchUrl(url):
     args = ["nix-prefetch-url", url]
     o = subprocess.check_output(args).decode("utf-8")
     return o.strip()
 
+def getExtension(name, publisher):
+    ver, url = getLatestVersionInfo(publisher, name)
+    sha256 = prefetchUrl(url)
+    return {'name': name, 'publisher': publisher, 'version': ver, 'sha256': sha256}
+
 def main():
+    version, url, sha256 = getLatestPyls()
+    with open('python/pyls.json', 'w+') as pyls:
+        json.dump({'version': version, 'url': url, 'sha256': sha256}, pyls, indent=4, sort_keys=True)
+    with open('python/vscode-python.json', 'w+') as vsc:
+        json.dump(getExtension(name='python', publisher='ms-python'), vsc, indent=4, sort_keys=True)
     with open('extensions.yaml') as f:
         exts = load(f.read(), Loader=Loader)
-        result = []
-        for ext in exts:
-            name = ext['name']
-            publisher = ext['publisher']
-            ver, url = getLatestVersionInfo(publisher, name)
-            sha256 = prefetch_url(url)
-            result.append({ 'name': name, 'publisher': publisher, 'version': ver, 'sha256': sha256 })
+        result = [getExtension(name=ext['name'], publisher=ext['publisher']) for ext in exts]
         with open('extensions.json', 'w+') as target:
             json.dump(result, target, indent=4, sort_keys=True)
+
 
 if __name__ == '__main__':
     main()
