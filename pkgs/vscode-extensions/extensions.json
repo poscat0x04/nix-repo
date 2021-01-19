@@ -180,12 +180,6 @@
         "version": "3.0.56"
     },
     {
-        "name": "vscode-wakatime",
-        "publisher": "WakaTime",
-        "sha256": "1ggsfigl19wni9wfbhxh73bifpn7r4ccd42qv6nvk6rqxxldi0k0",
-        "version": "5.0.0"
-    },
-    {
         "name": "spellright",
         "publisher": "ban",
         "sha256": "0y0plri6z7l49h4j4q071hn7khf9j9r9h3mhz0y96xd0na4f2k3v",

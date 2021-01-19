@@ -58,8 +58,6 @@
   publisher: nwolverson
 - name: spellright
   publisher: ban
-- name: vscode-wakatime
-  publisher: WakaTime
 - name: spellright
   publisher: ban
 - name: toml
