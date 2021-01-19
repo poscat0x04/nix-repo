@@ -236,7 +236,7 @@
     {
         "name": "lean",
         "publisher": "jroesch",
-        "sha256": "1gad16aa097zzdyvvy8sr07bvqlgjnl0bq96s973im3fvpav58w2",
-        "version": "0.16.20"
+        "sha256": "0rc7q3jg2xynjid929z9zx9b35bbqx3n3js61wsa9bdvgm1b5dji",
+        "version": "0.16.21"
     }
 ]
