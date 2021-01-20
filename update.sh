@@ -1,6 +1,3 @@
-#!/usr/bin/env nix-shell
-#!nix-shell -i bash
-
 for f in pkgs/**/update.sh; do
   dir="$(dirname "$f")"
   echo "running update script in $dir ... "
