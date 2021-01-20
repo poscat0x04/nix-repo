@@ -9,8 +9,7 @@ done
 
 echo "Uploading to cachix"
 
-packages=(project-init
-          fcitx5-material-color)
+packages=(fcitx5-material-color)
 
 for p in "${packages[@]}"
 do
