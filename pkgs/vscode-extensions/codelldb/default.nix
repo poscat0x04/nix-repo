@@ -5,7 +5,8 @@
 with builtins;
 
 let
-  sourcePath = "/build/rustc-${rustc.version}-src/src/";
+  rustcSourcePath = "/build/rustc-${rustc.version}-src/src";
+  rustLibSourcePath = "/build/rustc-${rustc.version}-src/library";
 in
 vscode-utils.buildVscodeMarketplaceExtension {
   vsix = fetchurl (fromJSON (readFile ./source.json));
@@ -22,7 +23,9 @@ vscode-utils.buildVscodeMarketplaceExtension {
     rm -r lldb
     ln -s ${lldb} lldb
 
-    cat <<< $(jq ".contributes.configuration.properties.\"lldb.launch.sourceMap\".default.\"${sourcePath}\" = \"${rustPlatform.rustcSrc}\"" < package.json) > package.json
+    cat <<< $(jq ".contributes.configuration.properties.\"lldb.launch.sourceMap\".default.\"${rustcSourcePath}\" = \"${rustPlatform.rustcSrc}\"\
+                 |.contributes.configuration.properties.\"lldb.launch.sourceMap\".default.\"${rustLibSourcePath}\" = \"${rustPlatform.rustLibSrc}\""\
+                 < package.json) > package.json
   '';
 
   fixupPhase = ''
