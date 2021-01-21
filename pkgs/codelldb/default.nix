@@ -20,5 +20,10 @@ rustPlatform.buildRustPackage {
     "--features=weak-linkage"
   ];
 
+  fixupPhase = ''
+    mv $out/lib/* $out/bin
+    rmdir $out/lib
+  '';
+
   doCheck = false;
 }
