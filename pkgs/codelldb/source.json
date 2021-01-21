@@ -1,0 +1,8 @@
+{
+  "url": "https://github.com/vadimcn/vscode-lldb",
+  "rev": "cf886f402476517379f5d9b43c89639a15e3b793",
+  "sha256": "1pbv62hc4x3yaz3g0kmig8i64j9ykwmn83jxihpyvk1xg1w80bws",
+  "fetchSubmodules": true,
+  "deepClone": false,
+  "leaveDotGit": false
+}

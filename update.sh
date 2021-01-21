@@ -6,7 +6,8 @@ done
 
 echo "Uploading to cachix"
 
-packages=(fcitx5-material-color)
+packages=(fcitx5-material-color
+          codelldb)
 
 for p in "${packages[@]}"
 do
