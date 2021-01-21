@@ -26,7 +26,6 @@
         firefox-addons = callPackages ./pkgs/firefox-addons { };
         vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { };
         fcitx5-material-color = callPackage ./pkgs/fcitx5-material-color { };
-        codelldb = callPackage ./pkgs/codelldb { };
       };
     } // eachDefaultSystem (
       system:
@@ -45,7 +44,6 @@
               firefox-addons
               vscode-extensions
               fcitx5-material-color
-              codelldb
               ;
           };
         devShell = with pkgs; with nur.repos.rycee; mkShell {
