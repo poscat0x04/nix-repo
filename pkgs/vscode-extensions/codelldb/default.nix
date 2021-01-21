@@ -22,11 +22,13 @@ vscode-utils.buildVscodeMarketplaceExtension {
     rm -r lldb
     ln -s ${lldb} lldb
 
-    wrapProgram adapter/codelldb \
+    cat <<< $(jq ".contributes.configuration.properties.\"lldb.launch.sourceMap\".default.\"${sourcePath}\" = \"${rustPlatform.rustcSrc}\"" < package.json) > package.json
+  '';
+
+  fixupPhase = ''
+    wrapProgram $out/$installPrefix/adapter/codelldb \
       --prefix PATH : "${python3}/bin" \
       --prefix LD_LIBRARY_PATH : "${python3}/lib"
-
-    cat <<< $(jq ".contributes.configuration.properties.\"lldb.launch.sourceMap\".default.\"${sourcePath}\" = \"${rustPlatform.rustcSrc}\"" < package.json) > package.json
   '';
 
   mktplcRef = {
