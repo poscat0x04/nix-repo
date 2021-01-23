@@ -76,3 +76,7 @@
   publisher: ms-vscode
 - name: lean
   publisher: jroesch
+- name: ocaml-platform
+  publisher: ocamllabs
+- name: vscode-postgresql-client2
+  publisher: cweijan

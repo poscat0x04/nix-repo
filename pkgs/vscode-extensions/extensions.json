@@ -232,5 +232,17 @@
         "publisher": "jroesch",
         "sha256": "08fj7h6dw56s40l9fkn4xz1valxpwhc4n8vw7d44264cabcsmkrw",
         "version": "0.16.22"
+    },
+    {
+        "name": "ocaml-platform",
+        "publisher": "ocamllabs",
+        "sha256": "0jkxpcrbr8xmwfl8jphmarjz2jk54hvmc24ww89d4bgx1awayqfh",
+        "version": "1.5.1"
+    },
+    {
+        "name": "vscode-postgresql-client2",
+        "publisher": "cweijan",
+        "sha256": "1r5nai1m5ia9gikixp7vg9snmzhnl0nhzr2ipk1gx7labv04j5vy",
+        "version": "3.1.1"
     }
 ]

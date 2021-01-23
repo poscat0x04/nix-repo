@@ -61,9 +61,6 @@
             python3Packages.requests
             python3Packages.pyyaml
             python3Packages.libversion
-
-            nodePackages.node2nix
-            nix-prefetch
           ];
         };
       }
