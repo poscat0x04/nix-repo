@@ -13,5 +13,6 @@ in
       extractNuGet = callPackage ./python/extract-nuget.nix { };
     };
     vadimcn.vscode-lldb = callPackage ./codelldb { };
+    matklad.rust-analyzer = callPackage ./rust-analyzer { };
   }
 
