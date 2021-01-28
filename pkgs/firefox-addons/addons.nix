@@ -55,10 +55,10 @@
       };
     "https-everywhere" = buildFirefoxXpiAddon {
       pname = "https-everywhere";
-      version = "2020.11.17";
+      version = "2021.1.27";
       addonId = "https-everywhere@eff.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3679479/https_everywhere-2020.11.17-an+fx.xpi";
-      sha256 = "a6ebcb0a05607e54e7a9fc0b5b3832eda6f13f8dce2ee802164a455919e385c9";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3716461/https_everywhere-2021.1.27-an+fx.xpi";
+      sha256 = "da049748bba7282c0f8c0ab85ac8f494e795e79d6bdc6f9f726d687aa8cc2a1f";
       meta = with stdenv.lib;
       {
         homepage = "https://www.eff.org/https-everywhere";
