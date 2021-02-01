@@ -14,8 +14,8 @@
     {
         "name": "nord-visual-studio-code",
         "publisher": "arcticicestudio",
-        "sha256": "066rqj8sf910n71g5njbp5g8advzqkd3g2lsg12wai902735i78c",
-        "version": "0.15.0"
+        "sha256": "0lc50jkwxq3vffpwlkqdnkq77c7gbpfn1lk9l0n9qxsyfyhb68qj",
+        "version": "0.15.1"
     },
     {
         "name": "material-icon-theme",
@@ -92,8 +92,8 @@
     {
         "name": "vim",
         "publisher": "vscodevim",
-        "sha256": "0cbmmhkbr4f1afk443sgdihp2q5zkzchbr2yhp7bm5qnv7xdv5l4",
-        "version": "1.18.5"
+        "sha256": "1lgivbvs4665c7qlikqv76mbl56cjs42bg6ix58s9l86q96n2bzg",
+        "version": "1.18.7"
     },
     {
         "name": "gitlens",
