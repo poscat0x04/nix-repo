@@ -242,7 +242,7 @@
     {
         "name": "vscode-postgresql-client2",
         "publisher": "cweijan",
-        "sha256": "0aagqj8vy5206rjz1ncpzwgn1bl7xzn02xn5wlpsaiih3dpyq3c7",
-        "version": "3.4.4"
+        "sha256": "0gyni78byib215r6vbp3fxf8pnlwv6drc66irjwq3ksrywvx1ncc",
+        "version": "3.5.2"
     }
 ]
