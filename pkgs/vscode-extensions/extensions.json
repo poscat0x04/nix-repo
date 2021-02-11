@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "1b8l0bqpzavh4vbpshw606cqj9cqga9sz62hxa8qn9xagk18xqni",
-        "version": "0.23.0"
+        "sha256": "0kw569sc1jdvk8a6xywzk0jikikbr5w7rncdq4fqgcbc81m4dp9f",
+        "version": "0.23.1"
     },
     {
         "name": "bracket-pair-colorizer",
@@ -230,8 +230,8 @@
     {
         "name": "lean",
         "publisher": "jroesch",
-        "sha256": "09xp72z78k7b4q8dksx55khsk129h2lr3drkm49kgyzxmzlqzxar",
-        "version": "0.16.23"
+        "sha256": "1ph5hi0sldkczdbsmscndpqi4yrgpc3v0knfx9wfc7s6h5zydw6c",
+        "version": "0.16.24"
     },
     {
         "name": "ocaml-platform",
