@@ -206,8 +206,8 @@
     {
         "name": "cmake-tools",
         "publisher": "ms-vscode",
-        "sha256": "1y2s8rsc94ywbr23x9lhz0idp0d2lbv2vck636blvxsgxmcmmx8d",
-        "version": "1.5.3"
+        "sha256": "1j3b6wzlb5r9q2v023qq965y0avz6dphcn0f5vwm9ns9ilcgm3dw",
+        "version": "1.6.0"
     },
     {
         "name": "vscode-language-pack-zh-hans",
