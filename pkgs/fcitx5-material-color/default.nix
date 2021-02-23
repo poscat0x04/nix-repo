@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     install -Dm644 arrow.png radio.png -t $out/share/${pname}/
     for variant in blue brown deepPurple indigo pink red teal; do
       variant_name=Material-Color-''${variant^}
-      install -Dm644 panel-$variant.png -t $out/share/fcitx5/themes/$variant_name/
+      mkdir -p $out/share/fcitx5/themes/$variant_name/
       ln -s ../../../${pname}/arrow.png $out/share/fcitx5/themes/$variant_name/
       ln -s ../../../${pname}/radio.png $out/share/fcitx5/themes/$variant_name/
       install -Dm644 theme-$variant.conf $out/share/fcitx5/themes/$variant_name/theme.conf
