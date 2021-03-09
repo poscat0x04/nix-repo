@@ -26,8 +26,8 @@
     {
         "name": "vscode-eslint",
         "publisher": "dbaeumer",
-        "sha256": "113w2iis4zi4z3sqc3vd2apyrh52hbh2gvmxjr5yvjpmrsksclbd",
-        "version": "2.1.14"
+        "sha256": "11ncminw8gv2z6hgj4ik404fvm021ga29048mlpb1qqzqm5slzvc",
+        "version": "2.1.16"
     },
     {
         "name": "shellcheck",
@@ -236,8 +236,8 @@
     {
         "name": "ocaml-platform",
         "publisher": "ocamllabs",
-        "sha256": "0h6gzawxqac8nrhiv12m4adsh2dp5airy9cdmn704lpqnismch9p",
-        "version": "1.8.0"
+        "sha256": "0x8kcplwz6zhwkmcdmcyi6p2rvsph7is8h27b7yhs9hf3n3xh76x",
+        "version": "1.8.1"
     },
     {
         "name": "vscode-postgresql-client2",
