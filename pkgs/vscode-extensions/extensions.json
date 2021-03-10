@@ -8,8 +8,8 @@
     {
         "name": "crates",
         "publisher": "serayuzgur",
-        "sha256": "1grgx66rav80w1z02grv72dhls0vardybmh9zqyjhmh5ldjlpxbi",
-        "version": "0.5.6"
+        "sha256": "1q19mb686mpgvx129bq226a2kfynaz942sp870b1i50hvxnshiw3",
+        "version": "0.5.7"
     },
     {
         "name": "nord-visual-studio-code",
