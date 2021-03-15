@@ -35,7 +35,7 @@
       meta = with lib;
       {
         homepage = "https://floccus.org";
-        description = "Sync your bookmarks across browsers via Nextcloud, WebDAV or a local file (and thus any file sync solution)";
+        description = "Sync your bookmarks across browsers via Nextcloud, WebDAV or Google Drive";
         license = licenses.mpl20;
         platforms = platforms.all;
         };
