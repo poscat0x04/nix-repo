@@ -244,5 +244,11 @@
         "publisher": "cweijan",
         "sha256": "04z63axv9ds0lq3xz17di3z941l1mcq3q78k4v7vm43qpync0v1s",
         "version": "3.5.4"
+    },
+    {
+        "name": "rust",
+        "publisher": "rust-lang",
+        "sha256": "039ns854v1k4jb9xqknrjkj8lf62nfcpfn0716ancmjc4f0xlzb3",
+        "version": "0.7.8"
     }
 ]

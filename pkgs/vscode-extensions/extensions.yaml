@@ -80,3 +80,5 @@
   publisher: ocamllabs
 - name: vscode-postgresql-client2
   publisher: cweijan
+- name: rust
+  publisher: rust-lang
