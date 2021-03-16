@@ -28,10 +28,10 @@
       };
     "floccus" = buildFirefoxXpiAddon {
       pname = "floccus";
-      version = "4.6.0";
+      version = "4.6.1";
       addonId = "floccus@handmadeideas.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3735841/floccus-4.6.0-fx.xpi";
-      sha256 = "e51dfd58076701b2385b4ce26c7b33655303507c3ed1d702b5279eebdc703da1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3744486/floccus-4.6.1-fx.xpi";
+      sha256 = "5af4bd3d1b735ceaf5672ae19dd3e73650c8881a00ad874e39464a9059014517";
       meta = with lib;
       {
         homepage = "https://floccus.org";
