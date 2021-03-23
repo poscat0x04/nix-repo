@@ -158,8 +158,8 @@
     {
         "name": "vscode-ghc-simple",
         "publisher": "dramforever",
-        "sha256": "1wl9fs17hmgi4m4lcrk1hmj3clywj56y4h4r6adixszskxkzb5pq",
-        "version": "0.2.1"
+        "sha256": "0fjgpjyph1j9rqlcyrs5b4c46la1yvlc8bvmnsqh3yrfhxrj4ard",
+        "version": "0.2.2"
     },
     {
         "name": "language-purescript",
