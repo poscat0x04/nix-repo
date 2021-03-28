@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 cd "$(pwd)/$(dirname ${BASH_SOURCE})"
-url="https://vscode-update.azurewebsites.net/latest/linux-x64/insider"
+url="https://update.code.visualstudio.com/latest/linux-x64/insider"
 new_url="$(curl -LsI -o /dev/null -w %{url_effective} $url)"
 echo "{}" | jq --arg url  "$new_url" \
                --arg sha256 "$(nix-prefetch-url $url)" \
