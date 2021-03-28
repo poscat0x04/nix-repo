@@ -1,4 +1,4 @@
-{ autoPatchelfHook, vscode-utils }:
+{ autoPatchelfHook, zlib, vscode-utils }:
 
 with builtins;
 
@@ -7,6 +7,7 @@ vscode-utils.buildVscodeMarketplaceExtension {
 
   nativeBuildInputs = [
     autoPatchelfHook
+    zlib
   ];
 
   mktplcRef = {
