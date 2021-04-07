@@ -143,10 +143,10 @@
       };
     "save-to-the-wayback-machine" = buildFirefoxXpiAddon {
       pname = "save-to-the-wayback-machine";
-      version = "5.4.11";
+      version = "5.5.0";
       addonId = "{c5f00c00-e4bc-414d-9784-933857514bd0}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3748383/save_to_the_wayback_machine-5.4.11-fx.xpi";
-      sha256 = "d3895e82313b95926f939223994c689d1c4c5061397889e359ea9a7200ad6447";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3756703/save_to_the_wayback_machine-5.5.0-fx.xpi";
+      sha256 = "808e6a8dd8519ac81ff008c21c8acfc616161bdf9345021bd42a90a02fae4a9a";
       meta = with lib;
       {
         homepage = "https://github.com/VerifiedJoseph/Save-to-the-Wayback-Machine";
