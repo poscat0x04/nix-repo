@@ -210,6 +210,24 @@
         "version": "1.6.0"
     },
     {
+        "name": "cmake",
+        "publisher": "twxs",
+        "sha256": "11hzjd0gxkq37689rrr2aszxng5l9fwpgs9nnglq3zhfa1msyn08",
+        "version": "0.0.17"
+    },
+    {
+        "name": "doxdocgen",
+        "publisher": "cschlosser",
+        "sha256": "05j79kp51nh0r1w95mjqgy62z2vsnzljzf9p8qv165b2553jdwh9",
+        "version": "1.1.0"
+    },
+    {
+        "name": "vscode-clangd",
+        "publisher": "llvm-vs-code-extensions",
+        "sha256": "1l7nx3a2rm7fls06rvmzlgf2bi2db3w4azxk89xjv2wxzxfaf35y",
+        "version": "0.1.11"
+    },
+    {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
         "sha256": "006a9cs3i6kl8p8vk5qjmi5h9xr0zrb0kw846s221jm0irgb4c61",
@@ -230,8 +248,8 @@
     {
         "name": "lean",
         "publisher": "jroesch",
-        "sha256": "0qyx4qyvsbcqr2ddj7faa19dwn7hpl37ccqc7zijc2ad3hgvqqd7",
-        "version": "0.16.25"
+        "sha256": "0xpnzbx6034vcx0ib5vcl0sjv0qbb1fzzdyzn4lg3zwaqk5xzjs1",
+        "version": "0.16.26"
     },
     {
         "name": "ocaml-platform",
