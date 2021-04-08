@@ -61,6 +61,7 @@
             python3Packages.requests
             python3Packages.pyyaml
             python3Packages.libversion
+            python3Packages.packaging
           ];
         };
       }
