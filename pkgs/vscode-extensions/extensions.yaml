@@ -68,6 +68,12 @@
   publisher: alexcvzz
 - name: cmake-tools
   publisher: ms-vscode
+- name: cmake
+  publisher: twxs
+- name: doxdocgen
+  publisher: cschlosser
+- name: vscode-clangd
+  publisher: llvm-vs-code-extensions
 - name: vscode-language-pack-zh-hans
   publisher: MS-CEINTL
 - name: nix-lsp
