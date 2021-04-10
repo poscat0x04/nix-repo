@@ -146,8 +146,8 @@
     {
         "name": "discord-vscode",
         "publisher": "icrawl",
-        "sha256": "0nk0z423cax39ski4r395hwggkmjiby24irdsgf2fpmn8aahw369",
-        "version": "5.4.0"
+        "sha256": "1a7ab3r6vbkfn091cz6q3137qrazbj6dzdsw8l021856n714aan1",
+        "version": "5.5.0"
     },
     {
         "name": "org-mode",
