@@ -32,8 +32,8 @@
     {
         "name": "shellcheck",
         "publisher": "timonwong",
-        "sha256": "08mpda56dslpw98gnj3sk7nq1v881jrrlr1yfz1nw2sqclcl35si",
-        "version": "0.14.0"
+        "sha256": "1c8ls79y30rdk20xsj3cw3b6s143qac4ss2zb95s6whd20rs2y2z",
+        "version": "0.14.1"
     },
     {
         "name": "vscode-todo-highlight",
