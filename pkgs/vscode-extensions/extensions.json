@@ -248,8 +248,8 @@
     {
         "name": "lean",
         "publisher": "jroesch",
-        "sha256": "1wbbx6lzffs6hs9kflvn2g1gn2x3v2pgax76k85y72yr1h3qv0cj",
-        "version": "0.16.27"
+        "sha256": "1k7wsps8my7dcysh1b4n08nig5j9zgpqpn6mdhv1205cn2i5dhz5",
+        "version": "0.16.28"
     },
     {
         "name": "ocaml-platform",
