@@ -218,8 +218,8 @@
     {
         "name": "doxdocgen",
         "publisher": "cschlosser",
-        "sha256": "16z3mj758is8x7pqzgk24jl0ninnbiqd9lvgnzyjbzf0v5l04rwg",
-        "version": "1.2.2"
+        "sha256": "0p004rsf4ywxi5ipm7i8zzsjhv6za3jj8rsfw34jxrs2djgi70yv",
+        "version": "1.3.0"
     },
     {
         "name": "vscode-clangd",
@@ -230,8 +230,8 @@
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "02lwsqbdkgd7qj3f41lwgkqixvs0cfg6bp4sb3d7bfnppr6mg321",
-        "version": "1.56.2"
+        "sha256": "0xrnvf7p9pha1szq0lds6yvw9h2i82qh9r2jn6hc94d3lqgz03dd",
+        "version": "1.57.0"
     },
     {
         "name": "nix-lsp",
