@@ -44,8 +44,8 @@
     {
         "name": "agda-mode",
         "publisher": "banacorn",
-        "sha256": "06jna0xqldlyn3fpzf3s57w5rgdrf1n818iql03jdgf9jp9f9y7v",
-        "version": "0.2.11"
+        "sha256": "1rrfy7bps33jzggmc3zicmibfgqcgm1p9iymcfsll997yn2z40hg",
+        "version": "0.2.12"
     },
     {
         "name": "haskell",
@@ -248,8 +248,8 @@
     {
         "name": "lean",
         "publisher": "jroesch",
-        "sha256": "016g69rik64dj9xg0b05kw6jsv00w0jysmv96l03h5yzny1y3g1z",
-        "version": "0.16.31"
+        "sha256": "0jh777h7gv5sydn6g7jb3167m98fby984mdsyhqa6v4d0h9an8yp",
+        "version": "0.16.32"
     },
     {
         "name": "ocaml-platform",
