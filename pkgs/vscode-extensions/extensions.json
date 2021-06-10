@@ -92,8 +92,8 @@
     {
         "name": "vim",
         "publisher": "vscodevim",
-        "sha256": "1vd7pmlbvwcyl6g1lpgc6jzszgja5awvdxgn8g5wxsrslcn5dpsc",
-        "version": "1.21.0"
+        "sha256": "1zw9q3jaypw5db8h4fcrwabxvnm5pnb9mjyqwgprpkrd2vw5lvwi",
+        "version": "1.21.1"
     },
     {
         "name": "gitlens",
