@@ -98,8 +98,8 @@
     {
         "name": "gitlens",
         "publisher": "eamodio",
-        "sha256": "1gisnap0jw3zlv8xp3gkwwyxszghlz4f9m0l1dvn87hz08l9d31a",
-        "version": "11.5.0"
+        "sha256": "0wy23fnd21jfqw88cyspzf09yvz2bpnlxniz4bc61n4pqm7xxki1",
+        "version": "11.5.1"
     },
     {
         "name": "generic-input-method",
@@ -116,8 +116,8 @@
     {
         "name": "vscoq",
         "publisher": "maximedenes",
-        "sha256": "10l75kigl20qdi9g3c16xdglnrnmb4dzly8339zrk2hla87h263w",
-        "version": "0.3.4"
+        "sha256": "05w4d4cr40xsr0pkry1cg3p5q2ji3dqld0p560grhrjlq27clj4r",
+        "version": "0.3.5"
     },
     {
         "name": "vscode-pull-request-github",
