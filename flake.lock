@@ -2,11 +2,11 @@
   "nodes": {
     "NUR": {
       "locked": {
-        "lastModified": 1623892520,
-        "narHash": "sha256-puIdS/JIyJDmJ2SVUYzUwGekXNYumXn5MmsWsYs8sNQ=",
+        "lastModified": 1623974576,
+        "narHash": "sha256-4/3zzn0a4L7vxF88X0ICiHYYZb7b6soAEx23ej3PP8M=",
         "owner": "nix-community",
         "repo": "NUR",
-        "rev": "6dc3fc7140bb1bf52efb88ec0fdf717d09505753",
+        "rev": "66319f7def6f73bbd1c53f817badf6a57110b900",
         "type": "github"
       },
       "original": {
