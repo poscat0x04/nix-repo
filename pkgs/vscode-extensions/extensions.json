@@ -14,8 +14,8 @@
     {
         "name": "nord-visual-studio-code",
         "publisher": "arcticicestudio",
-        "sha256": "0bwzynwmil7v58yqdw1f1m70clqvliyx892xhslrgwdvw0kxc5is",
-        "version": "0.17.0"
+        "sha256": "1p3ba00832kvcpyzkvygqynfyhvy0nfaji6aiis6rss73arjlpff",
+        "version": "0.17.1"
     },
     {
         "name": "material-icon-theme",
