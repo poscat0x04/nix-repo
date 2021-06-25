@@ -102,10 +102,10 @@
       };
     "pixiv-toolkit" = buildFirefoxXpiAddon {
       pname = "pixiv-toolkit";
-      version = "4.8.0";
+      version = "4.9.0";
       addonId = "{6706d386-2d33-4e1e-bbf1-51b9e1ce47e1}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3796956/pixiv_toolkit-4.8.0-fx.xpi";
-      sha256 = "8e542f2357a83f88307b339eac8f2ce65c2117c480f8531c971b4b6b08ff19ab";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3801770/pixiv_toolkit-4.9.0-fx.xpi";
+      sha256 = "f6563ce33539e75ce9dc33b9c74c47d51f71ef684beefea26c4c4f6033ab07a6";
       meta = with lib;
       {
         homepage = "https://github.com/leoding86/webextension-pixiv-toolkit";
