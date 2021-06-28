@@ -42,10 +42,10 @@
       };
     "grammarly" = buildFirefoxXpiAddon {
       pname = "grammarly";
-      version = "8.877.0";
+      version = "8.878.0";
       addonId = "87677a2c52b84ad3a151a4a72f5bd3c4@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3801752/grammarly_for_firefox-8.877.0-an+fx.xpi";
-      sha256 = "a012913ef5f170b0997bd3fcfccb836d7bfb0a2ef7e62654041919c7f22024fc";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3803074/grammarly_for_firefox-8.878.0-an+fx.xpi";
+      sha256 = "d662f68e5eb0bf28b719c427f9d410fea804f62b66d990d6bbff041f9362448e";
       meta = with lib;
       {
         homepage = "http://grammarly.com";
