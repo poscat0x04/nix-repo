@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "1y89yz7k2i81006p6pkwmhqhmxpdp83pwpajrnfcisadd91l4nfv",
-        "version": "0.27.1"
+        "sha256": "0w8aa68xzzl5vw0blnfr6cx14qcifjmwiy5y19cnx71r59qlaf2i",
+        "version": "0.28.0"
     },
     {
         "name": "bracket-pair-colorizer",
