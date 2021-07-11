@@ -33,7 +33,6 @@ in appimageTools.wrapType2 rec {
     cp -r  ${appimageContents}/* $out
     cd $out
     chmod -R +w $out
-    mv $out/bin/${pname}-${version} $out/bin/${pname}
 
     # fixup and install desktop file
     ${desktop-file-utils}/bin/desktop-file-install --dir $out/share/applications \
