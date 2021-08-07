@@ -27,11 +27,12 @@
         vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { };
         fcitx5-material-color = callPackage ./pkgs/fcitx5-material-color { };
         standardnotes = callPackage ./pkgs/standard-notes { };
+        firefox-addons-generator = haskellPackages.callPackage ./pkgs/firefox-addons-generator { };
       };
     } // eachDefaultSystem (
       system:
       let
-        pkgs = import nixpkgs { inherit system; overlays = [ self.overlay NUR.overlay ]; config.allowUnfree = true; };
+        pkgs = import nixpkgs { inherit system; overlays = [ NUR.overlay self.overlay ]; config.allowUnfree = true; };
       in
       {
         packages =
@@ -46,9 +47,10 @@
               vscode-extensions
               fcitx5-material-color
               standardnotes
+              firefox-addons-generator
               ;
           };
-        devShell = with pkgs; with nur.repos.rycee; mkShell {
+        devShell = with nur.repos.rycee; with pkgs; mkShell {
           buildInputs = [
             curl
             jq
