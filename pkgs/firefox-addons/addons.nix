@@ -28,10 +28,10 @@
       };
     "floccus" = buildFirefoxXpiAddon {
       pname = "floccus";
-      version = "4.6.4";
+      version = "4.7.0";
       addonId = "floccus@handmadeideas.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3765492/floccus-4.6.4-fx.xpi";
-      sha256 = "93ade0995658d52335d5a14a793b4bb0e360366f6120577603d092d57e8afce3";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3820867/floccus-4.7.0-fx.xpi";
+      sha256 = "9291baf7fa1f0c8fc2702f5087edcc26e30a950d73945720a5ce2d998c28e2ca";
       meta = with lib;
       {
         homepage = "https://floccus.org";
@@ -42,10 +42,10 @@
       };
     "grammarly" = buildFirefoxXpiAddon {
       pname = "grammarly";
-      version = "8.880.0";
+      version = "8.881.0";
       addonId = "87677a2c52b84ad3a151a4a72f5bd3c4@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3813516/grammarly_for_firefox-8.880.0-an+fx.xpi";
-      sha256 = "1297f3431259a5cd6bd5bb398e63d0140efa4e332c5fa673e7af9430af78de3c";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3817317/grammarly_for_firefox-8.881.0-an+fx.xpi";
+      sha256 = "eea7e137440e5f70ab24d25758979a173540cbe26ef2cab938fbc06be750a090";
       meta = with lib;
       {
         homepage = "http://grammarly.com";
@@ -143,10 +143,10 @@
       };
     "save-to-the-wayback-machine" = buildFirefoxXpiAddon {
       pname = "save-to-the-wayback-machine";
-      version = "5.5.1";
+      version = "5.5.2";
       addonId = "{c5f00c00-e4bc-414d-9784-933857514bd0}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3782999/save_to_the_wayback_machine-5.5.1-fx.xpi";
-      sha256 = "92eb1f8b5f138d7f3d784c4476fe6e0c32e14c39eb315fe9a5bce9184e475282";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3817838/save_to_the_wayback_machine-5.5.2-fx.xpi";
+      sha256 = "430514490b96d35f9f0a7cc36df7f515408abb4f7408674de755f6b8443f20c4";
       meta = with lib;
       {
         homepage = "https://github.com/VerifiedJoseph/Save-to-the-Wayback-Machine";
@@ -170,10 +170,10 @@
       };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.37.0";
+      version = "1.37.2";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3814538/ublock_origin-1.37.0-an+fx.xpi";
-      sha256 = "484025993fc95c823ed81f7fb4028626b2f644a9d7500d3267f3b0ac59eac53b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3816867/ublock_origin-1.37.2-an+fx.xpi";
+      sha256 = "b3a3c81891acb4620e33dd548b50375aad826376044a6143b5a947d0406a559e";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
