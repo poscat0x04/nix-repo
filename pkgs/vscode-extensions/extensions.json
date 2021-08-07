@@ -20,8 +20,8 @@
     {
         "name": "material-icon-theme",
         "publisher": "PKief",
-        "sha256": "06xsb1dqqdgr9ack0d92rc96qkhymyfba4msm884l52scd6jr7mx",
-        "version": "4.8.0"
+        "sha256": "133mmcvbmks3xp2wlay00gzbnqmjm019ziksaz4xadc7r19cy0fv",
+        "version": "4.9.0"
     },
     {
         "name": "vscode-eslint",
@@ -32,8 +32,8 @@
     {
         "name": "shellcheck",
         "publisher": "timonwong",
-        "sha256": "05z314sw9nqym3qlj7dcwm0fz1hb23xppzqn3nr2wcj17hs8zz4m",
-        "version": "0.14.4"
+        "sha256": "0yzmcb38lnbsdv2mzrcj942x325y0awxh0r837d1ins0i6mky6j6",
+        "version": "0.15.2"
     },
     {
         "name": "vscode-todo-highlight",
@@ -50,8 +50,8 @@
     {
         "name": "haskell",
         "publisher": "haskell",
-        "sha256": "1jk702fd0b0aqfryixpiy6sc8njzd1brd0lbkdhcifp0qlbdwki0",
-        "version": "1.4.0"
+        "sha256": "1y3c09m0dcx21kksxydmys9d040571chfh7yc7qsa33p4ha522jj",
+        "version": "1.5.1"
     },
     {
         "name": "language-haskell",
@@ -86,8 +86,8 @@
     {
         "name": "vscode-yaml",
         "publisher": "redhat",
-        "sha256": "1phc4s0iglbiq77ih4g5llmmvdldf3rvyfdqfca2dn0vapdg73hv",
-        "version": "0.21.1"
+        "sha256": "1ffsah3pwxfa8ya2c0a3q1wh5ngh621zgidfwl8iggnrl7nbwl3k",
+        "version": "0.22.0"
     },
     {
         "name": "vim",
@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "0w8aa68xzzl5vw0blnfr6cx14qcifjmwiy5y19cnx71r59qlaf2i",
-        "version": "0.28.0"
+        "sha256": "1isg0s0zlsg6lshihjxk2kjccaprjw8x7xhqsxqk739ld13ahvlx",
+        "version": "0.29.0"
     },
     {
         "name": "bracket-pair-colorizer",
@@ -230,8 +230,8 @@
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "1v2jyznwkdhd90wh5wi9wsg3m40f5dbrw7yg55xrfg8y0dkanwlw",
-        "version": "1.59.1"
+        "sha256": "0cscg0mxyvwnckwa88dr8hlb2nvn2cpzaz2g5v8sqxa4al5xqpwd",
+        "version": "1.59.2"
     },
     {
         "name": "nix-lsp",
