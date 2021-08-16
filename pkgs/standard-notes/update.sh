@@ -9,7 +9,6 @@ then
   exit 1
 fi
 
-url="https://github.com/vadimcn/vscode-lldb/releases/download/$version/codelldb-x86_64-linux.vsix"
 url="https://github.com/standardnotes/desktop/releases/download/v$version/standard-notes-$version-linux-x86_64.AppImage"
 sha256=$(nix-prefetch-url $url)
 
