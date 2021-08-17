@@ -23,8 +23,8 @@
           nord-dircolors = callPackage ./pkgs/nord-dircolors { };
           nord-konsole = callPackage ./pkgs/nord-konsole { };
           v2ray-rules-dat = {
-            geoip = callPackage ./pkgs/v2ray-rules-dat/geoip.nix { };
-            geosite = callPackage ./pkgs/v2ray-rules-dat/geosite.nix { };
+            "geoip.dat" = callPackage ./pkgs/v2ray-rules-dat/geoip.nix { };
+            "geosite.dat" = callPackage ./pkgs/v2ray-rules-dat/geosite.nix { };
           };
         };
         firefox-addons = callPackages ./pkgs/firefox-addons { };
