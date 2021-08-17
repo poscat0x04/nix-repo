@@ -31,7 +31,6 @@
         vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { };
         fcitx5-material-color = callPackage ./pkgs/fcitx5-material-color { };
         standardnotes = callPackage ./pkgs/standard-notes { };
-        firefox-addons-generator = haskellPackages.callPackage ./pkgs/firefox-addons-generator { };
       };
     } // eachDefaultSystem (
       system:
@@ -51,10 +50,9 @@
               vscode-extensions
               fcitx5-material-color
               standardnotes
-              firefox-addons-generator
               ;
           };
-        devShell = with nur.repos.rycee; with pkgs; mkShell {
+        devShell = with pkgs; with nur.repos.rycee; mkShell {
           buildInputs = [
             curl
             jq
