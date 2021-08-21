@@ -31,6 +31,7 @@
         vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { };
         fcitx5-material-color = callPackage ./pkgs/fcitx5-material-color { };
         standardnotes = callPackage ./pkgs/standard-notes { };
+        china-ip-list-nft = callPackage ./pkgs/china-ip-list-nft { };
       };
     } // eachDefaultSystem (
       system:
@@ -50,6 +51,7 @@
               vscode-extensions
               fcitx5-material-color
               standardnotes
+              china-ip-list-nft
               ;
           };
         devShell = with pkgs; with nur.repos.rycee; mkShell {
