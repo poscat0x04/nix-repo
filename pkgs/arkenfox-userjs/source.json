@@ -1,7 +1,7 @@
 {
   "url": "https://github.com/arkenfox/user.js",
-  "rev": "9f08c7c0f4b79bbd8b37b5ad3321760d44866265",
-  "sha256": "1gzgghymqxa0hm2g2v41khpzhyp5rhlr4cs5hg0dr8kgpsmn0vz9",
+  "rev": "3697bd8d3a3a011ecfc82e2b345dd7d6bf1880fa",
+  "sha256": "1iacbhw34rpwnffcnny24fgyq3w9zlqx75wh5jjpv67akvm2lam8",
   "fetchSubmodules": false,
   "deepClone": false,
   "leaveDotGit": false
