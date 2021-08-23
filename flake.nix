@@ -33,6 +33,10 @@
         standardnotes = callPackage ./pkgs/standard-notes { };
         china-ip-list-nft = callPackage ./pkgs/china-ip-list-nft { };
       };
+
+      nixosModules = {
+        smartdns-china-domain-list-updater = import ./modules/smartdns-china-domain-list-updater.nix;
+      };
     } // eachDefaultSystem (
       system:
       let
