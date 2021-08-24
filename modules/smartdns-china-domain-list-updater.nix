@@ -7,7 +7,7 @@ let
   cfg = config.services.${name};
   lists = [ "accelerated-domains" "google" "apple" ];
   toCmd = list: ''
-    ${pkgs.curl}/bin/curl https://cdn.jsdelivr.net/gh/felixonmars/dnsmasq-china-list/${list}.china.conf \
+    ${pkgs.curl}/bin/curl --doh-url https://101.6.6.6:8443/dns-query https://cdn.jsdelivr.net/gh/felixonmars/dnsmasq-china-list/${list}.china.conf \
       | sed -r 's|server=/(.*)/114.114.114.114$|nameserver /\1/${cfg.group}|' > $STATE_DIRECTORY/${list}.conf
   '';
   script = pkgs.writeShellScript "get-china-domain-list" ''
