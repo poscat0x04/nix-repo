@@ -28,7 +28,7 @@ in {
     };
   };
 
-  config = lib.mkIf cfg.enable {
+  config = mkIf cfg.enable {
     systemd = {
       services.${name} = {
         after = [ "network-online.target" ];
