@@ -72,6 +72,8 @@ in {
   config = mkIf cfg.enable {
     systemd = {
       services.${name} = {
+        after = [ "network-online.target" ];
+        requires = [ "network-online.target" ];
         serviceConfig = {
           Type = "oneshot";
           PrivateTmp = true;
