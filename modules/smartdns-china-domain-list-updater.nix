@@ -31,6 +31,8 @@ in {
   config = lib.mkIf cfg.enable {
     systemd = {
       services.${name} = {
+        after = [ "network-online.target" ];
+        requires = [ "network-online.target" ];
         serviceConfig = {
           Type = "oneshot";
           RemainAfterExit = true;
