@@ -9,7 +9,7 @@ stdenv.mkDerivation {
 
   src = fetchgit (fromJSON (readFile ./source.json));
 
-  phases = "installPhase"; 
+  phases = "installPhase";
 
   installPhase = ''
     cp $src/src/dir_colors $out
