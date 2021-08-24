@@ -36,6 +36,7 @@
 
       nixosModules = {
         smartdns-china-domain-list-updater = import ./modules/smartdns-china-domain-list-updater.nix;
+        nftables-china-ip-list-updater = import ./modules/nftables-china-ip-list-updater.nix;
       };
     } // eachDefaultSystem (
       system:
