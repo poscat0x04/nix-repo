@@ -46,6 +46,8 @@ let
   '';
 
   script = pkgs.writeShellScript "update-china-ip-list" ''
+    set -e
+    set -o pipefail
     echo "define china_ip_list = {" >> /tmp/china-ip-list.nft
     ${pkgs.curl}/bin/curl --doh-url https://101.6.6.6:8443/dns-query https://cdn.jsdelivr.net/gh/17mon/china_ip_list/china_ip_list.txt \
       | sed -r 's|(.*)|  \1,|'      >> /tmp/china-ip-list.nft
