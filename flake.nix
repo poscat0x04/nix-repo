@@ -32,6 +32,7 @@
         fcitx5-material-color = callPackage ./pkgs/fcitx5-material-color { };
         standardnotes = callPackage ./pkgs/standard-notes { };
         china-ip-list-nft = callPackage ./pkgs/china-ip-list-nft { };
+        unbound-china-domain-list = callPackage ./pkgs/unbound-china-domain-list { };
         vlmcsd = callPackage ./pkgs/vlmcsd { };
       };
 
@@ -59,6 +60,7 @@
               fcitx5-material-color
               standardnotes
               china-ip-list-nft
+              unbound-china-domain-list
               vlmcsd
               ;
           };
