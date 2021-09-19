@@ -25,7 +25,7 @@ jobs:
       - name: run nix flake update
         run: |
           echo "updating lock file"
-          update=$(nix flake update . --recreate-lock-file 2>&1 | grep Updated)
+          update=$(nix flake update 2>&1 | grep Updated)
           git add flake.lock
           git commit -m "flake.lock: Auto update
 
