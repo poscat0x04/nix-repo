@@ -34,6 +34,9 @@
         china-ip-list-nft = callPackage ./pkgs/china-ip-list-nft { };
         unbound-china-domain-list = callPackage ./pkgs/unbound-china-domain-list { };
         vlmcsd = callPackage ./pkgs/vlmcsd { };
+        python3Packages = with self.python3Packages; super.python3Packages // {
+          ctypescrypto = callPackage ./pkgs/python-ctypescrypto { };
+        };
       };
 
       nixosModules = {
@@ -62,6 +65,7 @@
               china-ip-list-nft
               unbound-china-domain-list
               vlmcsd
+              python3Packages
               ;
           };
         devShell = with pkgs; with nur.repos.rycee; mkShell {
