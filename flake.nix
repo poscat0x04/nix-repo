@@ -36,6 +36,7 @@
         vlmcsd = callPackage ./pkgs/vlmcsd { };
         python3Packages = with self.python3Packages; super.python3Packages // {
           ctypescrypto = callPackage ./pkgs/python-ctypescrypto { };
+          fleep = callPackage ./pkgs/python-fleep { };
         };
       };
 
