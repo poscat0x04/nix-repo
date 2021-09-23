@@ -40,6 +40,7 @@
           ctypescrypto = callPackage ./pkgs/python-ctypescrypto { };
           fleep = callPackage ./pkgs/python-fleep { };
         };
+        jhwhw-tex = { pkgs = [ (callPackage ./pkgs/jhwhw-tex { }) ]; };
       };
 
       nixosModules = {
@@ -71,6 +72,7 @@
               owlink
               opendrop
               python3Packages
+              jhwhw-tex
               ;
           };
         devShell = with pkgs; with nur.repos.rycee; mkShell {
