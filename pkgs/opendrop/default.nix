@@ -14,7 +14,8 @@ let
   pillow
   requests
   requests-toolbelt
-  zeroconf;
+  zeroconf
+  setuptools;
 in buildPythonPackage rec {
   pname = "opendrop";
 
@@ -34,5 +35,6 @@ in buildPythonPackage rec {
     requests
     requests-toolbelt
     zeroconf
+    setuptools
   ];
 }
