@@ -2,6 +2,7 @@
   "url": "https://github.com/17mon/china_ip_list",
   "rev": "237df2a16a093786be121319621deda4e9a8a3e0",
   "sha256": "0q02vdgr3577hdvd26h9wyhdfxl678hyx9hkjff38kiy5q2qph1c",
+  "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
   "leaveDotGit": false
