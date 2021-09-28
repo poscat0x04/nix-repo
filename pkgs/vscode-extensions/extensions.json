@@ -14,8 +14,8 @@
     {
         "name": "nord-visual-studio-code",
         "publisher": "arcticicestudio",
-        "sha256": "1caism5qa62pgyggxyary2nv9xyqyym62x02kzxdar5n3xwsk3jj",
-        "version": "0.18.0"
+        "sha256": "05bmzrmkw9syv2wxqlfddc3phjads6ql2grknws85fcqzqbfl1kb",
+        "version": "0.19.0"
     },
     {
         "name": "material-icon-theme",
@@ -44,14 +44,14 @@
     {
         "name": "agda-mode",
         "publisher": "banacorn",
-        "sha256": "0mkkky1g1zz64vb7ykhv509rh1sxg88xh6yncm2138wf4hbmzwfq",
-        "version": "0.2.19"
+        "sha256": "0ailiq2ib3cv69ikvsa2kjwk0p69vfsgrvwx5mvcagyhnsnxdhbv",
+        "version": "0.3.2"
     },
     {
         "name": "haskell",
         "publisher": "haskell",
-        "sha256": "1l6nrbqkq1p62dkmzs4sy0rxbid3qa1104s3fd9fzkmc1sldzgsn",
-        "version": "1.6.1"
+        "sha256": "11myrk3hcc2hdw2n07w092s78aa6igpm7rgvn7ac9rbkkvc66rsi",
+        "version": "1.7.1"
     },
     {
         "name": "language-haskell",
@@ -230,8 +230,8 @@
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "0wls3jm4rbn7sqvrl03llcyfvcagc7ff41b89cddn9b4bwn3qi88",
-        "version": "1.60.4"
+        "sha256": "1i8hpw5sh9klpinnzv1d46bgra29lfk4nhlfncc0w34lnl4xpd8a",
+        "version": "1.61.0"
     },
     {
         "name": "nix-lsp",
