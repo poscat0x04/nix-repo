@@ -1,0 +1,63 @@
+name: auto update
+
+on:
+  push:
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: master
+          fetch-depth: 0
+      - uses: cachix/install-nix-action@v13
+        with:
+          install_url: https://github.com/numtide/nix-unstable-installer/releases/download/nix-2.4pre20210823_af94b54/install
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+      - uses: cachix/cachix-action@v10
+        with:
+          name: nix-repo
+          authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+          skipPush: true
+      - name: Setup config
+        run: |
+          git config user.name actions
+          git config user.email "actions@github.com"
+      - name: Run update script
+        run: |
+          nix develop -c bash update.sh
+          git push origin master
+      - name: Push to cachix
+        run: |
+          nix flake archive --json \
+            | jq -r '.path,(.inputs|to_entries[].value.path)' \
+            | cachix push nix-repo
+
+          drvs=(
+            vscode-insiders
+            prefs-cleaner
+            extra-files.arkenfox-userjs
+            extra-files.nord-alacritty
+            extra-files.nord-dircolors
+            extra-files.nord-konsole
+            extra-files.v2ray-rules-dat.\"geoip.dat\"
+            extra-files.v2ray-rules-dat.\"geosite.dat\"
+            fcitx5-material-color
+            china-ip-list-nft
+            unbound-china-domain-list
+            vlmcsd
+            owlink
+            opendrop
+          )
+
+          for drv in ${drvs[@]}
+          do
+            nix build -L --json ".#${drv}" \
+              | jq -r '.[].outputs | to_entries[].value' \
+              | cachix push nix-repo
+          done
