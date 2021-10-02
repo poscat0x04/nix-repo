@@ -5,9 +5,13 @@
     nixpkgs.url = github:poscat0x04/nixpkgs/dev;
     NUR.url = github:nix-community/NUR;
     flake-utils.url = github:poscat0x04/flake-utils;
+    rust-overlay = {
+      url = github:oxalica/rust-overlay;
+      inputs.nixpkgs.follows = "/nixpkgs";
+    };
   };
 
-  outputs = { self, nixpkgs, NUR, flake-utils, ... }: with flake-utils;
+  outputs = { self, nixpkgs, NUR, flake-utils, rust-overlay, ... }: with flake-utils;
     {
       overlay = self: super: with self; {
         vscode-insiders = callPackage ./pkgs/vscode-insiders { };
@@ -41,6 +45,7 @@
           fleep = callPackage ./pkgs/python-fleep { };
         };
         jhwhw-tex = { pkgs = [ (callPackage ./pkgs/jhwhw-tex { }) ]; };
+        cloudflare-ddns = callPackage ./pkgs/cloudflare-ddns { };
       };
 
       nixosModules = {
@@ -51,7 +56,7 @@
     } // eachDefaultSystem (
       system:
       let
-        pkgs = import nixpkgs { inherit system; overlays = [ NUR.overlay self.overlay ]; config.allowUnfree = true; };
+        pkgs = import nixpkgs { inherit system; overlays = [ NUR.overlay rust-overlay.overlay self.overlay ]; config.allowUnfree = true; };
       in
       {
         packages =
@@ -73,6 +78,7 @@
               opendrop
               python3Packages
               jhwhw-tex
+              cloudflare-ddns
               ;
           };
         devShell = with pkgs; with nur.repos.rycee; mkShell {

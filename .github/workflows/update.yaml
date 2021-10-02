@@ -53,6 +53,7 @@ jobs:
             vlmcsd
             owlink
             opendrop
+            cloudflare-ddns
           )
 
           for drv in ${drvs[@]}
