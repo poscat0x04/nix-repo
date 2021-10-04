@@ -46,6 +46,9 @@
         };
         jhwhw-tex = { pkgs = [ (callPackage ./pkgs/jhwhw-tex { }) ]; };
         cloudflare-ddns = callPackage ./pkgs/cloudflare-ddns { };
+        nginxModules = super.nginxModules // {
+          http-digest-auth = callPackage ./pkgs/nginx-http-auth-digest { };
+        };
       };
 
       nixosModules = {
@@ -80,6 +83,7 @@
               python3Packages
               jhwhw-tex
               cloudflare-ddns
+              nginxModules
               ;
           };
         devShell = with pkgs; with nur.repos.rycee; mkShell {

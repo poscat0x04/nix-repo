@@ -1,0 +1,9 @@
+{
+  "url": "https://github.com/samizdatco/nginx-http-auth-digest",
+  "rev": "ebf25bc5c24b738b293d4f2f567e16796f5fc9d8",
+  "sha256": "1qyv6bb9qd7yhan862bmxhgp16ibm5cffqgciw6wf7lysqzwnkdn",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "leaveDotGit": false
+}
