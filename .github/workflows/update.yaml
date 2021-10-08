@@ -66,6 +66,7 @@ jobs:
             cloudflare-ddns
             standardnotes
             unbound-full
+            discord
           )
 
           for drv in ${drvs[@]}
