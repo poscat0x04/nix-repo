@@ -41,6 +41,7 @@ jobs:
       - name: Run update script
         run: |
           nix develop -c bash update.sh
+          git pull --rebase
           git push origin master
       - name: Push to cachix
         run: |
