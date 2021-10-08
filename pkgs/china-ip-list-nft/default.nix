@@ -12,7 +12,6 @@ stdenv.mkDerivation {
   buildPhase = ''
     echo "define china_ip_list = {" >> china-ip-list.nft
     sed -r 's|(.*)|  \1,|' china_ip_list.txt >> china-ip-list.nft
-    echo "" >> china-ip-list.nft
     echo "}" >> china-ip-list.nft
   '';
 
