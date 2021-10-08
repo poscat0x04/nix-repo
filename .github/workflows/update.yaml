@@ -3,7 +3,7 @@ name: auto update
 on:
   push:
   schedule:
-    - cron: '0 * * * *'
+    - cron: "0 * * * *"
 
 jobs:
   update:
@@ -22,12 +22,22 @@ jobs:
       - uses: cachix/cachix-action@v10
         with:
           name: nix-repo
-          authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+          authToken: "${{ secrets.CACHIX_AUTH_TOKEN }}"
           skipPush: true
       - name: Setup config
         run: |
           git config user.name actions
           git config user.email "actions@github.com"
+      - name: Update flake input nixpkgs
+        run: |
+          echo "updating flake input nixpkgs"
+          update=$(nix flake lock --update-input nixpkgs 2>&1 | grep -v warning)
+          git add flake.lock
+          git commit -m "flake.lock: Auto update
+
+          Input changes:
+
+          $update" || echo "No changes to commit"
       - name: Run update script
         run: |
           nix develop -c bash update.sh
@@ -54,10 +64,13 @@ jobs:
             owlink
             opendrop
             cloudflare-ddns
+            standardnotes
+            unbound-full
           )
 
           for drv in ${drvs[@]}
           do
+            echo "Building ${drv}"
             nix build -L --json ".#${drv}" \
               | jq -r '.[].outputs | to_entries[].value' \
               | cachix push nix-repo
