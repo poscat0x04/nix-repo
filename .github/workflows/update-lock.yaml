@@ -25,7 +25,7 @@ jobs:
       - name: run nix flake update
         run: |
           echo "updating lock file"
-          update=$(nix flake update 2>&1 | grep -v warning)
+          update=$(nix flake update 2>&1 | grep -v warning || echo "Nothing")
           git add flake.lock
           git commit -m "flake.lock: Auto update
 
@@ -33,3 +33,5 @@ jobs:
 
           $update" || echo "No changes to commit"
           git push origin master
+          echo "updated:
+          $update"

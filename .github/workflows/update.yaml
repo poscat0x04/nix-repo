@@ -39,7 +39,6 @@ jobs:
 
           $update" || echo "No changes to commit"
           echo "updated:
-
           $update"
       - name: Run update script
         run: |
