@@ -1,5 +1,5 @@
 { lib, stdenv, fetchurl, vscode-utils, extractNuGet
-, icu, curl, openssl, lttng-ust, autoPatchelfHook
+, icu, curl, openssl, lttng-ust-compat, autoPatchelfHook
 , python3, musl
 }:
 
@@ -22,7 +22,7 @@ in vscode-utils.buildVscodeMarketplaceExtension rec {
     icu
     curl
     openssl
-    lttng-ust
+    lttng-ust-compat
     musl
   ];
 

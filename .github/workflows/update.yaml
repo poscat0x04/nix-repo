@@ -67,6 +67,7 @@ jobs:
             standardnotes
             unbound-full
             discord
+            lttng-ust-compat
           )
 
           for drv in ${drvs[@]}

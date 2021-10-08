@@ -49,6 +49,9 @@
         nginxModules = super.nginxModules // {
           http-digest-auth = callPackage ./pkgs/nginx-http-auth-digest { };
         };
+        lttng-ust-compat = lttng-ust.overrideAttrs (_: {
+          postInstall = "ln -s $out/lib/liblttng-ust.so.1.0.0 $out/lib/liblttng-ust.so.0";
+        });
       };
 
       nixosModules = {
@@ -84,6 +87,7 @@
               jhwhw-tex
               cloudflare-ddns
               nginxModules
+              lttng-ust-compat
               ;
           };
         devShell = with pkgs; with nur.repos.rycee; mkShell {
