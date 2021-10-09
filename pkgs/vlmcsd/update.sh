@@ -8,7 +8,7 @@ then
   exit 1
 fi
 
-url="https://archive.fastgit.org/Wind4/vlmcsd/archive/$version.tar.gz"
+url="https://github.com/Wind4/vlmcsd/archive/$version.tar.gz"
 sha256=$(nix-prefetch-url $url)
 
 echo -n $version | tee version

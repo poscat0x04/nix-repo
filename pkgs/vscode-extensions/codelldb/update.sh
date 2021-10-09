@@ -8,7 +8,7 @@ then
   exit 1
 fi
 
-url="https://download.fastgit.org/vadimcn/vscode-lldb/releases/download/$version/codelldb-x86_64-linux.vsix"
+url="https://github.com/vadimcn/vscode-lldb/releases/download/$version/codelldb-x86_64-linux.vsix"
 sha256=$(nix-prefetch-url $url)
 
 echo -n $version | tee version

@@ -8,8 +8,8 @@ then
   exit 1
 fi
 
-url_geoip="https://download.fastgit.org/Loyalsoldier/v2ray-rules-dat/releases/download/$version/geoip.dat"
-url_geosite="https://download.fastgit.org/Loyalsoldier/v2ray-rules-dat/releases/download/$version/geosite.dat"
+url_geoip="https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/geoip.dat"
+url_geosite="https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/geosite.dat"
 sha256_geoip=$(nix-prefetch-url $url_geoip)
 sha256_geosite=$(nix-prefetch-url $url_geosite)
 
