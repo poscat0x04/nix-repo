@@ -268,5 +268,11 @@
         "publisher": "rust-lang",
         "sha256": "039ns854v1k4jb9xqknrjkj8lf62nfcpfn0716ancmjc4f0xlzb3",
         "version": "0.7.8"
+    },
+    {
+        "name": "ldif",
+        "publisher": "jtavin",
+        "sha256": "0v395lmyyrlx5s3pwdmfipaj5iwja6shqf1lkdil7a3pns16m7hj",
+        "version": "0.2.0"
     }
 ]
