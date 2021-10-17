@@ -30,6 +30,7 @@
             "geoip.dat" = callPackage ./pkgs/v2ray-rules-dat/geoip.nix { };
             "geosite.dat" = callPackage ./pkgs/v2ray-rules-dat/geosite.nix { };
           };
+          nginx-fancyindex-flat-theme = callPackage ./pkgs/nginx-fancyindex-flat-theme { };
         };
         firefox-addons = callPackages ./pkgs/firefox-addons { };
         vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { };

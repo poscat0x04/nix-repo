@@ -60,6 +60,7 @@ jobs:
             extra-files.nord-konsole
             extra-files.v2ray-rules-dat.\"geoip.dat\"
             extra-files.v2ray-rules-dat.\"geosite.dat\"
+            extra-files.nginx-fancyindex-flat-theme
             fcitx5-material-color
             china-ip-list-nft
             unbound-china-domain-list
