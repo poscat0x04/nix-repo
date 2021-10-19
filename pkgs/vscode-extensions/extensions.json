@@ -170,8 +170,8 @@
     {
         "name": "ide-purescript",
         "publisher": "nwolverson",
-        "sha256": "102i3ygc1sr5apbv0minvh810jv5k3khfqrygd8qzhr1yy9fiq4k",
-        "version": "0.25.2"
+        "sha256": "1h113rmd4y7hfhmizkxg18yx65azb9sq01bd827b4xr1yhjdcvir",
+        "version": "0.25.4"
     },
     {
         "name": "spellright",
