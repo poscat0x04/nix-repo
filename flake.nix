@@ -90,6 +90,7 @@
               nginxModules
               lttng-ust-compat
               ;
+              inherit (pkgs) discord;
           };
         devShell = with pkgs; with nur.repos.rycee; mkShell {
           buildInputs = [

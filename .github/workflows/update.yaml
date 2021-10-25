@@ -69,7 +69,6 @@ jobs:
             opendrop
             cloudflare-ddns
             standardnotes
-            unbound-full
             discord
             vscode-extensions.rust-lang.rust
             vscode-extensions.matklad.rust-analyzer
