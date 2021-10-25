@@ -46,5 +46,19 @@
   },
   {
     "slug": "save-to-the-wayback-machine"
+  },
+  {
+    "slug": "bitwarden-password-manager",
+    "pname": "bitwarden"
+  },
+  {
+    "slug": "bypass-paywalls-clean"
+  },
+  {
+    "slug": "sponsorblock"
+  },
+  {
+    "slug": "超星慕课小工具",
+    "pname": "cxmooc"
   }
 ]
