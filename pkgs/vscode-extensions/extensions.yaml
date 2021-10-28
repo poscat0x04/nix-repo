@@ -90,3 +90,13 @@
   publisher: rust-lang
 - name: ldif
   publisher: jtavin
+- name: vscode-cabal-fmt
+  publisher: berberman
+- name: nord-light
+  publisher: huytd
+- name: vscode-theme-onelight
+  publisher: akamud
+- name: todo-tree
+  publisher: Gruntfuggly
+- name: bracket-pair-colorizer
+  publisher: CoenraadS
