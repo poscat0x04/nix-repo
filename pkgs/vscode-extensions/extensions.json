@@ -274,5 +274,35 @@
         "publisher": "jtavin",
         "sha256": "0v395lmyyrlx5s3pwdmfipaj5iwja6shqf1lkdil7a3pns16m7hj",
         "version": "0.2.0"
+    },
+    {
+        "name": "vscode-cabal-fmt",
+        "publisher": "berberman",
+        "sha256": "0kn5j8rpaidsk8xbbidpykmhpyxmxrmlj1ky9kjjbxxy8rl43w09",
+        "version": "0.0.2"
+    },
+    {
+        "name": "nord-light",
+        "publisher": "huytd",
+        "sha256": "1a3gajk7k3k0pr050zhx1hhlby8skq1fciyi52x8z0i0r8xp0bwy",
+        "version": "0.0.2"
+    },
+    {
+        "name": "vscode-theme-onelight",
+        "publisher": "akamud",
+        "sha256": "1mzd77sv6lb6kfv5fvdvzggs488q553cf752byrml981ys9r7khz",
+        "version": "2.2.3"
+    },
+    {
+        "name": "todo-tree",
+        "publisher": "Gruntfuggly",
+        "sha256": "0rwxjnrl44rnhx3183037k6435xs4772p58a37azl5cahsyav1hk",
+        "version": "0.0.214"
+    },
+    {
+        "name": "bracket-pair-colorizer",
+        "publisher": "CoenraadS",
+        "sha256": "0r3bfp8kvhf9zpbiil7acx7zain26grk133f0r0syxqgml12i652",
+        "version": "1.0.61"
     }
 ]
