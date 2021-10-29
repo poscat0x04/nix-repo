@@ -38,8 +38,8 @@
     {
         "name": "vscode-todo-highlight",
         "publisher": "wayou",
-        "sha256": "0s925rb668spv602x6g7sld2cs5ayiq7273963v9prvgsr0drlrr",
-        "version": "1.0.4"
+        "sha256": "1sg4zbr1jgj9adsj3rik5flcn6cbr4k2pzxi446rfzbzvcqns189",
+        "version": "1.0.5"
     },
     {
         "name": "agda-mode",
@@ -140,8 +140,8 @@
     {
         "name": "vscode-todo-highlight",
         "publisher": "wayou",
-        "sha256": "0s925rb668spv602x6g7sld2cs5ayiq7273963v9prvgsr0drlrr",
-        "version": "1.0.4"
+        "sha256": "1sg4zbr1jgj9adsj3rik5flcn6cbr4k2pzxi446rfzbzvcqns189",
+        "version": "1.0.5"
     },
     {
         "name": "discord-vscode",
