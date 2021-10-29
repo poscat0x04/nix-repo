@@ -44,8 +44,6 @@
   publisher: CoenraadS
 - name: path-intellisense
   publisher: christian-kohler
-- name: vscode-todo-highlight
-  publisher: wayou
 - name: discord-vscode
   publisher: icrawl
 - name: org-mode
