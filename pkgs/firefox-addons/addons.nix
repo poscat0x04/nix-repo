@@ -12,6 +12,33 @@
         platforms = platforms.all;
         };
       };
+    "bitwarden" = buildFirefoxXpiAddon {
+      pname = "bitwarden";
+      version = "1.54.0";
+      addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3859577/bitwarden_free_password_manager-1.54.0-an+fx.xpi";
+      sha256 = "232b50247ea309b98c0c022fea9d8ca5ef227eb539bf27c58c2fd83d8270d9d7";
+      meta = with lib;
+      {
+        homepage = "https://bitwarden.com";
+        description = "A secure and free password manager for all of your devices.";
+        license = licenses.gpl3;
+        platforms = platforms.all;
+        };
+      };
+    "bypass-paywalls-clean" = buildFirefoxXpiAddon {
+      pname = "bypass-paywalls-clean";
+      version = "2.4.1.3";
+      addonId = "{d133e097-46d9-4ecc-9903-fa6a722a6e0e}";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3859747/bypass_paywalls_clean-2.4.1.3-an+fx.xpi";
+      sha256 = "3fdb940e7830d40c14aa53693d423010054fbaf68ce01141caf99915a1feea73";
+      meta = with lib;
+      {
+        homepage = "https://gitlab.com/magnolia1234/bypass-paywalls-firefox-clean";
+        description = "Bypass Paywalls of (custom) news sites";
+        platforms = platforms.all;
+        };
+      };
     "ctrl-number-to-switch-tabs" = buildFirefoxXpiAddon {
       pname = "ctrl-number-to-switch-tabs";
       version = "1.0.1";
@@ -26,12 +53,26 @@
         platforms = platforms.all;
         };
       };
+    "cxmooc" = buildFirefoxXpiAddon {
+      pname = "cxmooc";
+      version = "2.5.1";
+      addonId = "love@xloli.top";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3683505/addon-2.5.1-an+fx.xpi";
+      sha256 = "b1f4cf97546f8895816ecf0e711f2586a7eaabd4847b47209bdc12318a0194ed";
+      meta = with lib;
+      {
+        homepage = "https://blog.icodef.com";
+        description = "一个 大学生网课 学习工具,火狐,谷歌,油猴支持.全自动任务,视频倍速";
+        license = licenses.mit;
+        platforms = platforms.all;
+        };
+      };
     "floccus" = buildFirefoxXpiAddon {
       pname = "floccus";
-      version = "4.8.2";
+      version = "4.8.3";
       addonId = "floccus@handmadeideas.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3846240/floccus-4.8.2-fx.xpi";
-      sha256 = "dbcef7b3979f27fb7fa6ab14d37345ceacc99a9107bc811ee4a8cc20aa7c10d0";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3857658/floccus-4.8.3-fx.xpi";
+      sha256 = "9a8362df3a44fc6fc7894ab16e9fb60a12efeff24e4d9c02fa40c47c524e4cde";
       meta = with lib;
       {
         homepage = "https://floccus.org";
@@ -42,10 +83,10 @@
       };
     "grammarly" = buildFirefoxXpiAddon {
       pname = "grammarly";
-      version = "8.887.0";
+      version = "8.888.0";
       addonId = "87677a2c52b84ad3a151a4a72f5bd3c4@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3850476/grammarly_for_firefox-8.887.0-an+fx.xpi";
-      sha256 = "989b9d0fbaf0fa0568620b6ab69391115f37d09da98b9cc17ea3960619ded96b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3857504/grammarly_for_firefox-8.888.0-an+fx.xpi";
+      sha256 = "8e0e412c6276d077ebab06267bd084e87aa52052718b41164628dbdc985b5400";
       meta = with lib;
       {
         homepage = "http://grammarly.com";
@@ -74,10 +115,10 @@
       };
     "i-dont-care-about-cookies" = buildFirefoxXpiAddon {
       pname = "i-dont-care-about-cookies";
-      version = "3.3.3";
+      version = "3.3.4";
       addonId = "jid1-KKzOGWgsW3Ao4Q@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3841420/i_dont_care_about_cookies-3.3.3-an+fx.xpi";
-      sha256 = "a504ba2934d48f4bf586ac5d19be367677661025ec4353e5e9721f72e569b696";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3859850/i_dont_care_about_cookies-3.3.4-an+fx.xpi";
+      sha256 = "c0132a28504b3de56af10088bfdf189d03540201515e614de32bdda45e8d6eda";
       meta = with lib;
       {
         homepage = "https://www.i-dont-care-about-cookies.eu/";
@@ -115,10 +156,10 @@
       };
     "plasma-integration" = buildFirefoxXpiAddon {
       pname = "plasma-integration";
-      version = "1.8.0.1";
+      version = "1.8.1";
       addonId = "plasma-browser-integration@kde.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3715245/plasma_integration-1.8.0.1-fx.xpi";
-      sha256 = "226f0931a139346d78d0d8ae950688a731cb07a3e430b3b3f779585ae33714e7";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3859385/plasma_integration-1.8.1-fx.xpi";
+      sha256 = "e156e82091bbff44cb9d852e16aedacdcc0819c5a3b8cb34cedd77acf566c5c4";
       meta = with lib;
       {
         homepage = "http://kde.org";
@@ -152,6 +193,20 @@
         homepage = "https://github.com/VerifiedJoseph/Save-to-the-Wayback-Machine";
         description = "Quickly save web pages to the Internet Archive's Wayback Machine and see the last time your current page was archived.";
         license = licenses.gpl3;
+        platforms = platforms.all;
+        };
+      };
+    "sponsorblock" = buildFirefoxXpiAddon {
+      pname = "sponsorblock";
+      version = "3.5.1";
+      addonId = "sponsorBlocker@ajay.app";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3859682/sponsorblock_skip_sponsorships_on_youtube-3.5.1-an+fx.xpi";
+      sha256 = "1a230d32ab7441b6e60f034b21771dc0c7ccbeafea732748ea802048308e2b17";
+      meta = with lib;
+      {
+        homepage = "https://sponsor.ajay.app";
+        description = "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos.\n\nOther browsers: https://sponsor.ajay.app";
+        license = licenses.lgpl3;
         platforms = platforms.all;
         };
       };
