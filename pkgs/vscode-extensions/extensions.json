@@ -134,8 +134,8 @@
     {
         "name": "path-intellisense",
         "publisher": "christian-kohler",
-        "sha256": "0fqfxhn5ap2lvwnx5spybj1k55nifqnpaqr3ki2wcrbb0hkmg1l4",
-        "version": "2.4.0"
+        "sha256": "0pxb0aac0iksap5dld5yjiklzjpxcai9f471c7qx4wzq8if61pzp",
+        "version": "2.4.1"
     },
     {
         "name": "discord-vscode",
