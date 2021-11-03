@@ -1,9 +1,0 @@
-{
-  "url": "https://github.com/seemoo-lab/opendrop",
-  "rev": "cbc7ca46a75bb2da4af9d406732ddf2192578388",
-  "sha256": "0l2afvq0lqs1lj4m249r3bwj50y7rbcb27l8iikdzsnrxr09amz0",
-  "fetchLFS": false,
-  "fetchSubmodules": false,
-  "deepClone": false,
-  "leaveDotGit": false
-}
