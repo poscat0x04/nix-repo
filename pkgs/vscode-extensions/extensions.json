@@ -194,8 +194,8 @@
     {
         "name": "vscode-sqlite",
         "publisher": "alexcvzz",
-        "sha256": "17nx5chvl5gpgc5kgn0s4l0vbzjx8386iarq8kzifq3hzx9hwvlm",
-        "version": "0.13.0"
+        "sha256": "1zdxk3004d29njvwxviddiw15v2zk6av8lhszhh064ck9bm6alfj",
+        "version": "0.14.0"
     },
     {
         "name": "cmake-tools",
