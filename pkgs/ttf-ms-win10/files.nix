@@ -20,7 +20,7 @@ let
     "framd.ttf"                       "framdit.ttf"                     # Franklin Gothic Medium
     "Gabriola.ttf"                                                      # Gabriola
     "georgia.ttf"    "georgiab.ttf"   "georgiai.ttf"   "georgiaz.ttf"   # Georgia
-    "holomdl2.ttf"                                                      # HoloLens MDL2 Assets
+    #"holomdl2.ttf"                                                     # HoloLens MDL2 Assets
     "impact.ttf"                                                        # Impact
     "Inkfree.ttf"                                                       # Ink Free
     "lucon.ttf"                                                         # Lucida Console
@@ -28,18 +28,19 @@ let
     "marlett.ttf"                                                       # Marlett
     "micross.ttf"                                                       # Microsoft Sans Serifc
     "pala.ttf"       "palab.ttf"      "palai.ttf"      "palabi.ttf"     # Palatino Linotype
+    "segmdl2.ttf"                                                       # Segoe MDL2 Assets
     "segoepr.ttf"    "segoeprb.ttf"                                     # Segoe Print
     "segoesc.ttf"    "segoescb.ttf"                                     # Segoe Script
-    "segmdl2.ttf"                                                       # Segoe MDL2 Assets
     "segoeui.ttf"    "segoeuib.ttf"   "segoeuii.ttf"   "segoeuiz.ttf"   # Segoe UI
+    "segoeuil.ttf"                    "seguili.ttf"                     # Segoe UI Light
+    "segoeuisl.ttf"                   "seguisli.ttf"                    # Segoe UI Semilight
     "seguibl.ttf"                     "seguibli.ttf"                    # Segoe UI Black
     "seguiemj.ttf"                                                      # Segoe UI Emoji
     "seguihis.ttf"                                                      # Segoe UI Historic
-    "segoeuil.ttf"                    "seguili.ttf"                     # Segoe UI Light
     "seguisb.ttf"                     "seguisbi.ttf"                    # Segoe UI Semibold
-    "segoeuisl.ttf"                   "seguisli.ttf"                    # Segoe UI Semilight
     "seguisym.ttf"                                                      # Segoe UI Symbol
-    "Sitka.ttc"      "SitkaB.ttc"     "SitkaI.ttc"     "SitkaZ.ttc"     # Sitka
+    "SegUIVar.ttf"                                                      # Segoe UI Variable
+    "SitkaVF.ttf"                     "SitkaVF-Italic.ttf"              # Sitka
     "sylfaen.ttf"                                                       # Sylfaen
     "symbol.ttf"                                                        # Symbol
     "tahoma.ttf"     "tahomabd.ttf"                                     # Tahoma
@@ -57,6 +58,8 @@ let
     "YuGothR.ttc"   "YuGothB.ttc"                                       # Yu Gothic
     "YuGothM.ttc"                                                       # Yu Gothic Medium
     "YuGothL.ttc"                                                       # Yu Gothic Light
+    "meiryo.ttc" "meiryob.ttc"                                          # Meiryo
+    "msmincho.ttc"                                                      # MS Mincho
   ];
   ttf-ms-win10_korean = [
     #################################################################################################
@@ -91,10 +94,12 @@ let
     #################################################################################################
     #  Normal           Bold            Italic          Bold+Italic     #  Full name                #
     #################################################################################################
-    "simsun.ttc"                                                        # NSimSun
+    "simsun.ttc"                                                        # SimSun
     "simsunb.ttf"                                                       # SimSun-ExtB
     "msyh.ttc"       "msyhbd.ttc"                                       # Microsoft YaHei
     "msyhl.ttc"                                                         # Microsoft YaHei Light
+    "simkai.ttf"                                                        # SimKai (中易楷体)
+    "simfang.ttf"                                                       # SimFang (中易仿宋)
   ];
   ttf_ms_win10_zh_tw = [
     #################################################################################################
@@ -112,7 +117,7 @@ let
     "gadugi.ttf"     "gadugib.ttf"                                      # Gadugi
     "mvboli.ttf"                                                        # MV Boli
   ];
-  files = 
+  files =
     ttf_ms_win10 ++
     ttf_ms_win10_japanese ++
     ttf-ms-win10_korean ++
