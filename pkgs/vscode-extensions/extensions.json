@@ -298,5 +298,11 @@
         "publisher": "CoenraadS",
         "sha256": "0r3bfp8kvhf9zpbiil7acx7zain26grk133f0r0syxqgml12i652",
         "version": "1.0.61"
+    },
+    {
+        "name": "vscode-zhihu",
+        "publisher": "niudai",
+        "sha256": "0rhn97ncnpd6ajrkkjd1ibc5dh1pw8md63nb4givalyg70kzjap8",
+        "version": "0.5.0"
     }
 ]
