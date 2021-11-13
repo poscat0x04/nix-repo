@@ -102,6 +102,7 @@ jobs:
             vscode-extensions.twxs.cmake
             vscode-extensions.cschlosser.doxdocgen
             vscode-extensions.llvm-vs-code-extensions.vscode-clangd
+            vscode-extensions.niudai.vscode-zhihu
           )
 
           for drv in ${drvs[@]}
