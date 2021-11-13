@@ -98,3 +98,5 @@
   publisher: Gruntfuggly
 - name: bracket-pair-colorizer
   publisher: CoenraadS
+- name: vscode-zhihu
+  publisher: niudai
