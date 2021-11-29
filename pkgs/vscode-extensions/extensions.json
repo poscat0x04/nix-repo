@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "0v5dhn0b0g9zfa0gj4l84zngnir8vlmyrkk9nfq839hgcdxyk9px",
-        "version": "0.32.0"
+        "sha256": "03755pqysp6gq9ffmiszk3nrn8q6saa7a91phzfwx4q8yxvjk407",
+        "version": "0.33.2021112916"
     },
     {
         "name": "bracket-pair-colorizer",
@@ -134,8 +134,8 @@
     {
         "name": "path-intellisense",
         "publisher": "christian-kohler",
-        "sha256": "0cmmjl22zpi39jip969sjl0axswff7j2f9j8w6ky5lswfir95hz4",
-        "version": "2.5.0"
+        "sha256": "08awi5wrwklz4gxplcrrmh9jrjyjx8lj6dkgakn0wgb36hyrjzxq",
+        "version": "2.6.0"
     },
     {
         "name": "discord-vscode",
