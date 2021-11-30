@@ -53,6 +53,7 @@
         lttng-ust-compat = lttng-ust.overrideAttrs (_: {
           postInstall = "ln -s $out/lib/liblttng-ust.so.1.0.0 $out/lib/liblttng-ust.so.0";
         });
+        wolfram-engine = callPackage ./pkgs/wolfram-engine { };
       };
 
       nixosModules = {
@@ -89,6 +90,7 @@
               cloudflare-ddns
               nginxModules
               lttng-ust-compat
+              wolfram-engine
               ;
               inherit (pkgs) discord;
           };
