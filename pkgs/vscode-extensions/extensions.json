@@ -128,8 +128,8 @@
     {
         "name": "bracket-pair-colorizer",
         "publisher": "CoenraadS",
-        "sha256": "0r3bfp8kvhf9zpbiil7acx7zain26grk133f0r0syxqgml12i652",
-        "version": "1.0.61"
+        "sha256": "0zck9kzajfx0jl85mfaz4l92x8m1rkwq2vlz0w91kr2wq8im62lb",
+        "version": "1.0.62"
     },
     {
         "name": "path-intellisense",
@@ -296,8 +296,8 @@
     {
         "name": "bracket-pair-colorizer",
         "publisher": "CoenraadS",
-        "sha256": "0r3bfp8kvhf9zpbiil7acx7zain26grk133f0r0syxqgml12i652",
-        "version": "1.0.61"
+        "sha256": "0zck9kzajfx0jl85mfaz4l92x8m1rkwq2vlz0w91kr2wq8im62lb",
+        "version": "1.0.62"
     },
     {
         "name": "vscode-zhihu",
