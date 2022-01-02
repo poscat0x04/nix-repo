@@ -5,13 +5,13 @@
 
 let
   wolfram-engine = stdenv.mkDerivation rec {
-    version = "12.3.1";
+    version = "13.0.0";
     pname = "wolfram-engine";
     src = requireFile rec{
       name = "WolframEngine_${version}_LINUX.sh";
       message = ''
       '';
-      sha256 = "1i98fxh5d92j02p2kg9yr2lcg7cynhm1k6c1jh46gdgkiwjqisnv";
+      sha256 = "0lya283pq8rbx85plf9iv4a4bffbd1ladzz3f1b4hf15yhmghpxd";
     };
 
     nativeBuildInputs = [ fakeroot ];
