@@ -116,8 +116,8 @@
     {
         "name": "vscoq",
         "publisher": "maximedenes",
-        "sha256": "05w4d4cr40xsr0pkry1cg3p5q2ji3dqld0p560grhrjlq27clj4r",
-        "version": "0.3.5"
+        "sha256": "1sailpizg7zvncggdma9dyxdnga8jya1a2vswwij1rzd9il04j3g",
+        "version": "0.3.6"
     },
     {
         "name": "vscode-pull-request-github",
