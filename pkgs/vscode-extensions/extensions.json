@@ -224,8 +224,8 @@
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "1p7kk32s2ywsc9ghx1nlrzfgb92a22gxyiwd2vnwfbjjh6djhjw0",
-        "version": "1.64.1"
+        "sha256": "183cs6jww7dm8xmhx24kdnm2ghcwicxgjjd4rmd709526nkgdypr",
+        "version": "1.64.2"
     },
     {
         "name": "nix-lsp",
@@ -236,8 +236,8 @@
     {
         "name": "hexeditor",
         "publisher": "ms-vscode",
-        "sha256": "17qz67qvixz2lhjdrr56cvvr19ilk3i1xli5qzs02r20hzp5p9v1",
-        "version": "1.9.1"
+        "sha256": "1skfpa51mhyqncknzg9vfis5f6sxh69ydq57qn5mn8ybz47d5wwc",
+        "version": "1.9.2"
     },
     {
         "name": "lean",
