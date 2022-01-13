@@ -290,8 +290,8 @@
     {
         "name": "todo-tree",
         "publisher": "Gruntfuggly",
-        "sha256": "0rwxjnrl44rnhx3183037k6435xs4772p58a37azl5cahsyav1hk",
-        "version": "0.0.214"
+        "sha256": "0lyaijsvi1gqidpn8mnnfc0qsnd7an8qg5p2m7l24c767gllkbsq",
+        "version": "0.0.215"
     },
     {
         "name": "bracket-pair-colorizer",
