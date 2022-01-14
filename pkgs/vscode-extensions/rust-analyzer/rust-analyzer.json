@@ -1,6 +1,6 @@
 {
     "name": "rust-analyzer",
     "publisher": "matklad",
-    "sha256": "1r14wpw35sskil932bx0vj2z61azirsfm4wpn3ba0gfasl4ji84k",
-    "version": "0.3.901"
+    "sha256": "10a6m3jrnmi3jgv026lmmig136gaiak59sx61gda4yv2hvwf6850",
+    "version": "0.3.902"
 }
