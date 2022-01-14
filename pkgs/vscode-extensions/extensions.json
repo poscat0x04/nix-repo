@@ -86,8 +86,8 @@
     {
         "name": "vscode-yaml",
         "publisher": "redhat",
-        "sha256": "06n4fxqr3lqmiyns9jdk3rdnanamcpzhrivllai8z9d997xmwcx6",
-        "version": "1.2.2"
+        "sha256": "1b9kl8ziz299451bsmn1crj8j1n2r611lcw2f7y3j0alq0nrngjg",
+        "version": "1.3.0"
     },
     {
         "name": "vim",
@@ -242,8 +242,8 @@
     {
         "name": "lean",
         "publisher": "jroesch",
-        "sha256": "0qp6j21idnz1l8zk1c3kb3llhjq4xs7aj5yfd0py5237wblv89il",
-        "version": "0.16.43"
+        "sha256": "1xhi9cmw07f09j80p57vwbbdilvlx782745fb9cbsmj7jb7yadw6",
+        "version": "0.16.44"
     },
     {
         "name": "ocaml-platform",
