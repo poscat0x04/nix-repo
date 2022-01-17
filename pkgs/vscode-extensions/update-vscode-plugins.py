@@ -52,18 +52,24 @@ def getLatestVersionInfo(publisher, name):
     versions = r.json()['results'][0]['extensions'][0]['versions']
     latest_version = sorted(versions, key=lambda x: parse(x['version']), reverse=True)[0]
     ver = latest_version['version']
-    files = latest_version['files']
-    vsix = list(filter(lambda x: x['assetType'] == 'Microsoft.VisualStudio.Services.VSIXPackage', files))[0]
-    url = vsix['source']
-    return ver, url
+    #files = latest_version['files']
+    #vsix = list(filter(lambda x: x['assetType'] == 'Microsoft.VisualStudio.Services.VSIXPackage', files))[0]
+    #url = vsix['source']
+    #return ver, url
+    return ver
 
 def prefetchUrl(url):
     args = ["nix-prefetch-url", url]
     o = subprocess.check_output(args).decode("utf-8")
     return o.strip()
 
+def formatUrl(name, publisher, version):
+    return f"https://{publisher}.gallery.vsassets.io/_apis/public/gallery/publisher/{publisher}/extension/{name}/{version}/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+
 def getExtension(name, publisher):
-    ver, url = getLatestVersionInfo(publisher, name)
+    ver = getLatestVersionInfo(publisher, name)
+    url = formatUrl(name, publisher, ver)
+    print(url)
     sha256 = prefetchUrl(url)
     return {'name': name, 'publisher': publisher, 'version': ver, 'sha256': sha256}
 
