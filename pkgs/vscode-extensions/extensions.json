@@ -278,8 +278,8 @@
     {
         "name": "nord-light",
         "publisher": "huytd",
-        "sha256": "1a3gajk7k3k0pr050zhx1hhlby8skq1fciyi52x8z0i0r8xp0bwy",
-        "version": "0.0.2"
+        "sha256": "0lpap2pq1kx825r574q5iifd4cgn7m54s10vchang3v0x1gmxblq",
+        "version": "0.1.0"
     },
     {
         "name": "vscode-theme-onelight",
