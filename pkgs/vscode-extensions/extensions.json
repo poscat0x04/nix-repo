@@ -218,8 +218,8 @@
     {
         "name": "vscode-clangd",
         "publisher": "llvm-vs-code-extensions",
-        "sha256": "0qjllvg2wwy3w8gg7q9dkbs0mccxxdq8cg59pbvw0vd8rxn71jpw",
-        "version": "0.1.13"
+        "sha256": "1v1z36ji86c6lr5k1qhvvm8q111ayb60ffjlfrc0w0c9q5v1p3pv",
+        "version": "0.1.14"
     },
     {
         "name": "vscode-language-pack-zh-hans",
