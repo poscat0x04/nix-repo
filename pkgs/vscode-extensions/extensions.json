@@ -272,8 +272,8 @@
     {
         "name": "vscode-cabal-fmt",
         "publisher": "berberman",
-        "sha256": "0kn5j8rpaidsk8xbbidpykmhpyxmxrmlj1ky9kjjbxxy8rl43w09",
-        "version": "0.0.2"
+        "sha256": "0kfcipzhmf70447vmdikipq5s8192hm055is8hfxp4k3v32mz3ad",
+        "version": "0.0.3"
     },
     {
         "name": "nord-light",
