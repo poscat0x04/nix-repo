@@ -158,14 +158,14 @@
     {
         "name": "language-purescript",
         "publisher": "nwolverson",
-        "sha256": "1n4z3258lilxg47fdhgrfx8wakw3dlqii69qiidy1qc079dwa2bi",
-        "version": "0.2.7"
+        "sha256": "1nhzvjwxld53mlaflf8idyjj18r1dzdys9ygy86095g7gc4b1qys",
+        "version": "0.2.8"
     },
     {
         "name": "ide-purescript",
         "publisher": "nwolverson",
-        "sha256": "1c1pxf1q38ln3cjhy0wqbb41l3q9pqz0q8nxrv8r2jnhllxw77yg",
-        "version": "0.25.8"
+        "sha256": "16vzd47978jagakbvv9z64g4j1hxblsd4i9qk286pbq195cafq4c",
+        "version": "0.25.10"
     },
     {
         "name": "spellright",
