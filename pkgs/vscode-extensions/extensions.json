@@ -164,8 +164,8 @@
     {
         "name": "ide-purescript",
         "publisher": "nwolverson",
-        "sha256": "16vzd47978jagakbvv9z64g4j1hxblsd4i9qk286pbq195cafq4c",
-        "version": "0.25.10"
+        "sha256": "1s1mkr5q82nvbq9d9q2qnvy0s794jlx5010ympghwx68aw0hzj7l",
+        "version": "0.25.11"
     },
     {
         "name": "spellright",
