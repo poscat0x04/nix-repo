@@ -212,8 +212,8 @@
     {
         "name": "doxdocgen",
         "publisher": "cschlosser",
-        "sha256": "08dp9bqxsxxqw8pm1sryl14xrvicagqwlxi5cc1vmksjh30dmn1a",
-        "version": "1.3.2"
+        "sha256": "1d95znf2vsdzv9jqiigh9zm62dp4m9jz3qcfaxn0n0pvalbiyw92",
+        "version": "1.4.0"
     },
     {
         "name": "vscode-clangd",
