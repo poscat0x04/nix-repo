@@ -200,8 +200,8 @@
     {
         "name": "cmake-tools",
         "publisher": "ms-vscode",
-        "sha256": "1xxi521n8nwvj19wi7hdmabmap5dh2nv9yj5czg15gqw7xjfxl1z",
-        "version": "1.10.0"
+        "sha256": "1810h1pfhnc55k9ydkiw20hq4gsza2g6bhhj96shi7il951l7ad5",
+        "version": "1.10.1"
     },
     {
         "name": "cmake",
@@ -248,8 +248,8 @@
     {
         "name": "ocaml-platform",
         "publisher": "ocamllabs",
-        "sha256": "08d7pll59758z9xnvxkimmnx6h8g4k2jld0mivnbzqg0ph7dv760",
-        "version": "1.9.5"
+        "sha256": "0ndw3x831pf3xnxbyj2j44cv1ylqvsf6bcvavvimqwk9z7bsb4qv",
+        "version": "1.10.0"
     },
     {
         "name": "vscode-postgresql-client2",
