@@ -56,8 +56,8 @@
     {
         "name": "language-haskell",
         "publisher": "justusadam",
-        "sha256": "0jznhc3l404p36149l62d5a5qm2k1wp4x0s0ii5s84cvyv2967iy",
-        "version": "3.5.0"
+        "sha256": "115y86w6n2bi33g1xh6ipz92jz5797d3d00mr4k8dv5fz76d35dd",
+        "version": "3.6.0"
     },
     {
         "name": "Nix",
