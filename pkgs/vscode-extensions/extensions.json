@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "0wd31fa02pp8jyl2d2q1y3sbd7k9jrwm0ivsz82z41xrv524if1p",
-        "version": "0.39.2022031709"
+        "sha256": "0navxrm1dvih2vgkzb48y829kmc1bgjwal4301j7vak0xvhy6kfn",
+        "version": "0.39.2022032109"
     },
     {
         "name": "bracket-pair-colorizer",
@@ -164,8 +164,8 @@
     {
         "name": "ide-purescript",
         "publisher": "nwolverson",
-        "sha256": "1s1mkr5q82nvbq9d9q2qnvy0s794jlx5010ympghwx68aw0hzj7l",
-        "version": "0.25.11"
+        "sha256": "1f9064w18wwp3iy8ciajad8vlshnzyhnqy8h516k0j5bflz781mn",
+        "version": "0.25.12"
     },
     {
         "name": "spellright",
