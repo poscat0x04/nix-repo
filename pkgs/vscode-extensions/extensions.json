@@ -50,8 +50,8 @@
     {
         "name": "haskell",
         "publisher": "haskell",
-        "sha256": "0yzcibigxlvh6ilba1jpri2irsjnvyy74vzn3rydcywfc17ifkzs",
-        "version": "1.8.0"
+        "sha256": "1q98klx5gp7q5i7in9c31hh5bn62h4agi3p6jw6bns48f95wwrvn",
+        "version": "2.0.0"
     },
     {
         "name": "language-haskell",
@@ -200,8 +200,8 @@
     {
         "name": "cmake-tools",
         "publisher": "ms-vscode",
-        "sha256": "1h5yr8ypg31x0mhbvj1jjn7c2bk2ficf260cis94c86j1kdi4zf4",
-        "version": "1.11.4"
+        "sha256": "0csxx04lbz4xc2l7d8dra6k30sd5xamav12nkpgdgg64lqbh7k6w",
+        "version": "1.11.5"
     },
     {
         "name": "cmake",
