@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "1fi69a76qpxgq9saiipvs68a494ryc1yjxx60yylaz8yzhqvaym2",
-        "version": "0.41.2022040509"
+        "sha256": "1d6dph04mqikdpm8fa9bva31ah9g6c7aqz8kg29w18h9r74g2ga6",
+        "version": "0.41.2022040609"
     },
     {
         "name": "bracket-pair-colorizer",
@@ -170,14 +170,14 @@
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "1p4zd917n0za6sf8xl3bl76xnmyb0d09n8kzrip4zq4k8ca8lp30",
-        "version": "3.0.60"
+        "sha256": "19z6namjkbc8j6s9wfhxh2anw3r3lcjzljwwabc6s0zl4az4xqqz",
+        "version": "3.0.62"
     },
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "1p4zd917n0za6sf8xl3bl76xnmyb0d09n8kzrip4zq4k8ca8lp30",
-        "version": "3.0.60"
+        "sha256": "19z6namjkbc8j6s9wfhxh2anw3r3lcjzljwwabc6s0zl4az4xqqz",
+        "version": "3.0.62"
     },
     {
         "name": "toml",
