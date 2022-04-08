@@ -184,14 +184,14 @@
       };
     "save-to-the-wayback-machine" = buildFirefoxXpiAddon {
       pname = "save-to-the-wayback-machine";
-      version = "5.5.2";
+      version = "5.6.1";
       addonId = "{c5f00c00-e4bc-414d-9784-933857514bd0}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3817838/save_to_the_wayback_machine-5.5.2-fx.xpi";
-      sha256 = "430514490b96d35f9f0a7cc36df7f515408abb4f7408674de755f6b8443f20c4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3933900/save_to_the_wayback_machine-5.6.1-fx.xpi";
+      sha256 = "3fa9c4553a6032f1afd23eedf1e07c4edf295e674586683191c5ce0f6a2d27d7";
       meta = with lib;
       {
         homepage = "https://github.com/VerifiedJoseph/Save-to-the-Wayback-Machine";
-        description = "Quickly save web pages to the Internet Archive's Wayback Machine and see the last time your current page was archived.";
+        description = "[Discontinued] Quickly save web pages to the Internet Archive's Wayback Machine and see the last time your current page was archived.";
         license = licenses.gpl3;
         platforms = platforms.all;
         };
