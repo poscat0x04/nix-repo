@@ -32,8 +32,8 @@
     {
         "name": "shellcheck",
         "publisher": "timonwong",
-        "sha256": "0sd0wg4w2p9rrpndpf7ijwblff78hf1c95rs2xhjkdjc1ygcqhm3",
-        "version": "0.19.1"
+        "sha256": "0fsf9nvwlgyx57w6q67pk4j5rndp8x0b5i0w0w69s3abn9sx54h9",
+        "version": "0.19.2"
     },
     {
         "name": "vscode-todo-highlight",
@@ -50,8 +50,8 @@
     {
         "name": "haskell",
         "publisher": "haskell",
-        "sha256": "1q98klx5gp7q5i7in9c31hh5bn62h4agi3p6jw6bns48f95wwrvn",
-        "version": "2.0.0"
+        "sha256": "05k5l4fzks8jfpr4iprf69lj0vb5zcbmzvz5dlyk9swqn5dp8m5m",
+        "version": "2.1.0"
     },
     {
         "name": "language-haskell",
