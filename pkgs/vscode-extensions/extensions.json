@@ -50,8 +50,8 @@
     {
         "name": "haskell",
         "publisher": "haskell",
-        "sha256": "05k5l4fzks8jfpr4iprf69lj0vb5zcbmzvz5dlyk9swqn5dp8m5m",
-        "version": "2.1.0"
+        "sha256": "1q98klx5gp7q5i7in9c31hh5bn62h4agi3p6jw6bns48f95wwrvn",
+        "version": "2.0.0"
     },
     {
         "name": "language-haskell",
