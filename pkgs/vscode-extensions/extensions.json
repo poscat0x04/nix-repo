@@ -224,8 +224,8 @@
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "0pn5sw2vl75r7q92wzk1pvflf4412n13kq0bw76yp86lhisfg98r",
-        "version": "1.66.2"
+        "sha256": "1hx3dy4zap0wb31lpgqwx9i1lcgxl5kfkwr5m829qam4i0yqiifg",
+        "version": "1.66.3"
     },
     {
         "name": "nix-lsp",
