@@ -188,8 +188,8 @@
     {
         "name": "markdown-all-in-one",
         "publisher": "yzhang",
-        "sha256": "0ihfrsg2sc8d441a2lkc453zbw1jcpadmmkbkaf42x9b9cipd5qb",
-        "version": "3.4.0"
+        "sha256": "1qv4rmfn594hxinbp2h3903dbp5c5p3rz8ig0w2iiabj2zj2k6hn",
+        "version": "3.4.2"
     },
     {
         "name": "vscode-sqlite",
@@ -224,8 +224,8 @@
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "097ini9mmw1sss944c55wzs65ilyjwhdl0cviizfak0wcf45zwwj",
-        "version": "1.67.0"
+        "sha256": "1hx3dy4zap0wb31lpgqwx9i1lcgxl5kfkwr5m829qam4i0yqiifg",
+        "version": "1.66.3"
     },
     {
         "name": "nix-lsp",
