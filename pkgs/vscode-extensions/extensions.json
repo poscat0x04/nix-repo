@@ -50,8 +50,8 @@
     {
         "name": "haskell",
         "publisher": "haskell",
-        "sha256": "0rx783bkz41nb94j2syih6s24yp3wpf4m6lmdj8vv4x750chxa2z",
-        "version": "2.1.1"
+        "sha256": "0jk78cadi0fx2bjm7pfw24gqpyzs2jj32zml99a6zkpjljvs2hvw",
+        "version": "2.1.2"
     },
     {
         "name": "language-haskell",
@@ -188,8 +188,8 @@
     {
         "name": "markdown-all-in-one",
         "publisher": "yzhang",
-        "sha256": "0ihfrsg2sc8d441a2lkc453zbw1jcpadmmkbkaf42x9b9cipd5qb",
-        "version": "3.4.0"
+        "sha256": "1qv4rmfn594hxinbp2h3903dbp5c5p3rz8ig0w2iiabj2zj2k6hn",
+        "version": "3.4.2"
     },
     {
         "name": "vscode-sqlite",
@@ -248,8 +248,8 @@
     {
         "name": "ocaml-platform",
         "publisher": "ocamllabs",
-        "sha256": "0b6wdcnrwkflcc39xwx7lzbq0im56y47rh6w55j1dz7i8lj7xl6j",
-        "version": "1.10.2"
+        "sha256": "1l7rdslgzbkflbakyh0vpkv8dq5kv7f0cs26cmj6lr7r5xmwnbfm",
+        "version": "1.10.1"
     },
     {
         "name": "vscode-postgresql-client2",
