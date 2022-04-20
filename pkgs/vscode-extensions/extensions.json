@@ -20,8 +20,8 @@
     {
         "name": "material-icon-theme",
         "publisher": "PKief",
-        "sha256": "1alj7xbldfj35sajfkas3fspz5n3c6h9q1016qdagns1hmdfzq80",
-        "version": "4.16.0"
+        "sha256": "1bs78k27ypq298zyhclcj3xac9xlj7f3zpy6jh2gv9x8fbwnqp3x",
+        "version": "4.15.0"
     },
     {
         "name": "vscode-eslint",
@@ -224,8 +224,8 @@
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "097ini9mmw1sss944c55wzs65ilyjwhdl0cviizfak0wcf45zwwj",
-        "version": "1.67.0"
+        "sha256": "1hx3dy4zap0wb31lpgqwx9i1lcgxl5kfkwr5m829qam4i0yqiifg",
+        "version": "1.66.3"
     },
     {
         "name": "nix-lsp",
