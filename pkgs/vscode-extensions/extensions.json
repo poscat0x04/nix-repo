@@ -50,8 +50,8 @@
     {
         "name": "haskell",
         "publisher": "haskell",
-        "sha256": "071w5abccqad4j2lyfvr7z8fqv16m21219xffda50fygan5pqr9r",
-        "version": "2.1.3"
+        "sha256": "0rx783bkz41nb94j2syih6s24yp3wpf4m6lmdj8vv4x750chxa2z",
+        "version": "2.1.1"
     },
     {
         "name": "language-haskell",
@@ -188,8 +188,8 @@
     {
         "name": "markdown-all-in-one",
         "publisher": "yzhang",
-        "sha256": "1qv4rmfn594hxinbp2h3903dbp5c5p3rz8ig0w2iiabj2zj2k6hn",
-        "version": "3.4.2"
+        "sha256": "0ihfrsg2sc8d441a2lkc453zbw1jcpadmmkbkaf42x9b9cipd5qb",
+        "version": "3.4.0"
     },
     {
         "name": "vscode-sqlite",
