@@ -20,8 +20,8 @@
     {
         "name": "material-icon-theme",
         "publisher": "PKief",
-        "sha256": "1alj7xbldfj35sajfkas3fspz5n3c6h9q1016qdagns1hmdfzq80",
-        "version": "4.16.0"
+        "sha256": "1bs78k27ypq298zyhclcj3xac9xlj7f3zpy6jh2gv9x8fbwnqp3x",
+        "version": "4.15.0"
     },
     {
         "name": "vscode-eslint",
@@ -50,8 +50,8 @@
     {
         "name": "haskell",
         "publisher": "haskell",
-        "sha256": "071w5abccqad4j2lyfvr7z8fqv16m21219xffda50fygan5pqr9r",
-        "version": "2.1.3"
+        "sha256": "0jk78cadi0fx2bjm7pfw24gqpyzs2jj32zml99a6zkpjljvs2hvw",
+        "version": "2.1.2"
     },
     {
         "name": "language-haskell",
@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "00nnd8c5lv77124jcbqwxfsh25pph1sbx6b3rf5iilfqxsd2k0s1",
-        "version": "0.41.2022041309"
+        "sha256": "0cfsvdm81hisywgwa3619r5l7q5l138dkfxbwnskl8v2arch9nz3",
+        "version": "0.41.2022042109"
     },
     {
         "name": "bracket-pair-colorizer",
@@ -248,8 +248,8 @@
     {
         "name": "ocaml-platform",
         "publisher": "ocamllabs",
-        "sha256": "1l7rdslgzbkflbakyh0vpkv8dq5kv7f0cs26cmj6lr7r5xmwnbfm",
-        "version": "1.10.1"
+        "sha256": "0ndw3x831pf3xnxbyj2j44cv1ylqvsf6bcvavvimqwk9z7bsb4qv",
+        "version": "1.10.0"
     },
     {
         "name": "vscode-postgresql-client2",
