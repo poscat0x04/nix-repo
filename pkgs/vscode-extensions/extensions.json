@@ -50,8 +50,8 @@
     {
         "name": "haskell",
         "publisher": "haskell",
-        "sha256": "071w5abccqad4j2lyfvr7z8fqv16m21219xffda50fygan5pqr9r",
-        "version": "2.1.3"
+        "sha256": "0jk78cadi0fx2bjm7pfw24gqpyzs2jj32zml99a6zkpjljvs2hvw",
+        "version": "2.1.2"
     },
     {
         "name": "language-haskell",
@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "0cfsvdm81hisywgwa3619r5l7q5l138dkfxbwnskl8v2arch9nz3",
-        "version": "0.41.2022042109"
+        "sha256": "00nnd8c5lv77124jcbqwxfsh25pph1sbx6b3rf5iilfqxsd2k0s1",
+        "version": "0.41.2022041309"
     },
     {
         "name": "bracket-pair-colorizer",
@@ -170,14 +170,14 @@
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "19z6namjkbc8j6s9wfhxh2anw3r3lcjzljwwabc6s0zl4az4xqqz",
-        "version": "3.0.62"
+        "sha256": "1v8axhhz04js7a2khc8ydg22kk7wydcnzz9hjg4my26p796wq9iq",
+        "version": "3.0.64"
     },
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "19z6namjkbc8j6s9wfhxh2anw3r3lcjzljwwabc6s0zl4az4xqqz",
-        "version": "3.0.62"
+        "sha256": "1v8axhhz04js7a2khc8ydg22kk7wydcnzz9hjg4my26p796wq9iq",
+        "version": "3.0.64"
     },
     {
         "name": "toml",
@@ -224,8 +224,8 @@
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "1hx3dy4zap0wb31lpgqwx9i1lcgxl5kfkwr5m829qam4i0yqiifg",
-        "version": "1.66.3"
+        "sha256": "097ini9mmw1sss944c55wzs65ilyjwhdl0cviizfak0wcf45zwwj",
+        "version": "1.67.0"
     },
     {
         "name": "nix-lsp",
@@ -236,8 +236,8 @@
     {
         "name": "hexeditor",
         "publisher": "ms-vscode",
-        "sha256": "0yir356rsxdn9vyk0q640ag6lxwhkx123gv1yp0058v9ccxym1hn",
-        "version": "1.9.6"
+        "sha256": "1wq2wlkwfdd9my3287hm53zi34izsbvv1ichgiprzkahqdxczybs",
+        "version": "1.9.5"
     },
     {
         "name": "lean",
