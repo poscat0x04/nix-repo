@@ -20,8 +20,8 @@
     {
         "name": "material-icon-theme",
         "publisher": "PKief",
-        "sha256": "1bs78k27ypq298zyhclcj3xac9xlj7f3zpy6jh2gv9x8fbwnqp3x",
-        "version": "4.15.0"
+        "sha256": "1alj7xbldfj35sajfkas3fspz5n3c6h9q1016qdagns1hmdfzq80",
+        "version": "4.16.0"
     },
     {
         "name": "vscode-eslint",
@@ -50,8 +50,8 @@
     {
         "name": "haskell",
         "publisher": "haskell",
-        "sha256": "0rx783bkz41nb94j2syih6s24yp3wpf4m6lmdj8vv4x750chxa2z",
-        "version": "2.1.1"
+        "sha256": "0jk78cadi0fx2bjm7pfw24gqpyzs2jj32zml99a6zkpjljvs2hvw",
+        "version": "2.1.2"
     },
     {
         "name": "language-haskell",
@@ -170,8 +170,8 @@
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "1v8axhhz04js7a2khc8ydg22kk7wydcnzz9hjg4my26p796wq9iq",
-        "version": "3.0.64"
+        "sha256": "19z6namjkbc8j6s9wfhxh2anw3r3lcjzljwwabc6s0zl4az4xqqz",
+        "version": "3.0.62"
     },
     {
         "name": "spellright",
@@ -248,8 +248,8 @@
     {
         "name": "ocaml-platform",
         "publisher": "ocamllabs",
-        "sha256": "0b6wdcnrwkflcc39xwx7lzbq0im56y47rh6w55j1dz7i8lj7xl6j",
-        "version": "1.10.2"
+        "sha256": "0ndw3x831pf3xnxbyj2j44cv1ylqvsf6bcvavvimqwk9z7bsb4qv",
+        "version": "1.10.0"
     },
     {
         "name": "vscode-postgresql-client2",
