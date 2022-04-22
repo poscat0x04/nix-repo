@@ -50,8 +50,8 @@
     {
         "name": "haskell",
         "publisher": "haskell",
-        "sha256": "0rx783bkz41nb94j2syih6s24yp3wpf4m6lmdj8vv4x750chxa2z",
-        "version": "2.1.1"
+        "sha256": "071w5abccqad4j2lyfvr7z8fqv16m21219xffda50fygan5pqr9r",
+        "version": "2.1.3"
     },
     {
         "name": "language-haskell",
@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "00nnd8c5lv77124jcbqwxfsh25pph1sbx6b3rf5iilfqxsd2k0s1",
-        "version": "0.41.2022041309"
+        "sha256": "0cfsvdm81hisywgwa3619r5l7q5l138dkfxbwnskl8v2arch9nz3",
+        "version": "0.41.2022042109"
     },
     {
         "name": "bracket-pair-colorizer",
@@ -236,8 +236,8 @@
     {
         "name": "hexeditor",
         "publisher": "ms-vscode",
-        "sha256": "1wq2wlkwfdd9my3287hm53zi34izsbvv1ichgiprzkahqdxczybs",
-        "version": "1.9.5"
+        "sha256": "0yir356rsxdn9vyk0q640ag6lxwhkx123gv1yp0058v9ccxym1hn",
+        "version": "1.9.6"
     },
     {
         "name": "lean",
