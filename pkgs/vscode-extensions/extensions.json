@@ -50,8 +50,8 @@
     {
         "name": "haskell",
         "publisher": "haskell",
-        "sha256": "0jk78cadi0fx2bjm7pfw24gqpyzs2jj32zml99a6zkpjljvs2hvw",
-        "version": "2.1.2"
+        "sha256": "071w5abccqad4j2lyfvr7z8fqv16m21219xffda50fygan5pqr9r",
+        "version": "2.1.3"
     },
     {
         "name": "language-haskell",
@@ -170,8 +170,8 @@
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "19z6namjkbc8j6s9wfhxh2anw3r3lcjzljwwabc6s0zl4az4xqqz",
-        "version": "3.0.62"
+        "sha256": "1v8axhhz04js7a2khc8ydg22kk7wydcnzz9hjg4my26p796wq9iq",
+        "version": "3.0.64"
     },
     {
         "name": "spellright",
