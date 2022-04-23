@@ -104,8 +104,8 @@
     {
         "name": "generic-input-method",
         "publisher": "mr-konn",
-        "sha256": "1qv99q7g233i0mqi3vrxw9qx3c31bqilhnkc9zyys57jmcf65kgd",
-        "version": "0.0.11"
+        "sha256": "1578zhmln83mi1chkyz5rz2dqsbc8jjb33i4b519wrigr8mhadag",
+        "version": "0.0.12"
     },
     {
         "name": "rust-doc-viewer",
