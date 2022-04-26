@@ -86,8 +86,8 @@
     {
         "name": "vscode-yaml",
         "publisher": "redhat",
-        "sha256": "123ycy1lky6gcz22gp2zc0y2wiyq97v85p2dxhdsm5dqf6bxjz1q",
-        "version": "1.6.0"
+        "sha256": "1bbjpaypp0mq5akww5f0pkpq01j0xhhvkfr44f4lb2rdhr5nmnvc",
+        "version": "1.7.0"
     },
     {
         "name": "vim",
@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "04jscz11l8jc1y7rlinkgg8pg7a2psc3gsg1smfmrdddqzdxg2qw",
-        "version": "0.41.2022042509"
+        "sha256": "12a24i4sxswdz8y9chlhj29jcls8x9z9wip1hffbi4nyjb69myzr",
+        "version": "0.41.2022042609"
     },
     {
         "name": "bracket-pair-colorizer",
