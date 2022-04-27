@@ -1,6 +1,6 @@
 {
-  "url_geoip": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202204262211/geoip.dat",
+  "url_geoip": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202204272212/geoip.dat",
   "sha256_geoip": "0kd08hky0aahl11bs2gcw3a4xpjq4zbi0dw4p1kqba029z3xhn9n",
-  "url_geosite": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202204262211/geosite.dat",
-  "sha256_geosite": "1gb11cpq7xh57mdjymldz5q80g2h7kinl3rxllvacxi4w98s37b2"
+  "url_geosite": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202204272212/geosite.dat",
+  "sha256_geosite": "1a8k8nwwhfkjjdxdxrmkwlgmsy13s3l3h01pi1wzcbwr6h9q13rw"
 }
