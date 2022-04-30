@@ -36,6 +36,7 @@
       {
         homepage = "https://gitlab.com/magnolia1234/bypass-paywalls-firefox-clean";
         description = "Bypass Paywalls of (custom) news sites";
+        license = licenses.mit;
         platforms = platforms.all;
         };
       };
