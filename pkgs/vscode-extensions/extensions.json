@@ -218,14 +218,14 @@
     {
         "name": "vscode-clangd",
         "publisher": "llvm-vs-code-extensions",
-        "sha256": "16hk8mv98g9rn2rxv0ksrs77xb0q8fyr4ck7l77jrpccp1rs59i7",
-        "version": "0.1.16"
+        "sha256": "1vgk4xsdbx0v6sy09wkb63qz6i64n6qcmpiy49qgh2xybskrrzvf",
+        "version": "0.1.17"
     },
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "09bps4qzjh9ncsg4qwgda858wisizk7qva67ygfk6gq8ag1y7jyn",
-        "version": "1.67.1"
+        "sha256": "0ayx7lsd8pam9iiyayd5gdbbjn359j64kd15parym18zklh1bkn9",
+        "version": "1.67.2"
     },
     {
         "name": "nix-lsp",
