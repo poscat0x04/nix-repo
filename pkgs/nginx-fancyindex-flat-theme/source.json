@@ -1,7 +1,7 @@
 {
   "url": "https://github.com/alehaa/nginx-fancyindex-flat-theme",
-  "rev": "02ac5805f85b92f76cf068aa6f23f1a109a27374",
-  "sha256": "0ppg4czcilb9bjwdq46ilm7ar5rzzap0kzbxx5pfrj6wbs9ilc2l",
+  "rev": "ed22cca70ab60b515070451727831e6cb79f6704",
+  "sha256": "0drhpi4yx767621552x9jvj2dn5xh1gd44wqcr5vl026vrr6z3fv",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
