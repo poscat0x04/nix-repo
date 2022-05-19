@@ -44,7 +44,7 @@
       pname = "ctrl-number-to-switch-tabs";
       version = "1.0.1";
       addonId = "{84601290-bec9-494a-b11c-1baa897a9683}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3525464/ctrlnumber_to_switch_tabs-1.0.1-an+fx.xpi";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3525464/ctrl_number_to_switch_tabs-1.0.1.xpi";
       sha256 = "ce31b253e77c0646347ac0a80f43b0d16d6c8c896facc3b1e360dcc0bd6ce0f7";
       meta = with lib;
       {
