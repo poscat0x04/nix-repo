@@ -187,7 +187,7 @@
       pname = "save-to-the-wayback-machine";
       version = "5.6.1";
       addonId = "{c5f00c00-e4bc-414d-9784-933857514bd0}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3933900/save_to_the_wayback_machine-5.6.1-fx.xpi";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3933900/save_to_the_wayback_machine-5.6.1.xpi";
       sha256 = "3fa9c4553a6032f1afd23eedf1e07c4edf295e674586683191c5ce0f6a2d27d7";
       meta = with lib;
       {
