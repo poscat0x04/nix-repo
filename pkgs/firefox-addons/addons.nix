@@ -132,7 +132,7 @@
       pname = "link-cleaner";
       version = "1.5";
       addonId = "{6d85dea2-0fb4-4de3-9f8c-264bce9a2296}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/671858/link_cleaner-1.5-an+fx.xpi";
+      url = "https://addons.mozilla.org/firefox/downloads/file/671858/link_cleaner-1.5.xpi";
       sha256 = "1ecec8cbe78b4166fc50da83213219f30575a8c183f7a13aabbff466c71ce560";
       meta = with lib;
       {
