@@ -4,7 +4,7 @@
       pname = "absolute-enable-right-click";
       version = "1.3.8";
       addonId = "{9350bc42-47fb-4598-ae0f-825e3dd9ceba}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/1205179/absolute_enable_right_click_copy-1.3.8-fx.xpi";
+      url = "https://addons.mozilla.org/firefox/downloads/file/1205179/absolute_enable_right_click-1.3.8.xpi";
       sha256 = "d1ca76d23234e6fd0f5d521caef62d20d071c8806887cda89914fd8325715a0a";
       meta = with lib;
       {
