@@ -215,7 +215,7 @@
       pname = "transmission-easy-client";
       version = "2.2.0";
       addonId = "jid1-0GMKQAI8A9x5jg@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3042549/transmission_easy_client-2.2.0-fx.xpi";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3042549/transmission_easy_client-2.2.0.xpi";
       sha256 = "2beb4ce0dcc24ca8b45c222896e2e01d397ab17a2adcbf708e9e80062af4d65f";
       meta = with lib;
       {
