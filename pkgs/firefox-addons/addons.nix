@@ -146,7 +146,7 @@
       pname = "pixiv-toolkit";
       version = "5.5.3";
       addonId = "{6706d386-2d33-4e1e-bbf1-51b9e1ce47e1}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3917876/pixiv_toolkit-5.5.3-fx.xpi";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3917876/pixiv_toolkit-5.5.3.xpi";
       sha256 = "1147a91916160438a04ccd4e473ce1932cf332db4f1cdea9be30179ec573c3be";
       meta = with lib;
       {
