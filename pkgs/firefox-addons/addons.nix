@@ -86,7 +86,7 @@
       pname = "grammarly";
       version = "8.898.0";
       addonId = "87677a2c52b84ad3a151a4a72f5bd3c4@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3944487/grammarly_for_firefox-8.898.0-an+fx.xpi";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3944487/grammarly_1-8.898.0.xpi";
       sha256 = "468b5e3680ebf41fe57e1d3847d89e5195e21b6465180766400da7c36e65cf9c";
       meta = with lib;
       {
