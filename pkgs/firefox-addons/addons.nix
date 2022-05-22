@@ -58,7 +58,7 @@
       pname = "cxmooc";
       version = "2.5.1";
       addonId = "love@xloli.top";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3683505/addon-2.5.1-an+fx.xpi";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3683505/1478146-2.5.1.xpi";
       sha256 = "b1f4cf97546f8895816ecf0e711f2586a7eaabd4847b47209bdc12318a0194ed";
       meta = with lib;
       {
