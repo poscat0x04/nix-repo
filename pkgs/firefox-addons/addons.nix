@@ -99,7 +99,7 @@
       pname = "https-everywhere";
       version = "2021.7.13";
       addonId = "https-everywhere@eff.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3809748/https_everywhere-2021.7.13-an+fx.xpi";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3809748/https_everywhere-2021.7.13.xpi";
       sha256 = "e261461b5d4d3621285fce70773558184d691c614b330744dab672f032db731c";
       meta = with lib;
       {
