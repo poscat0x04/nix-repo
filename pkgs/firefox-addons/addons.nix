@@ -91,7 +91,7 @@
       meta = with lib;
       {
         homepage = "http://grammarly.com";
-        description = "Grammarly’s writing assistant has you covered in any writing situation. With real-time suggestions to help with grammar, clarity, tone, and more, you can be confident that your writing will make the impression you want.";
+        description = "Improve your writing with Grammarly's communication assistance. Spell check, grammar check, and punctuation check in one tool. Real-time suggestions for improving tone and clarity help ensure your writing makes the impression you want.";
         platforms = platforms.all;
         };
       };
