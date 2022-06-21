@@ -116,10 +116,10 @@
       };
     "i-dont-care-about-cookies" = buildFirefoxXpiAddon {
       pname = "i-dont-care-about-cookies";
-      version = "3.4.0";
+      version = "3.4.1";
       addonId = "jid1-KKzOGWgsW3Ao4Q@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3948477/i_dont_care_about_cookies-3.4.0.xpi";
-      sha256 = "bef0ac488b2db9a51abeb483884dc4c9d457b3270b6ba24c62fe282936d91c07";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3965730/i_dont_care_about_cookies-3.4.1.xpi";
+      sha256 = "dd52cbd31c24d11cc8c0fc6448a4697cfe4989a7c3fd501868e4b14e2cbeb96e";
       meta = with lib;
       {
         homepage = "https://www.i-dont-care-about-cookies.eu/";
