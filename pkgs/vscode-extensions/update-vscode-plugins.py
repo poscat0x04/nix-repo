@@ -76,7 +76,7 @@ def getExtension(name, publisher):
 def main():
     version, url, sha256 = getLatestPyls()
     with open('rust-analyzer/rust-analyzer.json', 'w+') as src:
-        json.dump(getExtension(name='rust-analyzer', publisher='matklad'), src, indent=4, sort_keys=True)
+        json.dump(getExtension(name='rust-analyzer', publisher='rust-lang'), src, indent=4, sort_keys=True)
     with open('python/pyls.json', 'w+') as pyls:
         json.dump({'version': version, 'url': url, 'sha256': sha256}, pyls, indent=4, sort_keys=True)
     with open('python/vscode-python.json', 'w+') as vsc:
