@@ -86,7 +86,7 @@
     {
         "name": "vscode-yaml",
         "publisher": "redhat",
-        "sha256": "1vizliwc49ndjcla0hq6rymdfqi1bix79zcyw0sbbmh19d82fqi7",
+        "sha256": "1djd4mxnfrrlgiyrqjrrchza3q229sy57d71dggvf6f5k2wnj1qv",
         "version": "1.9.0"
     },
     {
@@ -218,8 +218,8 @@
     {
         "name": "vscode-clangd",
         "publisher": "llvm-vs-code-extensions",
-        "sha256": "1mfs5n6ka0sc2277bycysb4k879xq9dsm0ykiq7jrpp21znw2pwb",
-        "version": "0.1.19"
+        "sha256": "0pp96p54y8cknkfpgwmbdf465z7l7rxmz9gq5f28z3k4ik37sg0v",
+        "version": "0.1.20"
     },
     {
         "name": "vscode-language-pack-zh-hans",
