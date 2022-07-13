@@ -86,8 +86,8 @@
     {
         "name": "vscode-yaml",
         "publisher": "redhat",
-        "sha256": "1djd4mxnfrrlgiyrqjrrchza3q229sy57d71dggvf6f5k2wnj1qv",
-        "version": "1.9.0"
+        "sha256": "10m70sahl7vf8y82gqz9yk6bk4k4b923xn5rk7fax1nqw0pkln2w",
+        "version": "1.9.1"
     },
     {
         "name": "vim",
@@ -170,14 +170,14 @@
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "1zck8i9wk56m6y5khxb7idfjfhri4hf130jixnx9c06ks6d17p33",
-        "version": "3.0.70"
+        "sha256": "0anjiing2vbxw4bvbyfscnljc2fqq4kmz0dhiiq7ffk8v8rphaf1",
+        "version": "3.0.72"
     },
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "1zck8i9wk56m6y5khxb7idfjfhri4hf130jixnx9c06ks6d17p33",
-        "version": "3.0.70"
+        "sha256": "0anjiing2vbxw4bvbyfscnljc2fqq4kmz0dhiiq7ffk8v8rphaf1",
+        "version": "3.0.72"
     },
     {
         "name": "toml",
