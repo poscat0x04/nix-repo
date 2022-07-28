@@ -236,8 +236,8 @@
     {
         "name": "hexeditor",
         "publisher": "ms-vscode",
-        "sha256": "1hv0am6y4d4dggq8viw4f5x6mavah11dqrrxa15lwm2a5ias93xx",
-        "version": "1.9.7"
+        "sha256": "063n4plhbjm6l5gip6j158n6hgydiccq1f8rc1pgsbfjn3d4612y",
+        "version": "1.9.8"
     },
     {
         "name": "lean",
