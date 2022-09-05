@@ -9,15 +9,16 @@
       meta = with lib;
       {
         description = "Force Enable Right Click &amp; Copy";
+        license = licenses.bsd2;
         platforms = platforms.all;
         };
       };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2022.6.1";
+      version = "2022.8.0";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3972752/bitwarden_password_manager-2022.6.1.xpi";
-      sha256 = "ded8a3fd0e88deccb1354685c0ced8d6fd35af1dbb133f5341e903b9d49cc50d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3986147/bitwarden_password_manager-2022.8.0.xpi";
+      sha256 = "208fba348f86fde8bd6663e0ed0540a993d74c4a35d71bf899c106bbcd555400";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -28,10 +29,10 @@
       };
     "bypass-paywalls-clean" = buildFirefoxXpiAddon {
       pname = "bypass-paywalls-clean";
-      version = "2.7.7.0";
+      version = "2.8.3.0";
       addonId = "{d133e097-46d9-4ecc-9903-fa6a722a6e0e}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3979537/bypass_paywalls_clean-2.7.7.0.xpi";
-      sha256 = "2ad514f3075a561d76e0668973901d87829253b010931788578387a47ca0bc91";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3998184/bypass_paywalls_clean-2.8.3.0.xpi";
+      sha256 = "e3e976847b059a414c81d8deabaaa0819ffe6ce8c578bce5f7dcf075f5ef2db1";
       meta = with lib;
       {
         homepage = "https://gitlab.com/magnolia1234/bypass-paywalls-firefox-clean";
@@ -70,10 +71,10 @@
       };
     "floccus" = buildFirefoxXpiAddon {
       pname = "floccus";
-      version = "4.16.0";
+      version = "4.17.0";
       addonId = "floccus@handmadeideas.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3967736/floccus-4.16.0.xpi";
-      sha256 = "e2f170e5a5cde4cc196e2d379ca4e41b0421cf560943c715fca649777bfb1bf4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3985748/floccus-4.17.0.xpi";
+      sha256 = "f343343fcd4a5e00351ce2221bd1af581d7a3e2243e4404e2ad34651b5df482b";
       meta = with lib;
       {
         homepage = "https://floccus.org";
@@ -84,10 +85,10 @@
       };
     "grammarly" = buildFirefoxXpiAddon {
       pname = "grammarly";
-      version = "8.901.0";
+      version = "8.902.0";
       addonId = "87677a2c52b84ad3a151a4a72f5bd3c4@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3978044/grammarly_1-8.901.0.xpi";
-      sha256 = "439ab1f52f2f1709ccf73fb504c4d6bcb3e3cf9a4b4463c2c7d147fd753a94cd";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3993435/grammarly_1-8.902.0.xpi";
+      sha256 = "2a939ec337512e4513c6523655397cbe358ed8f0ce3093e392172dc2f39842ba";
       meta = with lib;
       {
         homepage = "http://grammarly.com";
@@ -116,10 +117,10 @@
       };
     "i-dont-care-about-cookies" = buildFirefoxXpiAddon {
       pname = "i-dont-care-about-cookies";
-      version = "3.4.1";
+      version = "3.4.2";
       addonId = "jid1-KKzOGWgsW3Ao4Q@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3965730/i_dont_care_about_cookies-3.4.1.xpi";
-      sha256 = "dd52cbd31c24d11cc8c0fc6448a4697cfe4989a7c3fd501868e4b14e2cbeb96e";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3988152/i_dont_care_about_cookies-3.4.2.xpi";
+      sha256 = "bee737e7ecdac55be8d7ee49ba75ce475054c8e5c370d51671ade960363d3039";
       meta = with lib;
       {
         homepage = "https://www.i-dont-care-about-cookies.eu/";
@@ -226,10 +227,10 @@
       };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.43.0";
+      version = "1.44.0";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3961087/ublock_origin-1.43.0.xpi";
-      sha256 = "ab2d4fa8dfc4f50841093830ff131d7a6e99052ba6e7359f8592e84f39c18a16";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3989793/ublock_origin-1.44.0.xpi";
+      sha256 = "ae761fe4014e328fdef838b81d43c30c84422cb8140cceedf0ed7a7c1f8e70aa";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
