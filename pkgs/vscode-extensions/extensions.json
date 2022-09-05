@@ -2,8 +2,8 @@
     {
         "name": "rest-client",
         "publisher": "humao",
-        "sha256": "1j2gzagl5hyy7ry4nn595z0xzr7wbaq9qrm32p0fj1bgk3r6ib5z",
-        "version": "0.25.0"
+        "sha256": "19yc3hvhyr2na741z6ajgigxckagvfrcq3h6y958bl4107vxjb0d",
+        "version": "0.25.1"
     },
     {
         "name": "crates",
@@ -20,8 +20,8 @@
     {
         "name": "material-icon-theme",
         "publisher": "PKief",
-        "sha256": "1azkkp4bnd7n8v0m4325hfrr6p6ikid88xbxaanypji25pnyq5a4",
-        "version": "4.19.0"
+        "sha256": "0zb1g1qdn0ws3xnpd7kz4g4drx99m691172b8hpgli37z7zlvw9r",
+        "version": "4.20.0"
     },
     {
         "name": "vscode-eslint",
@@ -32,8 +32,8 @@
     {
         "name": "shellcheck",
         "publisher": "timonwong",
-        "sha256": "1p9wf8awn65zs75hgd59kz46n9sqbwii5jivylgl43vgynlpyi6s",
-        "version": "0.19.6"
+        "sha256": "0hghl14sa23ak62ixyrzdv11fr747pn69m3rchj9mw9p5gsdwmbn",
+        "version": "0.22.0"
     },
     {
         "name": "vscode-todo-highlight",
@@ -44,14 +44,14 @@
     {
         "name": "agda-mode",
         "publisher": "banacorn",
-        "sha256": "0iqp9mldlxbxh4zn3jid07m5cyyhvk0xd5iapqx020yw82s40fmb",
-        "version": "0.3.9"
+        "sha256": "0lp5vjwm9ss9925kac0rnhb0z2maa76k1g1g7bzfz45gvahgfwcf",
+        "version": "0.3.11"
     },
     {
         "name": "haskell",
         "publisher": "haskell",
-        "sha256": "0qgp93m5d5kz7bxlnvlshcd8ms5ag48nk5hb37x02giqcavg4qv0",
-        "version": "2.2.0"
+        "sha256": "14p9g07zsb3da4ilaasgsdvh3wagfzayqr8ichsf6k5c952zi8fk",
+        "version": "2.2.1"
     },
     {
         "name": "language-haskell",
@@ -80,26 +80,26 @@
     {
         "name": "latex-workshop",
         "publisher": "james-yu",
-        "sha256": "1vxxwk0disbxg48w119lh408i4kkqvcrh4q1x5gxqa12pvzafzb4",
-        "version": "8.28.0"
+        "sha256": "0zvpn7vp6mf7i06l489gzj7sqrw3ipxfsgcig6ksdlxjvz22a44j",
+        "version": "8.29.0"
     },
     {
         "name": "vscode-yaml",
         "publisher": "redhat",
-        "sha256": "10m70sahl7vf8y82gqz9yk6bk4k4b923xn5rk7fax1nqw0pkln2w",
-        "version": "1.9.1"
+        "sha256": "1z5z9w43ap0aashhjzgbfcdfpk5yzrfk0rgrynsc7an5bbsd9485",
+        "version": "1.10.20220805"
     },
     {
         "name": "vim",
         "publisher": "vscodevim",
-        "sha256": "131fnicsknw4kkz299l9mdq1b0lx05ssr8sszk1apgmxxngzfz4k",
-        "version": "1.23.1"
+        "sha256": "1kb8i3l3lzi54r6v6la9ksykna172c1pwqldd8dc2ni3jqabjbs0",
+        "version": "1.23.2"
     },
     {
         "name": "gitlens",
         "publisher": "eamodio",
-        "sha256": "0wpmfrfpi6wl9v3dknx2qr2m74azpcw8bvhac21v67w6jxnl3jd9",
-        "version": "12.1.2"
+        "sha256": "11axaxi06j0hb9xv35azqy4fys15pllg67gk3sqsc3s66q4qzk6w",
+        "version": "2022.8.3105"
     },
     {
         "name": "generic-input-method",
@@ -110,8 +110,8 @@
     {
         "name": "rust-doc-viewer",
         "publisher": "JScearcy",
-        "sha256": "08nrgy2h67w762plz5z8vbipcf3di7wzqn7b3bq72f5xgh96xwlw",
-        "version": "3.0.2"
+        "sha256": "0ggc1v86xl4049wbnx1v3yr886wkf0z720xk4wv8khgxx1kmrf6q",
+        "version": "3.0.3"
     },
     {
         "name": "vscoq",
@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "05dhw336f0nqi2bmxa7jfz2dvcmgq1pjzndrj9bmp10hjd85wjxg",
-        "version": "0.47.2022072809"
+        "sha256": "158xaljbl461n0d2y4n7bgfqcjlnc18s387ai60326fwxah10x2i",
+        "version": "0.51.2022090509"
     },
     {
         "name": "bracket-pair-colorizer",
@@ -170,14 +170,14 @@
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "0anjiing2vbxw4bvbyfscnljc2fqq4kmz0dhiiq7ffk8v8rphaf1",
-        "version": "3.0.72"
+        "sha256": "0qx24mv1zmdd9wjgkjz0chm4jpdhf5jzml7daapa3dmcgp0ya0f8",
+        "version": "3.0.90"
     },
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "0anjiing2vbxw4bvbyfscnljc2fqq4kmz0dhiiq7ffk8v8rphaf1",
-        "version": "3.0.72"
+        "sha256": "0qx24mv1zmdd9wjgkjz0chm4jpdhf5jzml7daapa3dmcgp0ya0f8",
+        "version": "3.0.90"
     },
     {
         "name": "toml",
@@ -188,8 +188,8 @@
     {
         "name": "markdown-all-in-one",
         "publisher": "yzhang",
-        "sha256": "0z0sdb5vmx1waln5k9fk6s6lj1pzpcm3hwm4xc47jz62iq8930m3",
-        "version": "3.4.3"
+        "sha256": "0jw38vf3pzplw5dnhs8b9fxqc4z5b198wjw3y3ll14xjzxc5ymns",
+        "version": "3.4.4"
     },
     {
         "name": "vscode-sqlite",
@@ -200,8 +200,8 @@
     {
         "name": "cmake-tools",
         "publisher": "ms-vscode",
-        "sha256": "058dxc6ka5amlr42cqxypzqr20yqyq3vdflh2vkham6myq71fivh",
-        "version": "1.12.16"
+        "sha256": "0p4ldcf8jy6wr74nsx2x126ik77isgirgswc3d7sdr04436fcj2f",
+        "version": "1.13.1"
     },
     {
         "name": "cmake",
@@ -224,8 +224,8 @@
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "0h691dikgq780n77bvn39abdapa7dg1vdmqpna4l8m7cn81lxjg0",
-        "version": "1.70.7270933"
+        "sha256": "13nh9kfyjwrm42kbq5maikld66a44cvm0b1kcf1yzyxmw0xap13d",
+        "version": "1.71.8310936"
     },
     {
         "name": "nix-lsp",
@@ -242,8 +242,8 @@
     {
         "name": "lean",
         "publisher": "jroesch",
-        "sha256": "17l36nc14f6y5mx71s10wq2dzdy5phksqqrgrc20la88bcyrf7xk",
-        "version": "0.16.53"
+        "sha256": "1x89bxpp1pck2x4x0i6x05d9iiisrcpadb3zx7sw60hr0pxksd4d",
+        "version": "0.16.54"
     },
     {
         "name": "ocaml-platform",
