@@ -102,7 +102,7 @@
             nixUnstable
 
             # for generating nix expressions for firefox addons
-            firefox-addons-generator
+            mozilla-addons-to-nix
 
             # for vscode extension update script
             python3
