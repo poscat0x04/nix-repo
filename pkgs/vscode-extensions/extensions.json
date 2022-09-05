@@ -86,7 +86,7 @@
     {
         "name": "vscode-yaml",
         "publisher": "redhat",
-        "sha256": "1z5z9w43ap0aashhjzgbfcdfpk5yzrfk0rgrynsc7an5bbsd9485",
+        "sha256": "0x4fxm50jzc26ck54zqcn827g3fvwip7syc1dbhqsn7dvzd7wm23",
         "version": "1.10.20220805"
     },
     {
@@ -200,8 +200,8 @@
     {
         "name": "cmake-tools",
         "publisher": "ms-vscode",
-        "sha256": "0p4ldcf8jy6wr74nsx2x126ik77isgirgswc3d7sdr04436fcj2f",
-        "version": "1.13.1"
+        "sha256": "01x3fmydpv5hl5s27187w71if9p9nid13n7zrby46wwq4mlh0vd7",
+        "version": "1.13.2"
     },
     {
         "name": "cmake",
