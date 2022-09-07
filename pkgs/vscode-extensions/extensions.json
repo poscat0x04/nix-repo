@@ -86,7 +86,7 @@
     {
         "name": "vscode-yaml",
         "publisher": "redhat",
-        "sha256": "1z5z9w43ap0aashhjzgbfcdfpk5yzrfk0rgrynsc7an5bbsd9485",
+        "sha256": "0x4fxm50jzc26ck54zqcn827g3fvwip7syc1dbhqsn7dvzd7wm23",
         "version": "1.10.20220805"
     },
     {
@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "158xaljbl461n0d2y4n7bgfqcjlnc18s387ai60326fwxah10x2i",
-        "version": "0.51.2022090509"
+        "sha256": "1pjkvmnmbw4cz8w1icbqlajz7c3bgv1nlcx4gm87y8pf14vg7spr",
+        "version": "0.51.2022090709"
     },
     {
         "name": "bracket-pair-colorizer",
@@ -224,8 +224,8 @@
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "13nh9kfyjwrm42kbq5maikld66a44cvm0b1kcf1yzyxmw0xap13d",
-        "version": "1.71.8310936"
+        "sha256": "0q0j0hqiiwciy17dyyz4rrhzryvzpyqyccdfknk8v1f29lh5i995",
+        "version": "1.71.9070915"
     },
     {
         "name": "nix-lsp",
