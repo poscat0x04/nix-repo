@@ -86,7 +86,7 @@
     {
         "name": "vscode-yaml",
         "publisher": "redhat",
-        "sha256": "0x4fxm50jzc26ck54zqcn827g3fvwip7syc1dbhqsn7dvzd7wm23",
+        "sha256": "1z5z9w43ap0aashhjzgbfcdfpk5yzrfk0rgrynsc7an5bbsd9485",
         "version": "1.10.20220805"
     },
     {
@@ -254,8 +254,8 @@
     {
         "name": "vscode-postgresql-client2",
         "publisher": "cweijan",
-        "sha256": "0jdyxk21whn23iwi2gxy9fwn5gzx6vdg12vjjdvi9pbbz9pf85sf",
-        "version": "5.3.3"
+        "sha256": "1vdrcwrmbbb4035svcaikqvyzlbliqjjp7m88rycj46jd8mam9g5",
+        "version": "5.7.10"
     },
     {
         "name": "rust",
