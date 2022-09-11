@@ -2,11 +2,11 @@
   "nodes": {
     "NUR": {
       "locked": {
-        "lastModified": 1662760109,
-        "narHash": "sha256-a3Sz81FzM2xvk35gjc7vxpTpBpl1725vt1tILlTXhRA=",
+        "lastModified": 1662834336,
+        "narHash": "sha256-GzUnijmmG37Fa1t1ygmRE1ZxthgVRj+HA/3upIZMdGw=",
         "owner": "nix-community",
         "repo": "NUR",
-        "rev": "60e87040af5fe9ad024697e3c4ba68a672575dbc",
+        "rev": "9eb35b9992286b4c7a134b1d7fc19f9222fc8506",
         "type": "github"
       },
       "original": {
@@ -77,11 +77,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1662778811,
-        "narHash": "sha256-lpkekAbs8FNoqpbxuMpkdNMiRnWxDyvAyR+pWxW2PTs=",
+        "lastModified": 1662865205,
+        "narHash": "sha256-TN9wlEpR2ENKKOotDQsUyyX7hJSywIbprZCBxWR4coI=",
         "owner": "oxalica",
         "repo": "rust-overlay",
-        "rev": "70d8df25fbe9cc5c74900b11d06ef120200f3948",
+        "rev": "c4277c59580939c0a3d0d0325b9ea13e071873ec",
         "type": "github"
       },
       "original": {
