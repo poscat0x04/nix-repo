@@ -200,8 +200,8 @@
     {
         "name": "cmake-tools",
         "publisher": "ms-vscode",
-        "sha256": "13219kxbkw69rfifmk9i4wswamq68h30qa931zibv6fql8df3lpy",
-        "version": "1.13.3"
+        "sha256": "1z5c6lvpkyvkh2sn4fbl1vf1yx5fsd18hdgamvr2ymfmxsnwgdfc",
+        "version": "1.13.4"
     },
     {
         "name": "cmake",
