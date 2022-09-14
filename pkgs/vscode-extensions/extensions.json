@@ -86,7 +86,7 @@
     {
         "name": "vscode-yaml",
         "publisher": "redhat",
-        "sha256": "0x4fxm50jzc26ck54zqcn827g3fvwip7syc1dbhqsn7dvzd7wm23",
+        "sha256": "1z5z9w43ap0aashhjzgbfcdfpk5yzrfk0rgrynsc7an5bbsd9485",
         "version": "1.10.20220805"
     },
     {
@@ -242,8 +242,8 @@
     {
         "name": "lean",
         "publisher": "jroesch",
-        "sha256": "1x89bxpp1pck2x4x0i6x05d9iiisrcpadb3zx7sw60hr0pxksd4d",
-        "version": "0.16.54"
+        "sha256": "06rf1hv0226qql899zqg1ccnf8sgi208k9s2hrirshwmz16lk2rx",
+        "version": "0.16.55"
     },
     {
         "name": "ocaml-platform",
