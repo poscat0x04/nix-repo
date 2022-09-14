@@ -86,7 +86,7 @@
     {
         "name": "vscode-yaml",
         "publisher": "redhat",
-        "sha256": "1z5z9w43ap0aashhjzgbfcdfpk5yzrfk0rgrynsc7an5bbsd9485",
+        "sha256": "0x4fxm50jzc26ck54zqcn827g3fvwip7syc1dbhqsn7dvzd7wm23",
         "version": "1.10.20220805"
     },
     {
@@ -224,8 +224,8 @@
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "0q0j0hqiiwciy17dyyz4rrhzryvzpyqyccdfknk8v1f29lh5i995",
-        "version": "1.71.9070915"
+        "sha256": "1hhi37bmawnl4szdbgqqzwswycszsf3jxx02lzbz3x3m6zlr163f",
+        "version": "1.71.9140930"
     },
     {
         "name": "nix-lsp",
