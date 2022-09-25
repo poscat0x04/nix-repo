@@ -29,10 +29,10 @@
       };
     "bypass-paywalls-clean" = buildFirefoxXpiAddon {
       pname = "bypass-paywalls-clean";
-      version = "2.8.5.0";
+      version = "2.8.6.0";
       addonId = "{d133e097-46d9-4ecc-9903-fa6a722a6e0e}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4003883/bypass_paywalls_clean-2.8.5.0.xpi";
-      sha256 = "09fc16733722e4f950cc19b08ddac2567ead132cb875af4a9bcbef32ee79fd2e";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4007095/bypass_paywalls_clean-2.8.6.0.xpi";
+      sha256 = "c3e64b277facb189fdd09651805b6f51683f93db83f02610e9a99a0555046013";
       meta = with lib;
       {
         homepage = "https://gitlab.com/magnolia1234/bypass-paywalls-firefox-clean";
