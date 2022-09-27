@@ -86,14 +86,14 @@
     {
         "name": "vscode-yaml",
         "publisher": "redhat",
-        "sha256": "1z5z9w43ap0aashhjzgbfcdfpk5yzrfk0rgrynsc7an5bbsd9485",
+        "sha256": "0x4fxm50jzc26ck54zqcn827g3fvwip7syc1dbhqsn7dvzd7wm23",
         "version": "1.10.20220805"
     },
     {
         "name": "vim",
         "publisher": "vscodevim",
-        "sha256": "1k8l7612k7mdlly845nnhp5hdz2f2dac1572dbckga5lbhmhi3jh",
-        "version": "1.24.0"
+        "sha256": "00gq6mqqwqipc6d7di2x9mmi1lya11vhkkww9563avchavczb9sv",
+        "version": "1.24.1"
     },
     {
         "name": "gitlens",
