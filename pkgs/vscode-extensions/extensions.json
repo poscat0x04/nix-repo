@@ -20,8 +20,8 @@
     {
         "name": "material-icon-theme",
         "publisher": "PKief",
-        "sha256": "0zb1g1qdn0ws3xnpd7kz4g4drx99m691172b8hpgli37z7zlvw9r",
-        "version": "4.20.0"
+        "sha256": "15bilv7ck3538dxkjnsqwgw3y1dqbyd9y9qhghysj4fxc367h0hk",
+        "version": "4.21.0"
     },
     {
         "name": "vscode-eslint",
@@ -32,8 +32,8 @@
     {
         "name": "shellcheck",
         "publisher": "timonwong",
-        "sha256": "190xi23kad95bbh8cwk5asnncfdaqi9574hv87ja5lpy53my1v8d",
-        "version": "0.23.0"
+        "sha256": "0qp3lnfz9pyaahl7f50g2v7r72m8sm4awf1pxjhyjjn0nr3gxrkv",
+        "version": "0.23.1"
     },
     {
         "name": "vscode-todo-highlight",
