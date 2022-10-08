@@ -86,7 +86,7 @@
     {
         "name": "vscode-yaml",
         "publisher": "redhat",
-        "sha256": "1z5z9w43ap0aashhjzgbfcdfpk5yzrfk0rgrynsc7an5bbsd9485",
+        "sha256": "0x4fxm50jzc26ck54zqcn827g3fvwip7syc1dbhqsn7dvzd7wm23",
         "version": "1.10.20220805"
     },
     {
@@ -284,8 +284,8 @@
     {
         "name": "vscode-theme-onelight",
         "publisher": "akamud",
-        "sha256": "1mzd77sv6lb6kfv5fvdvzggs488q553cf752byrml981ys9r7khz",
-        "version": "2.2.3"
+        "sha256": "198fhna68aqpmln0wvjwqyvfznjjyp9ykar1b2zjhc2id6rz8c09",
+        "version": "2.3.0"
     },
     {
         "name": "todo-tree",
