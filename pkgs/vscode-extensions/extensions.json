@@ -32,8 +32,8 @@
     {
         "name": "shellcheck",
         "publisher": "timonwong",
-        "sha256": "0qp3lnfz9pyaahl7f50g2v7r72m8sm4awf1pxjhyjjn0nr3gxrkv",
-        "version": "0.23.1"
+        "sha256": "1pql5im75qsi7j1fp0n1nk9b3yjdb74w7l37zvll8wh83y7fp4v0",
+        "version": "0.24.0"
     },
     {
         "name": "vscode-todo-highlight",
@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "0lj0q3p546gx52skay8dvimpfszlrlzamshqs601p81nyc7qfcf2",
-        "version": "0.53.2022101809"
+        "sha256": "177waq63x8ngraajsybjqzsk4f0n2w47x02xq17jq6ywshk674d1",
+        "version": "0.53.2022102000"
     },
     {
         "name": "bracket-pair-colorizer",
