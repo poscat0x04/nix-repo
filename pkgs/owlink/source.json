@@ -1,9 +1,0 @@
-{
-  "url": "https://github.com/seemoo-lab/owl",
-  "rev": "8e4e840b212ae5a09a8a99484be3ab18bad22fa7",
-  "sha256": "1y6x8miz1irx3xg4mmhz9svvl5h7gymdxiskwip60n66a8j3wnch",
-  "fetchLFS": false,
-  "fetchSubmodules": true,
-  "deepClone": false,
-  "leaveDotGit": false
-}

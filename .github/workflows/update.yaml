@@ -64,10 +64,7 @@ jobs:
             china-ip-list-nft
             unbound-china-domain-list
             vlmcsd
-            owlink
-            opendrop
             cloudflare-ddns
-            standardnotes
             discord
             vscode-extensions.rust-lang.rust
             vscode-extensions.matklad.rust-analyzer

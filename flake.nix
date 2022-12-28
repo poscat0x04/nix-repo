@@ -35,16 +35,9 @@
         firefox-addons = callPackages ./pkgs/firefox-addons { };
         vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { };
         fcitx5-material-color = callPackage ./pkgs/fcitx5-material-color { };
-        standardnotes = callPackage ./pkgs/standard-notes { };
         china-ip-list-nft = callPackage ./pkgs/china-ip-list-nft { };
         unbound-china-domain-list = callPackage ./pkgs/unbound-china-domain-list { };
         vlmcsd = callPackage ./pkgs/vlmcsd { };
-        owlink = callPackage ./pkgs/owlink { };
-        opendrop = callPackage ./pkgs/opendrop { };
-        python3Packages = with self.python3Packages; super.python3Packages // {
-          ctypescrypto = callPackage ./pkgs/python-ctypescrypto { };
-          fleep = callPackage ./pkgs/python-fleep { };
-        };
         jhwhw-tex = { pkgs = [ (callPackage ./pkgs/jhwhw-tex { }) ]; };
         cloudflare-ddns = callPackage ./pkgs/cloudflare-ddns { };
         nginxModules = super.nginxModules // {
@@ -79,12 +72,9 @@
               firefox-addons
               vscode-extensions
               fcitx5-material-color
-              standardnotes
               china-ip-list-nft
               unbound-china-domain-list
               vlmcsd
-              owlink
-              opendrop
               python3Packages
               jhwhw-tex
               cloudflare-ddns

@@ -1,9 +1,0 @@
-{
-  "url": "https://github.com/vbwagner/ctypescrypto",
-  "rev": "33c32904cf5e04901f87f90e2499634b8feecd3e",
-  "sha256": "1mg73692m29r0gs7sg8q3dzmxmiagssmf94sinkvvbfhrfr86w07",
-  "fetchLFS": false,
-  "fetchSubmodules": false,
-  "deepClone": false,
-  "leaveDotGit": false
-}

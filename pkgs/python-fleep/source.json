@@ -1,9 +1,0 @@
-{
-  "url": "https://github.com/floyernick/fleep-py",
-  "rev": "994bc2c274482d80ab13d89d8f7343eb316d3e44",
-  "sha256": "1ikwnfls21v47md7y8dd43xj0gjsdb0iic4nhmj7rwkx7jg3p9ad",
-  "fetchLFS": false,
-  "fetchSubmodules": false,
-  "deepClone": false,
-  "leaveDotGit": false
-}
