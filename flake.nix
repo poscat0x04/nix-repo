@@ -39,7 +39,6 @@
         unbound-china-domain-list = callPackage ./pkgs/unbound-china-domain-list { };
         vlmcsd = callPackage ./pkgs/vlmcsd { };
         jhwhw-tex = { pkgs = [ (callPackage ./pkgs/jhwhw-tex { }) ]; };
-        cloudflare-ddns = callPackage ./pkgs/cloudflare-ddns { };
         nginxModules = super.nginxModules // {
           http-digest-auth = callPackage ./pkgs/nginx-http-auth-digest { };
         };
@@ -76,7 +75,6 @@
               vlmcsd
               python3Packages
               jhwhw-tex
-              cloudflare-ddns
               nginxModules
               lttng-ust-compat
               wolfram-engine
