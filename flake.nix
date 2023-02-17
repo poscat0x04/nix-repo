@@ -53,7 +53,6 @@
         smartdns-china-domain-list-updater = import ./modules/smartdns-china-domain-list-updater.nix;
         nftables-china-ip-list-updater = import ./modules/nftables-china-ip-list-updater.nix;
         vlmcsd = import ./modules/vlmcsd.nix;
-        cloudflare-ddns = import ./modules/cloudflare-ddns.nix;
       };
     } // eachDefaultSystem (
       system:
