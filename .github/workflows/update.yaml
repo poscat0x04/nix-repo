@@ -18,16 +18,6 @@ jobs:
         with:
           extra_nix_config: |
             experimental-features = nix-command flakes
-      - name: Install attic
-        env:
-          ATTIC_TOKEN: ${{ secrets.ATTIC_TOKEN }}
-        run: |
-          echo "installing attic client"
-          nix profile install -L "github:zhaofengli/attic" \
-            --substituters "https://cache.nixos.org https://staging.attic.rs/attic-ci" \
-            --trusted-public-keys "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY= attic-ci:U5Sey4mUxwBXM3iFapmP0/ogODXywKLRNgRPQpEXxbo="
-          attic login --set-default cache-poscat https://attic.poscat.moe:8443 "$ATTIC_TOKEN"
-          attic use cache-poscat:dev
       - name: Setup config
         run: |
           git config user.name actions
@@ -49,60 +39,3 @@ jobs:
           nix develop -c bash update.sh
           git pull --rebase
           git push origin master
-      - name: Push to cachix
-        run: |
-          attic push dev $(nix flake archive --json \
-            | jq -r '.path,(.inputs|to_entries[].value.path)')
-
-          drvs=(
-            prefs-cleaner
-            extra-files.arkenfox-userjs
-            extra-files.nord-alacritty
-            extra-files.nord-dircolors
-            extra-files.nord-konsole
-            extra-files.nginx-fancyindex-flat-theme
-            fcitx5-material-color
-            unbound-china-domain-list
-            vlmcsd
-            discord
-            vscode-extensions.rust-lang.rust
-            vscode-extensions.matklad.rust-analyzer
-            vscode-extensions.vadimcn.vscode-lldb
-            vscode-extensions.ms-python.python
-            vscode-extensions.redhat.vscode-yaml
-            vscode-extensions.vscodevim.vim
-            vscode-extensions.bbenoist.Nix
-            vscode-extensions.justusadam.language-haskell
-            vscode-extensions.dhall.dhall-lang
-            vscode-extensions.dhall.vscode-dhall-lsp-server
-            vscode-extensions.haskell.haskell
-            vscode-extensions.banacorn.agda-mode
-            vscode-extensions.serayuzgur.crates
-            vscode-extensions.JScearcy.rust-doc-viewer
-            vscode-extensions.arcticicestudio.nord-visual-studio-code
-            vscode-extensions.PKief.material-icon-theme
-            vscode-extensions.dbaeumer.vscode-eslint
-            vscode-extensions.timonwong.shellcheck
-            vscode-extensions.wayou.vscode-todo-highlight
-            vscode-extensions.maximedenes.vscoq
-            vscode-extensions.james-yu.latex-workshop
-            vscode-extensions.GitHub.vscode-pull-request-github
-            vscode-extensions.mr-konn.generic-input-method
-            vscode-extensions.christian-kohler.path-intellisense
-            vscode-extensions.aaronduino.nix-lsp
-            vscode-extensions.ms-vscode.hexeditor
-            vscode-extensions.be5invis.toml
-            vscode-extensions.jroesch.lean
-            vscode-extensions.ms-vscode.cmake-tools
-            vscode-extensions.twxs.cmake
-            vscode-extensions.cschlosser.doxdocgen
-            vscode-extensions.llvm-vs-code-extensions.vscode-clangd
-            vscode-extensions.niudai.vscode-zhihu
-          )
-
-          for drv in ${drvs[@]}
-          do
-            echo "Building ${drv}"
-            attic push dev $(nix build -L --json ".#${drv}" \
-              | jq -r '.[].outputs | to_entries[].value')
-          done
