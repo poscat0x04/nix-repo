@@ -18,11 +18,16 @@ jobs:
         with:
           extra_nix_config: |
             experimental-features = nix-command flakes
-      - uses: cachix/cachix-action@v12
-        with:
-          name: nix-repo
-          authToken: "${{ secrets.CACHIX_AUTH_TOKEN }}"
-          skipPush: true
+      - name: Install attic
+        env:
+          ATTIC_TOKEN: ${{ secrets.ATTIC_TOKEN }}
+        run: |
+          echo "installing attic client"
+          nix profile install -L "github:zhaofengli/attic" \
+            --substituters "https://cache.nixos.org https://staging.attic.rs/attic-ci" \
+            --trusted-public-keys "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY= attic-ci:U5Sey4mUxwBXM3iFapmP0/ogODXywKLRNgRPQpEXxbo="
+          attic login --set-default cache-poscat https://attic.poscat.moe:8443 "$ATTIC_TOKEN"
+          attic use cache-poscat:dev
       - name: Setup config
         run: |
           git config user.name actions
@@ -46,9 +51,8 @@ jobs:
           git push origin master
       - name: Push to cachix
         run: |
-          nix flake archive --json \
-            | jq -r '.path,(.inputs|to_entries[].value.path)' \
-            | cachix push nix-repo
+          attic push dev $(nix flake archive --json \
+            | jq -r '.path,(.inputs|to_entries[].value.path)')
 
           drvs=(
             prefs-cleaner
@@ -99,7 +103,6 @@ jobs:
           for drv in ${drvs[@]}
           do
             echo "Building ${drv}"
-            nix build -L --json ".#${drv}" \
-              | jq -r '.[].outputs | to_entries[].value' \
-              | cachix push nix-repo
+            attic push dev $(nix build -L --json ".#${drv}" \
+              | jq -r '.[].outputs | to_entries[].value')
           done
