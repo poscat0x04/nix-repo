@@ -27,7 +27,6 @@
         firefox-addons = callPackages ./pkgs/firefox-addons { };
         vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { };
         fcitx5-material-color = callPackage ./pkgs/fcitx5-material-color { };
-        china-ip-list-nft = callPackage ./pkgs/china-ip-list-nft { };
         unbound-china-domain-list = callPackage ./pkgs/unbound-china-domain-list { };
         vlmcsd = callPackage ./pkgs/vlmcsd { };
         nginxModules = super.nginxModules // {
@@ -40,8 +39,6 @@
       };
 
       nixosModules = {
-        smartdns-china-domain-list-updater = import ./modules/smartdns-china-domain-list-updater.nix;
-        nftables-china-ip-list-updater = import ./modules/nftables-china-ip-list-updater.nix;
         vlmcsd = import ./modules/vlmcsd.nix;
       };
     } // eachDefaultSystem (
@@ -60,7 +57,6 @@
               firefox-addons
               vscode-extensions
               fcitx5-material-color
-              china-ip-list-nft
               unbound-china-domain-list
               vlmcsd
               python3Packages

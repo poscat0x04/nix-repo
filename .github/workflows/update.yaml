@@ -58,7 +58,6 @@ jobs:
             extra-files.nord-konsole
             extra-files.nginx-fancyindex-flat-theme
             fcitx5-material-color
-            china-ip-list-nft
             unbound-china-domain-list
             vlmcsd
             cloudflare-ddns
