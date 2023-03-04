@@ -51,7 +51,6 @@ jobs:
             | cachix push nix-repo
 
           drvs=(
-            vscode-insiders
             prefs-cleaner
             extra-files.arkenfox-userjs
             extra-files.nord-alacritty

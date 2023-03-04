@@ -14,10 +14,6 @@
   outputs = { self, nixpkgs, NUR, flake-utils, rust-overlay, ... }: with flake-utils;
     {
       overlay = self: super: with self; {
-        vscode-insiders = callPackage ./pkgs/vscode-insiders { };
-        vscode-insiders-with-extensions = super.vscode-with-extensions.override {
-          vscode = vscode-insiders;
-        };
         play-with-mpv = callPackage ./pkgs/play-with-mpv { };
         ttf-ms-win10 = callPackage ./pkgs/ttf-ms-win10 { };
         prefs-cleaner = callPackage ./pkgs/arkenfox-userjs/prefs-cleaner.nix { };
@@ -62,7 +58,6 @@
         packages =
           {
             inherit (pkgs)
-              vscode-insiders
               play-with-mpv
               ttf-ms-win10
               prefs-cleaner
