@@ -60,7 +60,6 @@ jobs:
             fcitx5-material-color
             unbound-china-domain-list
             vlmcsd
-            cloudflare-ddns
             discord
             vscode-extensions.rust-lang.rust
             vscode-extensions.matklad.rust-analyzer
