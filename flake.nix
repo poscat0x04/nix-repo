@@ -5,13 +5,9 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.11";
     NUR.url = "github:nix-community/NUR";
     flake-utils.url = "github:poscat0x04/flake-utils";
-    rust-overlay = {
-      url = "github:oxalica/rust-overlay";
-      inputs.nixpkgs.follows = "/nixpkgs";
-    };
   };
 
-  outputs = { self, nixpkgs, NUR, flake-utils, rust-overlay, ... }: with flake-utils;
+  outputs = { self, nixpkgs, NUR, flake-utils, ... }: with flake-utils;
     {
       overlay = self: super: with self; {
         play-with-mpv = callPackage ./pkgs/play-with-mpv { };
@@ -44,7 +40,7 @@
     } // eachDefaultSystem (
       system:
       let
-        pkgs = import nixpkgs { inherit system; overlays = [ NUR.overlay rust-overlay.overlay self.overlay ]; config.allowUnfree = true; };
+        pkgs = import nixpkgs { inherit system; overlays = [ NUR.overlay self.overlay ]; config.allowUnfree = true; };
       in
       {
         packages =
