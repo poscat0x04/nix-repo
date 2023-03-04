@@ -30,7 +30,6 @@
         china-ip-list-nft = callPackage ./pkgs/china-ip-list-nft { };
         unbound-china-domain-list = callPackage ./pkgs/unbound-china-domain-list { };
         vlmcsd = callPackage ./pkgs/vlmcsd { };
-        jhwhw-tex = { pkgs = [ (callPackage ./pkgs/jhwhw-tex { }) ]; };
         nginxModules = super.nginxModules // {
           http-digest-auth = callPackage ./pkgs/nginx-http-auth-digest { };
         };
