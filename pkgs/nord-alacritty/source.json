@@ -1,7 +1,7 @@
 {
   "url": "https://github.com/arcticicestudio/nord-alacritty",
-  "rev": "3bb39aa7ac601453f0636ab5a0ab2954d2f9a9ab",
-  "sha256": "02ciqch66ax57chzmgv94gzzy0jgk583d7qz5b2mc7w4m53n8mbb",
+  "rev": "58deacac9f4fbcbaabb77dd18735c7f0218f7208",
+  "sha256": "0bkjkzfipddr6v9kd9y52w3a3rlwxm0jngk2hb4xih66wzz30zcf",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
