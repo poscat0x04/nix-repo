@@ -1,7 +1,7 @@
 {
   "url": "https://github.com/felixonmars/dnsmasq-china-list",
-  "rev": "18f862f07e9856bc790408504d140f640e46ec44",
-  "sha256": "0pfkq7ks56sw9gv3xm7m6fdd1sxsqzlszinaxylhdf5lywxhvlvv",
+  "rev": "37f48b020a539c85a28a5ddcabacda077c3d7f07",
+  "sha256": "1sli02wspahbhxxb0phmxlr2bd0js6xw8lvlpr96qy7426mvsqjd",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
