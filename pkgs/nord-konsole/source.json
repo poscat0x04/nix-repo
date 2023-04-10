@@ -1,7 +1,7 @@
 {
   "url": "https://github.com/arcticicestudio/nord-konsole",
-  "rev": "46b986be654dda70cf9ff43ccabbc755ff593f53",
-  "sha256": "0m7d6yvd2jd11dzdrj06nyj335q2kvwhmvsh4j7d40359gc5f0b6",
+  "rev": "417af272770dbaf314d5e91a72a6a5b2587934ac",
+  "sha256": "01b751wvplzlgj0454v97d3r72apmdd68lmyvc6bdy8hcmacv3cn",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
