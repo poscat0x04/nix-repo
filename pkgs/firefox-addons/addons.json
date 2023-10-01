@@ -19,16 +19,6 @@
     "pname": "privacy-badger"
   },
   {
-    "slug": "https-everywhere",
-    "license": {
-      "tag": "custom",
-      "shortName": "https-everywhere-license",
-      "fullName": "Multiple",
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/license/",
-      "free": true
-    }
-  },
-  {
     "slug": "transmission-easy-client"
   },
   {
