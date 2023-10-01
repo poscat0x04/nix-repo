@@ -2,7 +2,7 @@
   description = "Nix repo";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
     NUR.url = "github:nix-community/NUR";
     flake-utils.url = "github:poscat0x04/flake-utils";
   };
