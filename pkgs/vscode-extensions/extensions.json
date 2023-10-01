@@ -8,8 +8,8 @@
     {
         "name": "crates",
         "publisher": "serayuzgur",
-        "sha256": "1dbhd6xbawbnf9p090lpmn8i5gg1f7y8xk2whc9zhg4432kdv3vd",
-        "version": "0.5.10"
+        "sha256": "1jnlakxb9zs1z8gndx5b8s01zyzind26fw387z7n09bmcyfwam5x",
+        "version": "0.6.3"
     },
     {
         "name": "nord-visual-studio-code",
@@ -20,20 +20,20 @@
     {
         "name": "material-icon-theme",
         "publisher": "PKief",
-        "sha256": "15bilv7ck3538dxkjnsqwgw3y1dqbyd9y9qhghysj4fxc367h0hk",
-        "version": "4.21.0"
+        "sha256": "15b05vrmxgbmqqd1z9fbrwl9hnlhrsh4jw41j9wicfs5x124dd49",
+        "version": "4.30.1"
     },
     {
         "name": "vscode-eslint",
         "publisher": "dbaeumer",
-        "sha256": "0m16wi8slyj09r1y5qin9xsw4pyhfk3mj6rs5ghydfnppb45w9np",
-        "version": "2.2.6"
+        "sha256": "1g5mavks3m4fnn7wav659rdnd9f3lp7r96g8niad4g1vaj4xm23q",
+        "version": "2.4.2"
     },
     {
         "name": "shellcheck",
         "publisher": "timonwong",
-        "sha256": "1vff010dw85ln15bqp434nwg8b86q6apaihx7cnxbxxzap15kh4v",
-        "version": "0.26.0"
+        "sha256": "0g1wwz8pbmijlvkinvc47qds0zg27im6cp85dkgq2i0vqisdcb95",
+        "version": "0.34.0"
     },
     {
         "name": "vscode-todo-highlight",
@@ -44,14 +44,14 @@
     {
         "name": "agda-mode",
         "publisher": "banacorn",
-        "sha256": "0lp5vjwm9ss9925kac0rnhb0z2maa76k1g1g7bzfz45gvahgfwcf",
-        "version": "0.3.11"
+        "sha256": "1nikz7siwp558wa55lk3bbsra2nnkair06f33ls15r2jz24qxpb6",
+        "version": "0.4.1"
     },
     {
         "name": "haskell",
         "publisher": "haskell",
-        "sha256": "14p9g07zsb3da4ilaasgsdvh3wagfzayqr8ichsf6k5c952zi8fk",
-        "version": "2.2.1"
+        "sha256": "1dnqw3mkzdfqaqy11ygl3cwnfjm30k5dazldl4pqgb7mw11n32as",
+        "version": "2.5.0"
     },
     {
         "name": "language-haskell",
@@ -80,26 +80,26 @@
     {
         "name": "latex-workshop",
         "publisher": "james-yu",
-        "sha256": "0zvpn7vp6mf7i06l489gzj7sqrw3ipxfsgcig6ksdlxjvz22a44j",
-        "version": "8.29.0"
+        "sha256": "1m3j9ca0zs1n6m8jn9911jyb2q217xrwkzacwmv904anslxw3j3i",
+        "version": "9.14.0"
     },
     {
         "name": "vscode-yaml",
         "publisher": "redhat",
-        "sha256": "0i53n9whcfpds9496r4pa27j3zmd4jc1kpkf4m4rfxzswwngg47x",
-        "version": "1.11.10112022"
+        "sha256": "0pww9qndd2vsizsibjsvscz9fbfx8srrj67x4vhmwr581q674944",
+        "version": "1.14.0"
     },
     {
         "name": "vim",
         "publisher": "vscodevim",
-        "sha256": "00gq6mqqwqipc6d7di2x9mmi1lya11vhkkww9563avchavczb9sv",
-        "version": "1.24.1"
+        "sha256": "0hxb58ygjbqk6qmkp1r421zzib2r1vmz7agbi7bcmjxjpr3grw2w",
+        "version": "1.26.0"
     },
     {
         "name": "gitlens",
         "publisher": "eamodio",
-        "sha256": "0h9pjmknwyjjp2yzmva0pixidp9kfvnm1cclghhn4qaji3w2ix7i",
-        "version": "2022.10.2105"
+        "sha256": "0lr0vnswcc1c4s0k4ckjzi68w4igk37n0i7y0cwgvyw031y5yvbl",
+        "version": "2023.10.105"
     },
     {
         "name": "generic-input-method",
@@ -110,20 +110,20 @@
     {
         "name": "rust-doc-viewer",
         "publisher": "JScearcy",
-        "sha256": "0yrf0ak3fylcg7pgxp18d7p0ln0mm1bkcc341y7fiaj7v3gdvgyz",
-        "version": "3.0.4"
+        "sha256": "0iah04py2x9plpd78x8vwl5ncvlvlz5grx743gs44kvfhsbb9357",
+        "version": "4.1.0"
     },
     {
         "name": "vscoq",
         "publisher": "maximedenes",
-        "sha256": "1sailpizg7zvncggdma9dyxdnga8jya1a2vswwij1rzd9il04j3g",
-        "version": "0.3.6"
+        "sha256": "07ya8qfrm4vvv7baw5m7wfbggrxmqgpcar442vl3rrjhvq7y5ija",
+        "version": "2.0.1"
     },
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "0dvhbfm8mikd01fmghqbmj4swbjs3cz1nsdwjs2k07xcbn5fmk62",
-        "version": "0.53.2022102118"
+        "sha256": "124zclvxafl8fkp3ija36jm59277kn8biw0a16wmlzilg4fnirni",
+        "version": "0.73.2023092907"
     },
     {
         "name": "bracket-pair-colorizer",
@@ -134,8 +134,8 @@
     {
         "name": "path-intellisense",
         "publisher": "christian-kohler",
-        "sha256": "1j7q4mzj173sl6xl3zjw40hnqvyqsrsczakmv63066k4k0rb6clm",
-        "version": "2.8.1"
+        "sha256": "1729ij89hsdmpij4hcpd3gmdakx6iqdcnqbqajqhjfs769r5hh0l",
+        "version": "2.8.4"
     },
     {
         "name": "discord-vscode",
@@ -164,20 +164,20 @@
     {
         "name": "ide-purescript",
         "publisher": "nwolverson",
-        "sha256": "0hhgfaywsjrkkkvmk215552dpxxq12pzyh80crxmdcbphm47117c",
-        "version": "0.26.0"
+        "sha256": "0mx5fdp0m1s04bynvmpl98swqkvrh0jwhsj4qal56gnbwnkx2q7g",
+        "version": "0.26.2"
     },
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "0qx24mv1zmdd9wjgkjz0chm4jpdhf5jzml7daapa3dmcgp0ya0f8",
-        "version": "3.0.90"
+        "sha256": "09y4mwqv8jraklmwzb9kdqgjz59zv23sghsc2294pg6cgwhmky06",
+        "version": "3.0.118"
     },
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "0qx24mv1zmdd9wjgkjz0chm4jpdhf5jzml7daapa3dmcgp0ya0f8",
-        "version": "3.0.90"
+        "sha256": "09y4mwqv8jraklmwzb9kdqgjz59zv23sghsc2294pg6cgwhmky06",
+        "version": "3.0.118"
     },
     {
         "name": "toml",
@@ -188,8 +188,8 @@
     {
         "name": "markdown-all-in-one",
         "publisher": "yzhang",
-        "sha256": "0jw38vf3pzplw5dnhs8b9fxqc4z5b198wjw3y3ll14xjzxc5ymns",
-        "version": "3.4.4"
+        "sha256": "04b8hiha6z7w189lkx0lhy0sgldrfwx1yikl2463lkhhkm3f8av7",
+        "version": "3.5.1"
     },
     {
         "name": "vscode-sqlite",
@@ -200,8 +200,8 @@
     {
         "name": "cmake-tools",
         "publisher": "ms-vscode",
-        "sha256": "0cshpvdy8aiawaj9rjb5va8ls0mgm64ijfix138ifq77fm60lpj4",
-        "version": "1.13.17"
+        "sha256": "02h2zlxnx6swfqfylsy8l4sbhcywjq4l88i2hyc6ysj5fs0f2m4f",
+        "version": "1.16.8"
     },
     {
         "name": "cmake",
@@ -218,14 +218,14 @@
     {
         "name": "vscode-clangd",
         "publisher": "llvm-vs-code-extensions",
-        "sha256": "14adwkljk17pm6ir6p86n885k6xp2cyynwfzpqpgcr3bdw4df1av",
-        "version": "0.1.22"
+        "sha256": "0s7n3r3fkb6xh38yv8q0nj0js1dkxl53xhr1dvqia7gh71i6rsn8",
+        "version": "0.1.24"
     },
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "161bfd6f1vmbcyycsd978bxbizmj4kmxf335zdn3r02sqyhxk3gi",
-        "version": "1.73.10191020"
+        "sha256": "0qzgy1jxkhs6pqn1mm4dcg1g9y79da24lymmifhclr7p00wfb9yg",
+        "version": "1.83.2023092709"
     },
     {
         "name": "nix-lsp",
@@ -236,32 +236,32 @@
     {
         "name": "hexeditor",
         "publisher": "ms-vscode",
-        "sha256": "0w7b9llgm6plzpkr5g8ikpyxdgfdjcd5v9xzhp6967j0xphisdbb",
-        "version": "1.9.9"
+        "sha256": "0m8g3bd9gk0n3wcqy5w3kjz0sr06q0i88m7z8fkx52x9nla75lkf",
+        "version": "1.9.12"
     },
     {
         "name": "lean",
         "publisher": "jroesch",
-        "sha256": "06rf1hv0226qql899zqg1ccnf8sgi208k9s2hrirshwmz16lk2rx",
-        "version": "0.16.55"
+        "sha256": "0v9lg4lx4yrrk9ziqgnwvajbdyfnr5j7x8p8qiwfp98ws3lq57vv",
+        "version": "0.16.58"
     },
     {
         "name": "ocaml-platform",
         "publisher": "ocamllabs",
-        "sha256": "1vbazbgdk5g3sa72wk0vd4i354bw3kagdmp0bzr56v4jwspnw587",
-        "version": "1.10.7"
+        "sha256": "10vhg43dpqzdhlh8wim86gyhsgbrlgxxx59y9hyb33x877750cw9",
+        "version": "1.13.1"
     },
     {
         "name": "vscode-postgresql-client2",
         "publisher": "cweijan",
-        "sha256": "15hqvkqda5q9h13ix1dy2cmghzdfjbqnjdahwp8rc95vdhnca8yx",
-        "version": "5.8.6"
+        "sha256": "1rfijkfmzafwnindnpbdqcgc2ajnwj1z7rj7ini25fcd151jgxiv",
+        "version": "6.7.4"
     },
     {
         "name": "rust",
         "publisher": "rust-lang",
-        "sha256": "039ns854v1k4jb9xqknrjkj8lf62nfcpfn0716ancmjc4f0xlzb3",
-        "version": "0.7.8"
+        "sha256": "0asmr7c9jmik1047n359s9zmv2m7d0i8sixki4p02z7qzyrpxrfs",
+        "version": "0.7.9"
     },
     {
         "name": "ldif",
@@ -290,8 +290,8 @@
     {
         "name": "todo-tree",
         "publisher": "Gruntfuggly",
-        "sha256": "1inbfi3mlsqkkgsp44qkj80hb87f44g23cahl5pjh8985hapcpw5",
-        "version": "0.0.219"
+        "sha256": "0yrc9qbdk7zznd823bqs1g6n2i5xrda0f9a7349kknj9wp1mqgqn",
+        "version": "0.0.226"
     },
     {
         "name": "bracket-pair-colorizer",
