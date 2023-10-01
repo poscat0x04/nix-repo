@@ -25,6 +25,7 @@
         fcitx5-material-color = callPackage ./pkgs/fcitx5-material-color { };
         unbound-china-domain-list = callPackage ./pkgs/unbound-china-domain-list { };
         vlmcsd = callPackage ./pkgs/vlmcsd { };
+        flood-git = callPackage ./pkgs/flood-git { };
         nginxModules = super.nginxModules // {
           http-digest-auth = callPackage ./pkgs/nginx-http-auth-digest { };
         };
@@ -60,6 +61,7 @@
               nginxModules
               lttng-ust-compat
               wolfram-engine
+              flood-git
               ;
               inherit (pkgs) discord;
           };
@@ -72,6 +74,9 @@
 
             # for generating nix expressions for firefox addons
             mozilla-addons-to-nix
+
+            # for calculating hash of flood-git
+            prefetch-npm-deps
 
             # for vscode extension update script
             python3
