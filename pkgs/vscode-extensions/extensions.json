@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "072mnl5lw3ism2cpq9ya9bwkirhbw90x59idxcq2nv2gm04xyzvl",
-        "version": "0.75.2023101015"
+        "sha256": "176j0wzzpbsrw8kcwa95axcz69v16yyaa2nh82988y24jz5hjl21",
+        "version": "0.75.2023101109"
     },
     {
         "name": "bracket-pair-colorizer",
@@ -224,8 +224,8 @@
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "0ww76sqf619ggxzvag0n8smimy4rfhgbn8nf7i2qar4klp1z8j0m",
-        "version": "1.83.2023100409"
+        "sha256": "140s3a8b1xhh096g3ga8dcqj1y2kbiw91dpcj5fdr0hm7yg5pyid",
+        "version": "1.83.2023101109"
     },
     {
         "name": "nix-lsp",
