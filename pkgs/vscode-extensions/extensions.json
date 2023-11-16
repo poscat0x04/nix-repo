@@ -80,8 +80,8 @@
     {
         "name": "latex-workshop",
         "publisher": "james-yu",
-        "sha256": "0jr9b6f5l361v33z0glci0az9wl259c4vg6qmpqrw7cbsnh5hs5a",
-        "version": "9.15.0"
+        "sha256": "1a8im7n25jy2zyqcqhscj62bamhwzp6kk6hdarb0p38d4pwwzxbm",
+        "version": "9.14.1"
     },
     {
         "name": "vscode-yaml",
@@ -98,8 +98,8 @@
     {
         "name": "gitlens",
         "publisher": "eamodio",
-        "sha256": "1pqy19smc1xkinvzdbzfk1hw0lh6cizkzz2rc34xm2lav3d9g94j",
-        "version": "2023.11.1504"
+        "sha256": "1hb4kcnmswxr4d732y9p4cjg31rfdilh5wfwf00ya3dd3j16gg3p",
+        "version": "2023.11.1604"
     },
     {
         "name": "generic-input-method",
@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "0adjw4bpk4r1y9a2dhrvsbv5gn5w4f3c63vvxl4qb6armx6jnpg9",
-        "version": "0.77.2023111514"
+        "sha256": "0r8s9ad5ak4va2kvra7jnyrbsvcr0nw6y1a78g0mlk78zz5xzsn3",
+        "version": "0.77.2023111609"
     },
     {
         "name": "bracket-pair-colorizer",
