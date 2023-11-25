@@ -254,8 +254,8 @@
     {
         "name": "vscode-postgresql-client2",
         "publisher": "cweijan",
-        "sha256": "071mg6ha6jpq5lmipxyx79pgmi4abjf7g0xbh9llrz5w416ij52h",
-        "version": "6.8.6"
+        "sha256": "1qkr3dv7iicbafz3dlqmpwhb8dnr9arpgl8b7zl4dmvjsb9c7jn6",
+        "version": "6.8.7"
     },
     {
         "name": "rust",
