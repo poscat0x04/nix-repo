@@ -8,8 +8,8 @@
     {
         "name": "crates",
         "publisher": "serayuzgur",
-        "sha256": "1jnlakxb9zs1z8gndx5b8s01zyzind26fw387z7n09bmcyfwam5x",
-        "version": "0.6.3"
+        "sha256": "1ci4k669zbf10vd7nm47b9gh8g2fdqspplpf6mns7azcd5qcn22v",
+        "version": "0.6.4"
     },
     {
         "name": "nord-visual-studio-code",
@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "1nkky5ycxpvzsmn38jiwhjh8id75p4phljc8lrxb8pwfqmvvw9n6",
-        "version": "0.77.2023120509"
+        "sha256": "1l0sklzpynzqcijawq1gh29fpdpflj7xrq7hf0giw8hzk4gqnm0r",
+        "version": "0.77.2023120609"
     },
     {
         "name": "bracket-pair-colorizer",
