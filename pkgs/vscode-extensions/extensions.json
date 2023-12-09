@@ -44,8 +44,8 @@
     {
         "name": "agda-mode",
         "publisher": "banacorn",
-        "sha256": "0kik11fwi87fwchjj3axwjy0m93bh9d2zlyxsccybq9kmabkvj9n",
-        "version": "0.4.4"
+        "sha256": "1xc2295v3ni2r40i8b6ydrq0a6fx8d43v0623q9ss11xkllxhivz",
+        "version": "0.4.5"
     },
     {
         "name": "haskell",
@@ -98,8 +98,8 @@
     {
         "name": "gitlens",
         "publisher": "eamodio",
-        "sha256": "0d2xbm80n17qlp5rjazm1fss8xz4hr9a59q0s7rfqnprd60935v6",
-        "version": "2023.12.804"
+        "sha256": "1rwcnhxxldkd66lgivdb59wz6l7ifvyq5w0n7kxd1kj36k7vjqm4",
+        "version": "2023.12.904"
     },
     {
         "name": "generic-input-method",
