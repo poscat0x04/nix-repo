@@ -20,8 +20,8 @@
     {
         "name": "material-icon-theme",
         "publisher": "PKief",
-        "sha256": "172s10fl6xs9wzwsa5shl0dp637zyar2aisv7ghd7qzqdffpz3z8",
-        "version": "4.32.0"
+        "sha256": "1yg48sfpmq8mc110d5hikw177v4iw2w5lmmd34fjlff5kvk5q2j7",
+        "version": "4.33.0"
     },
     {
         "name": "vscode-eslint",
