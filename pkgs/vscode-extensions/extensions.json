@@ -188,8 +188,8 @@
     {
         "name": "markdown-all-in-one",
         "publisher": "yzhang",
-        "sha256": "0j1j1n3c2h9yw1zqfg7chjsw0mc1ax8k95wf8yjxh7ha8r6hpdzj",
-        "version": "3.6.0"
+        "sha256": "1yibicrnbbrvcdlyjmw0w92391b25bi73k0zb87r793ckwkb3gq4",
+        "version": "3.6.1"
     },
     {
         "name": "vscode-sqlite",
