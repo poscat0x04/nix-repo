@@ -26,8 +26,8 @@
     {
         "name": "vscode-eslint",
         "publisher": "dbaeumer",
-        "sha256": "1g5mavks3m4fnn7wav659rdnd9f3lp7r96g8niad4g1vaj4xm23q",
-        "version": "2.4.2"
+        "sha256": "15i8ra8wjr3k5n0d5ji6spn8jxg34aikpn86p8gl6l5czxm78dv4",
+        "version": "2.4.3"
     },
     {
         "name": "shellcheck",
@@ -98,8 +98,8 @@
     {
         "name": "gitlens",
         "publisher": "eamodio",
-        "sha256": "0kss0vpvbbvfksa53nqwr6rsbdjlinh8klfwyckx8x1ahjdypzmq",
-        "version": "2024.1.1304"
+        "sha256": "0pz67p6knhhrwdb1qhjlfbp5vq6b3ssg3lda581lybcfiflaxikv",
+        "version": "2024.1.1504"
     },
     {
         "name": "generic-input-method",
@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "14zvyz8wq8aw26rzqmk6d8kz9jqhviqlnx3lb76h3bakjyxga3zg",
-        "version": "0.79.2024011109"
+        "sha256": "084k2i80srxfqwh6c2i9z1r0kg0l174xdkcdxydc8c4ylpcp4ff0",
+        "version": "0.79.2024011509"
     },
     {
         "name": "bracket-pair-colorizer",
