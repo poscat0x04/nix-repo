@@ -26,8 +26,8 @@
     {
         "name": "vscode-eslint",
         "publisher": "dbaeumer",
-        "sha256": "15i8ra8wjr3k5n0d5ji6spn8jxg34aikpn86p8gl6l5czxm78dv4",
-        "version": "2.4.3"
+        "sha256": "1c10n36a3bxwwjgd4vhrf79wg14dm0hxvz9z23pqdyxzcwrar49l",
+        "version": "2.4.4"
     },
     {
         "name": "shellcheck",
