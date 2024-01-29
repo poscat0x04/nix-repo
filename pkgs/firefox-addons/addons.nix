@@ -764,7 +764,7 @@
       meta = with lib;
       {
         homepage = "https://sponsor.ajay.app";
-        description = "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos.\n\nOther browsers: https://sponsor.ajay.app";
+        description = "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app";
         license = licenses.lgpl3;
         mozPermissions = [
           "storage"
