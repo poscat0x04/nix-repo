@@ -127,7 +127,7 @@
       meta = with lib;
       {
         homepage = "http://grammarly.com";
-        description = "Improve your writing with Grammarly's communication assistance. Spell check, grammar check, and punctuation check in one tool. Real-time suggestions for improving tone and clarity help ensure your writing makes the impression you want.";
+        description = "Improve your writing with Grammarly's assistance. Get spell check, grammar check, and punctuation check in one tool. Real-time suggestions for improving tone and clarity help ensure your writing makes the impression you want.";
         mozPermissions = [
           "http://*/*"
           "https://*/*"
