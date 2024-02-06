@@ -98,8 +98,8 @@
     {
         "name": "gitlens",
         "publisher": "eamodio",
-        "sha256": "1nxy7crmys5cnqxyylw9wr28gx07zxma5nnhwr15jcpfhhdh2knn",
-        "version": "2024.2.404"
+        "sha256": "10b8a84yw7m7d0hj7ad4448cvbyrkhcz0plhs981p6q2vfsrw5pk",
+        "version": "2024.2.610"
     },
     {
         "name": "generic-input-method",
@@ -200,8 +200,8 @@
     {
         "name": "cmake-tools",
         "publisher": "ms-vscode",
-        "sha256": "0swp6ijs2fn0rj3rbkkx14bkb1abhz0v6xf51mv24s3zd4f5nihj",
-        "version": "1.17.12"
+        "sha256": "13r8qfw9wb7a53y0167jxwj2cknibwrzyzjlisiwpw8r3xx49hc9",
+        "version": "1.17.13"
     },
     {
         "name": "cmake",
