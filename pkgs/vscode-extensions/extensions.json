@@ -98,8 +98,8 @@
     {
         "name": "gitlens",
         "publisher": "eamodio",
-        "sha256": "1m1zcmxdmc650184b0iv0nsxvahl622b0mp8n7dgalxjmgjl58r9",
-        "version": "2024.2.1104"
+        "sha256": "1n084qdhlkgss8wq7x899qsid7z81alhfpf8zsgchwll5d8514g8",
+        "version": "2024.2.1304"
     },
     {
         "name": "generic-input-method",
@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "1rg8wd2knh1drbyl46dv3hiyprd4q0v5w2s33lqh2ach5krpzfx0",
-        "version": "0.81.2024021209"
+        "sha256": "0mvzrv48d8v8wrlkc73jsix6x53j4zxvz06p34yr9ysd678yfm2x",
+        "version": "0.81.2024021309"
     },
     {
         "name": "bracket-pair-colorizer",
