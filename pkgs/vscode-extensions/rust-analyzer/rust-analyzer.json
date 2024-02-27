@@ -1,6 +1,6 @@
 {
     "name": "rust-analyzer",
     "publisher": "rust-lang",
-    "sha256": "03hxlvyq8mhxyqyjwaxn5rmb42lzrsda819if8lbcb1szkiaphlz",
-    "version": "0.4.1859"
+    "sha256": "0594qc3cxv9xq73bfns08qj0pxj53k9xvph4mchjyc56bmz63285",
+    "version": "0.4.1861"
 }
