@@ -80,8 +80,8 @@
     {
         "name": "latex-workshop",
         "publisher": "james-yu",
-        "sha256": "1bzzrq8bd73gjs8jrqnwqil6hd6bs6zbbrv35ngz31hx7wsgkw1s",
-        "version": "9.18.2"
+        "sha256": "0ngqi0q6jqcfag723hqw3nb7vl8lsv6na8s213ln6dnzhx7s3mci",
+        "version": "9.19.0"
     },
     {
         "name": "vscode-yaml",
@@ -224,8 +224,8 @@
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "04nq2m0izl72zih307c51b3ykxyhvd9wv4b8fpq3lcls8xirnnbp",
-        "version": "1.87.2024022809"
+        "sha256": "1ff5whbcgmk9yv3zqyi8wx43qawplh5w21rhwqkbnmqs9lngdkgf",
+        "version": "1.87.2024030609"
     },
     {
         "name": "nix-lsp",
