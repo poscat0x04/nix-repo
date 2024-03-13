@@ -224,8 +224,8 @@
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "1ff5whbcgmk9yv3zqyi8wx43qawplh5w21rhwqkbnmqs9lngdkgf",
-        "version": "1.87.2024030609"
+        "sha256": "1wxamvqw5dyby1yygnykyhv3v9ja8jsbysbw87mn8zhqjbda5ms3",
+        "version": "1.87.2024031309"
     },
     {
         "name": "nix-lsp",
@@ -254,8 +254,8 @@
     {
         "name": "vscode-postgresql-client2",
         "publisher": "cweijan",
-        "sha256": "1kik9iiipy8fjfbag8g356g3cpvf3914aw2d1g75iyr2ad85nk6c",
-        "version": "7.0.9"
+        "sha256": "134cwz6dwmd9incc68c9j544kcgcnw3x2yars1nrlmwqd5xizjsj",
+        "version": "7.1.0"
     },
     {
         "name": "rust",
