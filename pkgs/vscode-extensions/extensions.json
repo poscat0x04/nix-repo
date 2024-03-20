@@ -98,8 +98,8 @@
     {
         "name": "gitlens",
         "publisher": "eamodio",
-        "sha256": "06x0wq7bvfq9zvzl7z5v0r0jm5lq3pam6qdl8rqbkbxwalxrhrwb",
-        "version": "2024.3.1905"
+        "sha256": "0j4lb2d4pj1g6fkwbxhxm266vbq8rli5g5am9rw4850pp51k9w86",
+        "version": "2024.3.2005"
     },
     {
         "name": "generic-input-method",
@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "178x6f9c2g7pwqyvml8hvwcy6f85v7gxnb3c6cppcqiq9b5armrf",
-        "version": "0.85.2024032004"
+        "sha256": "08xib29yd4kxpvxpn46jshdxfk7arhgsd9m94c5hsycdz9iirwz4",
+        "version": "0.85.2024032009"
     },
     {
         "name": "bracket-pair-colorizer",
@@ -218,8 +218,8 @@
     {
         "name": "vscode-clangd",
         "publisher": "llvm-vs-code-extensions",
-        "sha256": "09fb9a59852cs7g5lj40v8rl9zw4x155qir37lx1pkmm4qckrsp4",
-        "version": "0.1.27"
+        "sha256": "1kys452zd99519jwvw5yqil0lm8wjvfaczsb555l0lk9lligbn35",
+        "version": "0.1.28"
     },
     {
         "name": "vscode-language-pack-zh-hans",
