@@ -98,8 +98,8 @@
     {
         "name": "gitlens",
         "publisher": "eamodio",
-        "sha256": "0j4lb2d4pj1g6fkwbxhxm266vbq8rli5g5am9rw4850pp51k9w86",
-        "version": "2024.3.2005"
+        "sha256": "0l3dwfkff6w8d2azq3h9dgjg72xsydby6ja0p0bwgxvcfic7kykw",
+        "version": "2024.3.2105"
     },
     {
         "name": "generic-input-method",
@@ -254,8 +254,8 @@
     {
         "name": "vscode-postgresql-client2",
         "publisher": "cweijan",
-        "sha256": "0wlngkbl6c0q6qszzy8sww32m30dcg63lymcmz9ibg2nww8gsv9n",
-        "version": "7.1.2"
+        "sha256": "14rg4sfb526qvz5a8msbmnjcs9y84svfnqpzka2nzzjsrzj1sxbj",
+        "version": "7.1.3"
     },
     {
         "name": "rust",
