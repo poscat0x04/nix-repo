@@ -170,14 +170,14 @@
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "11nlnspc38x7dh6gg8amkccix2dq6h6sh5djfmrssydsz42c34n0",
-        "version": "3.0.122"
+        "sha256": "1c2z2fsdj81vn95mxqc98ifkkdcrbx6415s651h2k5nsgmradcnh",
+        "version": "3.0.124"
     },
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "11nlnspc38x7dh6gg8amkccix2dq6h6sh5djfmrssydsz42c34n0",
-        "version": "3.0.122"
+        "sha256": "1c2z2fsdj81vn95mxqc98ifkkdcrbx6415s651h2k5nsgmradcnh",
+        "version": "3.0.124"
     },
     {
         "name": "toml",
@@ -224,8 +224,8 @@
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "190dfk1wkq0z4gzrk3jfqzlz2zbcnc1znyl38c6iibvhlnkaqx3l",
-        "version": "1.88.2024040309"
+        "sha256": "1i6ndmrll0y7zlkh6a789g2b4xzkqpa8c4r27lhlx2jws958jk3m",
+        "version": "1.88.2024041009"
     },
     {
         "name": "nix-lsp",
