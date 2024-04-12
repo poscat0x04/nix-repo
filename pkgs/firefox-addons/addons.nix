@@ -16,10 +16,10 @@
       };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2024.2.1";
+      version = "2024.3.1";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4246600/bitwarden_password_manager-2024.2.1.xpi";
-      sha256 = "f2db399e5a0915e4fd7e4906c32c72eac4a2b7bb4b4acacd892fff18e73085d4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4261683/bitwarden_password_manager-2024.3.1.xpi";
+      sha256 = "c55dbcc014ac7782c1c0e7b31cf859e97da43a308d886b87efcd13e7cb5fc510";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -27,6 +27,7 @@
         license = licenses.gpl3;
         mozPermissions = [
           "<all_urls>"
+          "*://*/*"
           "tabs"
           "contextMenus"
           "storage"
@@ -34,11 +35,10 @@
           "clipboardRead"
           "clipboardWrite"
           "idle"
-          "http://*/*"
-          "https://*/*"
           "webRequest"
           "webRequestBlocking"
           "file:///*"
+          "https://*/*"
           "https://lastpass.com/export.php"
           ];
         platforms = platforms.all;
@@ -121,10 +121,10 @@
       };
     "grammarly" = buildFirefoxXpiAddon {
       pname = "grammarly";
-      version = "8.911.0";
+      version = "8.912.0";
       addonId = "87677a2c52b84ad3a151a4a72f5bd3c4@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4247452/grammarly_1-8.911.0.xpi";
-      sha256 = "fe48318f867c70bc6e260fcfe71a8c24ff18f8ccc9f2a6c3bbb6ea291e9807fa";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4262513/grammarly_1-8.912.0.xpi";
+      sha256 = "6e380ddffaacda256e153cb928c0c9206c6730398d549e0a91d6fdccc9dd95a0";
       meta = with lib;
       {
         homepage = "http://grammarly.com";
