@@ -80,8 +80,8 @@
     {
         "name": "latex-workshop",
         "publisher": "james-yu",
-        "sha256": "08w3rhrdwabkvbc0bzhz3rj7kwxgpg4gvkip2xvs8imfm6xx51ik",
-        "version": "9.19.2"
+        "sha256": "140pyh5alx8nawnqg4bsj2x8hmffywn5v08zq09mm0asbds3ghf5",
+        "version": "9.20.0"
     },
     {
         "name": "vscode-yaml",
