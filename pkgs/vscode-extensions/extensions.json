@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "0aggcrv7ps8vcgd7ck5nmb83spmkk2ddc0gpmh0rrgvw19509m43",
-        "version": "0.87.2024041513"
+        "sha256": "08flzjb0gd2j8scqiv1gnxdbsgj0ckqkcfg38k09hcjgxcw0wv6j",
+        "version": "0.87.2024041604"
     },
     {
         "name": "bracket-pair-colorizer",
@@ -254,8 +254,8 @@
     {
         "name": "vscode-postgresql-client2",
         "publisher": "cweijan",
-        "sha256": "1k2d0alrgi7l2g6rg7sfix76vkw13xr9gwvcncaxjmzs63j501mm",
-        "version": "7.2.3"
+        "sha256": "0xak08ph3w6qydhcca6szqalf4xcdl1z89gldgr5d172ca6qdfhp",
+        "version": "7.2.4"
     },
     {
         "name": "rust",
