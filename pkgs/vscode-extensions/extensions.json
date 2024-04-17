@@ -200,8 +200,8 @@
     {
         "name": "cmake-tools",
         "publisher": "ms-vscode",
-        "sha256": "0dr911zp47khj7vnrw05440gbjxmcd07zj2k8m5xrbsgry39cy4l",
-        "version": "1.18.23"
+        "sha256": "00bgnbfk4fwcdnyin8cxyl77265k0xmlxk5192df7ix6xrxr24x0",
+        "version": "1.18.24"
     },
     {
         "name": "cmake",
@@ -254,8 +254,8 @@
     {
         "name": "vscode-postgresql-client2",
         "publisher": "cweijan",
-        "sha256": "0xak08ph3w6qydhcca6szqalf4xcdl1z89gldgr5d172ca6qdfhp",
-        "version": "7.2.4"
+        "sha256": "1hw841n89bhyx2xy1w33wdvzkf669r3j2izm32vvv6gi3fkyy4ad",
+        "version": "7.2.5"
     },
     {
         "name": "rust",
