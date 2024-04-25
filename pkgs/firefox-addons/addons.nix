@@ -257,10 +257,10 @@
       };
     "link-cleaner" = buildFirefoxXpiAddon {
       pname = "link-cleaner";
-      version = "1.5";
+      version = "1.6resigned1";
       addonId = "{6d85dea2-0fb4-4de3-9f8c-264bce9a2296}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/671858/link_cleaner-1.5.xpi";
-      sha256 = "1ecec8cbe78b4166fc50da83213219f30575a8c183f7a13aabbff466c71ce560";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4272011/link_cleaner-1.6resigned1.xpi";
+      sha256 = "16dbaf948c31ed586e64301d5809d7b11dd07014bf5edb5f7b1b4bfa30d40ff0";
       meta = with lib;
       {
         homepage = "https://github.com/idlewan/link_cleaner";
