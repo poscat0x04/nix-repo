@@ -2,10 +2,10 @@
   {
     "absolute-enable-right-click" = buildFirefoxXpiAddon {
       pname = "absolute-enable-right-click";
-      version = "1.3.8";
+      version = "1.3.9resigned1";
       addonId = "{9350bc42-47fb-4598-ae0f-825e3dd9ceba}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/1205179/absolute_enable_right_click-1.3.8.xpi";
-      sha256 = "d1ca76d23234e6fd0f5d521caef62d20d071c8806887cda89914fd8325715a0a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4274207/absolute_enable_right_click-1.3.9resigned1.xpi";
+      sha256 = "46cd0be06eb1decc2095b1afd47fd11aee80db7d5576b59f8794246ef65301ff";
       meta = with lib;
       {
         description = "Force Enable Right Click &amp; Copy";
