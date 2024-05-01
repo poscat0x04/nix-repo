@@ -98,8 +98,8 @@
     {
         "name": "gitlens",
         "publisher": "eamodio",
-        "sha256": "1j2xcx9izaj8w137lb0jyz6s7hvmy46970sfcbi7378a2i2flz66",
-        "version": "2024.4.2905"
+        "sha256": "1pm3a0pz6gvj3gp17wb9ds2x19z2gzajgm73z47xx5z6ln1x5c8v",
+        "version": "2024.5.105"
     },
     {
         "name": "generic-input-method",
@@ -224,8 +224,8 @@
     {
         "name": "vscode-language-pack-zh-hans",
         "publisher": "MS-CEINTL",
-        "sha256": "0w8wji1p8aj17f5gfby710fqd85zaihkadvbds5wx8hpakl0yz8d",
-        "version": "1.89.2024042409"
+        "sha256": "0imh0mfw5klc0amc760kngravbbrksnsckdrx1a1rpl5mwplwmfr",
+        "version": "1.89.2024050109"
     },
     {
         "name": "nix-lsp",
