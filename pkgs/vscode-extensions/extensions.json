@@ -98,8 +98,8 @@
     {
         "name": "gitlens",
         "publisher": "eamodio",
-        "sha256": "09vgsws7kr1sam07f5vc9lav03853w8ghmj1a3a2hf5r5k0rwcz4",
-        "version": "2024.5.1105"
+        "sha256": "1w50jiz809n5s89l6j5b1y959dccj16fdj0zycvkwylyb0wvgp6f",
+        "version": "2024.5.1205"
     },
     {
         "name": "generic-input-method",
@@ -152,8 +152,8 @@
     {
         "name": "vscode-ghc-simple",
         "publisher": "dramforever",
-        "sha256": "1pd7p4xdvcgmp8m9aymw0ymja1qxvds7ikgm4jil7ffnzl17n6kp",
-        "version": "0.2.3"
+        "sha256": "0d0nfp2343xq1hb7iqmldx7pqhbddz8r65383d4jl26lgdw05h88",
+        "version": "0.2.4"
     },
     {
         "name": "language-purescript",
