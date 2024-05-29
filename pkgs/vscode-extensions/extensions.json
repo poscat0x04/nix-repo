@@ -98,8 +98,8 @@
     {
         "name": "gitlens",
         "publisher": "eamodio",
-        "sha256": "1835wb102mgqcyzfgqbvvf686vkgzzgvf2w82xg68kbg4g4q8sql",
-        "version": "2024.5.2705"
+        "sha256": "05k045yiv0pi2j2c6cjvl8r9f7k4kmm0qlc3fihpg5w7256ldwsr",
+        "version": "2024.5.2905"
     },
     {
         "name": "generic-input-method",
