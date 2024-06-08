@@ -170,14 +170,14 @@
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "1c2z2fsdj81vn95mxqc98ifkkdcrbx6415s651h2k5nsgmradcnh",
-        "version": "3.0.124"
+        "sha256": "0hqvqamn5kbm25h5fs5bvdyj575dmrah0jpqygvkz5xgq1019mz5",
+        "version": "3.0.126"
     },
     {
         "name": "spellright",
         "publisher": "ban",
-        "sha256": "1c2z2fsdj81vn95mxqc98ifkkdcrbx6415s651h2k5nsgmradcnh",
-        "version": "3.0.124"
+        "sha256": "0hqvqamn5kbm25h5fs5bvdyj575dmrah0jpqygvkz5xgq1019mz5",
+        "version": "3.0.126"
     },
     {
         "name": "toml",
