@@ -295,10 +295,10 @@
       };
     "plasma-integration" = buildFirefoxXpiAddon {
       pname = "plasma-integration";
-      version = "1.8.1";
+      version = "1.9.1";
       addonId = "plasma-browser-integration@kde.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3859385/plasma_integration-1.8.1.xpi";
-      sha256 = "e156e82091bbff44cb9d852e16aedacdcc0819c5a3b8cb34cedd77acf566c5c4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4298512/plasma_integration-1.9.1.xpi";
+      sha256 = "394a3525185679dd5430d05f980ab6be19d96557560fe86208c21a8807669b33";
       meta = with lib;
       {
         homepage = "http://kde.org";
@@ -754,10 +754,10 @@
       };
     "sponsorblock" = buildFirefoxXpiAddon {
       pname = "sponsorblock";
-      version = "5.6";
+      version = "5.6.1";
       addonId = "sponsorBlocker@ajay.app";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4292214/sponsorblock-5.6.xpi";
-      sha256 = "ec2343ee8db27666177e0b59510ddcd8b0f1072c88b5df05ba789d72a3af32e6";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4299073/sponsorblock-5.6.1.xpi";
+      sha256 = "4ccae0ebc1aa26d61c446956da425bf16daffd5704ea216735e0a57e482fe9ba";
       meta = with lib;
       {
         homepage = "https://sponsor.ajay.app";
