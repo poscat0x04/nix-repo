@@ -248,8 +248,8 @@
     {
         "name": "ocaml-platform",
         "publisher": "ocamllabs",
-        "sha256": "0dgim5qxi0bbqivl5a64z5qxi48mf3fwpsfpp216k4i9cc48yafw",
-        "version": "1.19.0"
+        "sha256": "19yz4wcknw0s88jjyahniz7mjp45aghb930q0iapm0bjk6p4n6z4",
+        "version": "1.19.1"
     },
     {
         "name": "vscode-postgresql-client2",
