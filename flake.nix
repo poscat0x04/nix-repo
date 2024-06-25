@@ -69,7 +69,7 @@
             curl
             jq
             nix-prefetch-scripts
-            nixUnstable
+            nix
 
             # for generating nix expressions for firefox addons
             mozilla-addons-to-nix
