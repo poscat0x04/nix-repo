@@ -2,7 +2,7 @@
 
 cd "$(pwd)/$(dirname ${BASH_SOURCE})"
 nix-prefetch-git https://github.com/arcticicestudio/nord-konsole \
-  | jq "del(.path) | del(.date)" \
+  | jq "del(.sha256) | del(.path) | del(.date)" \
   | tee source.json
 jq -r ".rev" < source.json \
   | head -c 7 \
