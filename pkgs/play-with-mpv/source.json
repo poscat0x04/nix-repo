@@ -1,7 +1,6 @@
 {
   "url": "https://github.com/Thann/play-with-mpv",
   "rev": "61d9223cb5019aab68568d2d105f924e441ffeb0",
-  "sha256": "0mkfnhfil6fizhsf0glbbjkhjbbnzf1s51vh0pyfb5if5q5bmdjf",
   "hash": "sha256-Tra6Ci4uluX8BXCHooP7di0Jp1yLPuA0/NEZGh20blY=",
   "fetchLFS": false,
   "fetchSubmodules": false,
