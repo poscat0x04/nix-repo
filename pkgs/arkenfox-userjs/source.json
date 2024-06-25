@@ -2,6 +2,7 @@
   "url": "https://github.com/arkenfox/user.js",
   "rev": "23caf6961483e0e55544cd4f3594734d0aa35cf0",
   "sha256": "1js0qxlc4mvwlc71aa2w6z01pq5bdg9v910aa17v8fqm91pa8l95",
+  "hash": "sha256-JVGkbkgVO7RPUAqEtNNrq+AbwDdcKBUOo3xXwmjHQMs=",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
