@@ -22,7 +22,6 @@
         };
         firefox-addons = callPackages ./pkgs/firefox-addons { };
         vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { };
-        fcitx5-material-color = callPackage ./pkgs/fcitx5-material-color { };
         unbound-china-domain-list = callPackage ./pkgs/unbound-china-domain-list { };
         vlmcsd = callPackage ./pkgs/vlmcsd { };
         flood-git = callPackage ./pkgs/flood-git { };
@@ -53,7 +52,6 @@
               extra-files
               firefox-addons
               vscode-extensions
-              fcitx5-material-color
               unbound-china-domain-list
               vlmcsd
               python3Packages
