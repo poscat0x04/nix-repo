@@ -2,7 +2,7 @@
   description = "Nix repo";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
     NUR.url = "github:nix-community/NUR";
     flake-utils.url = "github:poscat0x04/flake-utils";
   };
@@ -29,6 +29,10 @@
           http-digest-auth = callPackage ./pkgs/nginx-http-auth-digest { };
         };
         wolfram-engine = callPackage ./pkgs/wolfram-engine { };
+        cf-mtls-cert = builtins.fetchurl {
+          url = "https://developers.cloudflare.com/ssl/static/authenticated_origin_pull_ca.pem";
+          sha256 = "0hxqszqfzsbmgksfm6k0gp0hsx9k1gqx24gakxqv0391wl6fsky1";
+        };
       };
 
       nixosModules = {
@@ -56,6 +60,7 @@
               nginxModules
               wolfram-engine
               flood-git
+              cf-mtls-cert
               ;
             inherit (pkgs) discord;
           };
