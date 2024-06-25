@@ -28,9 +28,6 @@
         nginxModules = super.nginxModules // {
           http-digest-auth = callPackage ./pkgs/nginx-http-auth-digest { };
         };
-        lttng-ust-compat = lttng-ust.overrideAttrs (_: {
-          postInstall = "ln -s $out/lib/liblttng-ust.so.1.0.0 $out/lib/liblttng-ust.so.0";
-        });
         wolfram-engine = callPackage ./pkgs/wolfram-engine { };
       };
 
@@ -57,11 +54,10 @@
               python3Packages
               jhwhw-tex
               nginxModules
-              lttng-ust-compat
               wolfram-engine
               flood-git
               ;
-              inherit (pkgs) discord;
+            inherit (pkgs) discord;
           };
         devShell = with pkgs; with nur.repos.rycee; mkShell {
           buildInputs = [
