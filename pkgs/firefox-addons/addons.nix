@@ -12,8 +12,8 @@
         license = licenses.bsd2;
         mozPermissions = [ "tabs" "storage" "activeTab" "<all_urls>" ];
         platforms = platforms.all;
-        };
       };
+    };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
       version = "2024.6.2";
@@ -40,10 +40,10 @@
           "webNavigation"
           "file:///*"
           "https://lastpass.com/export.php"
-          ];
+        ];
         platforms = platforms.all;
-        };
       };
+    };
     "ctrl-number-to-switch-tabs" = buildFirefoxXpiAddon {
       pname = "ctrl-number-to-switch-tabs";
       version = "1.0.2";
@@ -57,8 +57,8 @@
         license = licenses.mit;
         mozPermissions = [];
         platforms = platforms.all;
-        };
       };
+    };
     "cxmooc" = buildFirefoxXpiAddon {
       pname = "cxmooc";
       version = "2.5.1";
@@ -92,10 +92,10 @@
           "*://studyh5.zhihuishu.com/videoStudy.html*"
           "*://www.icourse163.org/learn/*"
           "*://www.icourse163.org/spoc/learn/*"
-          ];
+        ];
         platforms = platforms.all;
-        };
       };
+    };
     "floccus" = buildFirefoxXpiAddon {
       pname = "floccus";
       version = "5.2.3";
@@ -115,10 +115,10 @@
           "unlimitedStorage"
           "tabs"
           "identity"
-          ];
+        ];
         platforms = platforms.all;
-        };
       };
+    };
     "grammarly" = buildFirefoxXpiAddon {
       pname = "grammarly";
       version = "8.912.0";
@@ -227,10 +227,10 @@
           "*://*.outlook.office.com/*"
           "*://docs.google.com/document/*"
           "https://*.overleaf.com/*"
-          ];
+        ];
         platforms = platforms.all;
-        };
       };
+    };
     "i-dont-care-about-cookies" = buildFirefoxXpiAddon {
       pname = "i-dont-care-about-cookies";
       version = "3.5.0";
@@ -251,10 +251,10 @@
           "webRequest"
           "webRequestBlocking"
           "webNavigation"
-          ];
+        ];
         platforms = platforms.all;
-        };
       };
+    };
     "link-cleaner" = buildFirefoxXpiAddon {
       pname = "link-cleaner";
       version = "1.6resigned1";
@@ -268,8 +268,8 @@
         license = licenses.gpl3;
         mozPermissions = [ "<all_urls>" "webRequest" "webRequestBlocking" ];
         platforms = platforms.all;
-        };
       };
+    };
     "pixiv-toolkit" = buildFirefoxXpiAddon {
       pname = "pixiv-toolkit";
       version = "4.9.0";
@@ -289,10 +289,10 @@
           "*://*.pximg.net/*"
           "*://*.techorus-cdn.com/*"
           "*://*.fanbox.cc/*"
-          ];
+        ];
         platforms = platforms.all;
-        };
       };
+    };
     "plasma-integration" = buildFirefoxXpiAddon {
       pname = "plasma-integration";
       version = "1.9.1";
@@ -313,10 +313,10 @@
           "<all_urls>"
           "contextMenus"
           "*://*/*"
-          ];
+        ];
         platforms = platforms.all;
-        };
       };
+    };
     "privacy-badger" = buildFirefoxXpiAddon {
       pname = "privacy-badger";
       version = "2024.6.14";
@@ -726,10 +726,10 @@
           "http://www.google.co.zw/*"
           "https://www.google.cat/*"
           "http://www.google.cat/*"
-          ];
+        ];
         platforms = platforms.all;
-        };
       };
+    };
     "save-to-the-wayback-machine" = buildFirefoxXpiAddon {
       pname = "save-to-the-wayback-machine";
       version = "5.6.1";
@@ -748,10 +748,10 @@
           "activeTab"
           "https://archive.org/wayback/available?url=*"
           "https://web.archive.org/*"
-          ];
+        ];
         platforms = platforms.all;
-        };
       };
+    };
     "sponsorblock" = buildFirefoxXpiAddon {
       pname = "sponsorblock";
       version = "5.6.1";
@@ -769,10 +769,10 @@
           "scripting"
           "https://*.youtube.com/*"
           "https://www.youtube-nocookie.com/embed/*"
-          ];
+        ];
         platforms = platforms.all;
-        };
       };
+    };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
       version = "1.58.0";
@@ -808,8 +808,8 @@
           "https://github.com/uBlockOrigin/*"
           "https://ublockorigin.github.io/*"
           "https://*.reddit.com/r/uBlockOrigin/*"
-          ];
+        ];
         platforms = platforms.all;
-        };
       };
-    }
+    };
+  }
