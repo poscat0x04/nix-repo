@@ -754,10 +754,10 @@
     };
     "sponsorblock" = buildFirefoxXpiAddon {
       pname = "sponsorblock";
-      version = "5.6.1";
+      version = "5.7";
       addonId = "sponsorBlocker@ajay.app";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4299073/sponsorblock-5.6.1.xpi";
-      sha256 = "4ccae0ebc1aa26d61c446956da425bf16daffd5704ea216735e0a57e482fe9ba";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4308094/sponsorblock-5.7.xpi";
+      sha256 = "05b7fadde5718cd44520a86e6b38b10816762df763767ef4bb879112ed77caae";
       meta = with lib;
       {
         homepage = "https://sponsor.ajay.app";
@@ -765,8 +765,8 @@
         license = licenses.lgpl3;
         mozPermissions = [
           "storage"
-          "https://sponsor.ajay.app/*"
           "scripting"
+          "https://sponsor.ajay.app/*"
           "https://*.youtube.com/*"
           "https://www.youtube-nocookie.com/embed/*"
         ];
