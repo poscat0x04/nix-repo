@@ -116,8 +116,8 @@
     {
         "name": "vscoq",
         "publisher": "maximedenes",
-        "sha256": "1n8a7fy12clbv05r4q8057liv67xd6rdx6p1bb9w039g62ya661g",
-        "version": "2.1.3"
+        "sha256": "0aicg4jfb54iy36b18b3fcgkzdzmr4m5ilqbiyyr2zrjrf8s39hf",
+        "version": "2.1.4"
     },
     {
         "name": "vscode-pull-request-github",
@@ -200,8 +200,8 @@
     {
         "name": "cmake-tools",
         "publisher": "ms-vscode",
-        "sha256": "1wk3vcrfnfx9499xi09rswhiabc4lvdw55kdf6dbqnjhx0vpc3f9",
-        "version": "1.19.14"
+        "sha256": "1phh8xw6cixjjkqpcj5yqaa2gcj59gwvh0gj718k9b8djdkqpgja",
+        "version": "1.19.15"
     },
     {
         "name": "cmake",
