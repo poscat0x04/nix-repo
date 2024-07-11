@@ -122,8 +122,8 @@
     {
         "name": "vscode-pull-request-github",
         "publisher": "GitHub",
-        "sha256": "1xzn1h1cpgj8mhiinfclxywh2lbwrwclm0mfy2rijxprpbncr3cm",
-        "version": "0.93.2024071004"
+        "sha256": "14h904igw8an2xjkhqq1kkk8g2bx7p1ljsf9f4jpk7zdbw7jn8zm",
+        "version": "0.93.2024071104"
     },
     {
         "name": "bracket-pair-colorizer",
@@ -200,8 +200,8 @@
     {
         "name": "cmake-tools",
         "publisher": "ms-vscode",
-        "sha256": "12rahm5rfzws6p2lwf10ydbhsp7bwalrcwrq4xmvc453a6jik94v",
-        "version": "1.19.17"
+        "sha256": "1l8x44k0y7rgq28ac5jxiz7hfhxm9vk9s910sjdl57px3r1lmpb1",
+        "version": "1.19.18"
     },
     {
         "name": "cmake",
