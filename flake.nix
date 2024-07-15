@@ -21,7 +21,6 @@
           nginx-fancyindex-flat-theme = callPackage ./pkgs/nginx-fancyindex-flat-theme { };
         };
         firefox-addons = callPackages ./pkgs/firefox-addons { };
-        vscode-extensions = super.vscode-extensions // callPackage ./pkgs/vscode-extensions { };
         unbound-china-domain-list = callPackage ./pkgs/unbound-china-domain-list { };
         vlmcsd = callPackage ./pkgs/vlmcsd { };
         flood-git = callPackage ./pkgs/flood-git { };
@@ -52,7 +51,6 @@
               prefs-cleaner
               extra-files
               firefox-addons
-              vscode-extensions
               unbound-china-domain-list
               vlmcsd
               python3Packages
@@ -76,13 +74,6 @@
 
             # for calculating hash of flood-git
             prefetch-npm-deps
-
-            # for vscode extension update script
-            python3
-            python3Packages.requests
-            python3Packages.pyyaml
-            python3Packages.libversion
-            python3Packages.packaging
           ];
         };
       }
