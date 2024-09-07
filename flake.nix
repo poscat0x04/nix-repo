@@ -23,7 +23,6 @@
         firefox-addons = callPackages ./pkgs/firefox-addons { };
         unbound-china-domain-list = callPackage ./pkgs/unbound-china-domain-list { };
         vlmcsd = callPackage ./pkgs/vlmcsd { };
-        flood-git = callPackage ./pkgs/flood-git { };
         nginxModules = super.nginxModules // {
           http-digest-auth = callPackage ./pkgs/nginx-http-auth-digest { };
         };
@@ -57,7 +56,6 @@
               jhwhw-tex
               nginxModules
               wolfram-engine
-              flood-git
               cf-mtls-cert
               ;
             inherit (pkgs) discord;
@@ -71,9 +69,6 @@
 
             # for generating nix expressions for firefox addons
             mozilla-addons-to-nix
-
-            # for calculating hash of flood-git
-            prefetch-npm-deps
           ];
         };
       }

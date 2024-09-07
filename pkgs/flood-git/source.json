@@ -1,9 +1,0 @@
-{
-  "url": "https://github.com/jesec/flood",
-  "rev": "69feefe2f97be8727de6bd2e35c6715f341aa15b",
-  "hash": "sha256-a187D3YUnX1NtaUloAekvV+yFwgtDhDZtJ5JURuzpSU=",
-  "fetchLFS": false,
-  "fetchSubmodules": false,
-  "deepClone": false,
-  "leaveDotGit": false
-}
