@@ -60,43 +60,6 @@
         platforms = platforms.all;
       };
     };
-    "cxmooc" = buildFirefoxXpiAddon {
-      pname = "cxmooc";
-      version = "2.5.1";
-      addonId = "love@xloli.top";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3683505/1478146-2.5.1.xpi";
-      sha256 = "b1f4cf97546f8895816ecf0e711f2586a7eaabd4847b47209bdc12318a0194ed";
-      meta = with lib;
-      {
-        homepage = "https://blog.icodef.com";
-        description = "一个 大学生网课 学习工具,火狐,谷歌,油猴支持.全自动任务,视频倍速";
-        license = licenses.mit;
-        mozPermissions = [
-          "tabs"
-          "storage"
-          "contextMenus"
-          "notifications"
-          "<all_urls>"
-          "*://*/mycourse/studentstudy?*"
-          "*://*/work/doHomeWorkNew?*"
-          "*://*/work/selectWorkQuestionYiPiYue?*"
-          "*://*/exam/test/reVersionTestStartNew?*"
-          "*://*/ztnodedetailcontroller/visitnodedetail?*"
-          "*://*/antispiderShowVerify.ac*"
-          "*://*/html/processVerify.ac?*"
-          "*://*/exam/test/reVersionPaperMarkContentNew?*"
-          "*://*/ananas/modules/*/index.html?*"
-          "*://*/exam/test?*"
-          "*://*/course/*.html?*"
-          "*://examh5.zhihuishu.com/stuExamWeb.html*"
-          "*://onlineexamh5new.zhihuishu.com/stuExamWeb.html*"
-          "*://studyh5.zhihuishu.com/videoStudy.html*"
-          "*://www.icourse163.org/learn/*"
-          "*://www.icourse163.org/spoc/learn/*"
-        ];
-        platforms = platforms.all;
-      };
-    };
     "floccus" = buildFirefoxXpiAddon {
       pname = "floccus";
       version = "5.3.1";
