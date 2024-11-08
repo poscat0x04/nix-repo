@@ -31,6 +31,7 @@
           url = "https://developers.cloudflare.com/ssl/static/authenticated_origin_pull_ca.pem";
           sha256 = "0hxqszqfzsbmgksfm6k0gp0hsx9k1gqx24gakxqv0391wl6fsky1";
         };
+        ciel = callPackage ./pkgs/ciel { };
       };
 
       nixosModules = {
@@ -57,6 +58,7 @@
               nginxModules
               wolfram-engine
               cf-mtls-cert
+              ciel
               ;
             inherit (pkgs) discord;
           };
@@ -66,6 +68,8 @@
             jq
             nix-prefetch-scripts
             nix
+            nix-init
+            nurl
 
             # for generating nix expressions for firefox addons
             mozilla-addons-to-nix
