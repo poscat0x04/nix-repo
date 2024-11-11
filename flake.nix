@@ -32,6 +32,8 @@
           sha256 = "0hxqszqfzsbmgksfm6k0gp0hsx9k1gqx24gakxqv0391wl6fsky1";
         };
         ciel = callPackage ./pkgs/ciel { };
+        aosc-findupdate = callPackage ./pkgs/aosc-findupdate { };
+        abbs-update-checksum = callPackage ./pkgs/abbs-update-checksum { };
       };
 
       nixosModules = {
@@ -59,6 +61,8 @@
               wolfram-engine
               cf-mtls-cert
               ciel
+              aosc-findupdate
+              abbs-update-checksum
               ;
             inherit (pkgs) discord;
           };
