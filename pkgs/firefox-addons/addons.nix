@@ -85,10 +85,10 @@
     };
     "grammarly" = buildFirefoxXpiAddon {
       pname = "grammarly";
-      version = "8.912.0";
+      version = "8.926.0";
       addonId = "87677a2c52b84ad3a151a4a72f5bd3c4@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4262513/grammarly_1-8.912.0.xpi";
-      sha256 = "6e380ddffaacda256e153cb928c0c9206c6730398d549e0a91d6fdccc9dd95a0";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4391260/grammarly_1-8.926.0.xpi";
+      sha256 = "11bd0c3d265060b5d21d959156be45fa7d091dd0d1dda6818e74ffb314fbbd56";
       meta = with lib;
       {
         homepage = "http://grammarly.com";
@@ -135,6 +135,8 @@
           "*://*.youtube.com/*"
           "*://twitter.com/*"
           "*://*.twitter.com/*"
+          "*://x.com/*"
+          "*://*.x.com/*"
           "*://*.lightning.force.com/*"
           "*://trello.com/*"
           "*://*.trello.com/*"
