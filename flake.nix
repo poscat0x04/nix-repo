@@ -2,12 +2,11 @@
   description = "Nix repo";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
-    NUR.url = "github:nix-community/NUR";
+    nixpkgs.url = "github:poscat0x04/nixpkgs/dev";
     flake-utils.url = "github:poscat0x04/flake-utils";
   };
 
-  outputs = { self, nixpkgs, NUR, flake-utils, ... }: with flake-utils;
+  outputs = { self, nixpkgs, flake-utils, ... }: with flake-utils;
     {
       overlay = self: super: with self; {
         play-with-mpv = callPackage ./pkgs/play-with-mpv { };
@@ -20,7 +19,6 @@
           nord-konsole = callPackage ./pkgs/nord-konsole { };
           nginx-fancyindex-flat-theme = callPackage ./pkgs/nginx-fancyindex-flat-theme { };
         };
-        firefox-addons = callPackages ./pkgs/firefox-addons { };
         unbound-china-domain-list = callPackage ./pkgs/unbound-china-domain-list { };
         vlmcsd = callPackage ./pkgs/vlmcsd { };
         nginxModules = super.nginxModules // {
@@ -42,7 +40,7 @@
     } // eachDefaultSystem (
       system:
       let
-        pkgs = import nixpkgs { inherit system; overlays = [ NUR.overlay self.overlay ]; config.allowUnfree = true; };
+        pkgs = import nixpkgs { inherit system; overlays = [ self.overlay ]; config.allowUnfree = true; };
       in
       {
         packages =
@@ -52,7 +50,6 @@
               ttf-ms-win10
               prefs-cleaner
               extra-files
-              firefox-addons
               unbound-china-domain-list
               vlmcsd
               python3Packages
@@ -66,7 +63,7 @@
               ;
             inherit (pkgs) discord;
           };
-        devShell = with pkgs; with nur.repos.rycee; mkShell {
+        devShell = with pkgs; mkShell {
           buildInputs = [
             curl
             jq
@@ -74,9 +71,6 @@
             nix
             nix-init
             nurl
-
-            # for generating nix expressions for firefox addons
-            mozilla-addons-to-nix
           ];
         };
       }
