@@ -6,5 +6,6 @@
   "fetchSubmodules": false,
   "deepClone": false,
   "fetchTags": false,
-  "leaveDotGit": false
+  "leaveDotGit": false,
+  "rootDir": ""
 }
